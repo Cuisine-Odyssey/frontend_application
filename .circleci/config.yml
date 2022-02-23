@@ -1,0 +1,65 @@
+version: 2.1
+
+executors:
+  default:
+    working_directory: ~/cuisine_odyssey_frontend
+    docker:
+      - image: circleci/ruby:2.7.2
+        environment:
+          BUNDLE_JOBS: 3
+          BUNDLE_PATH: vendor/bundle
+          BUNDLE_RETRY: 3
+          BUNDLER_VERSION: 2.0.1
+          RAILS_ENV: test
+          DB_HOST: 127.0.0.1
+          PG_HOST: 127.0.0.1
+          PGUSER: turing
+      - image: circleci/postgres:14.0
+        environment:
+          POSTGRES_DB: cuisine_odyssey_frontend_test
+          POSTGRES_USER: turing
+
+commands:
+  configure_bundler:
+    description: Configure bundler
+    steps:
+      - run:
+          name: Configure bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+
+jobs:
+  build:
+    executor: default
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - cuisine_odyssey_frontend-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - cuisine_odyssey_frontend-
+      - configure_bundler
+      - run:
+          name: Install bundle
+          command: bundle install
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://127.0.0.1:5432 -timeout 1m
+      - run:
+          name: Setup DB
+          command: bundle exec rails db:create db:schema:load --trace
+      - save_cache:
+          key: cuisine_odyssey_frontend-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - ./cuisine_odyssey_frontend
+
+workflows:
+  version: 2
+  integration:
+    jobs:
+      - build

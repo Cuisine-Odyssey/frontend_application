@@ -60,9 +60,9 @@ jobs:
       #     cache-key: "yarn.lock"
       # Here we make sure that the secondary container boots
       # up before we run operations on the database.
-      - run:
-          name: Wait for DB
-          command: dockerize -wait tcp://localhost:5432 -timeout 1m
+      # - run:
+      #     name: Wait for DB
+      #     command: dockerize -wait tcp://localhost:5432 -timeout 1m
       - run:
           name: Database setup
           command: bundle exec rails db:create db:schema:load db:seed --trace

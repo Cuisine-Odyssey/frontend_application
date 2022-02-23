@@ -40,7 +40,7 @@ jobs:
         environment: # add POSTGRES environment variables.
           POSTGRES_USER: cuisine_odyssey_frontend
           POSTGRES_DB: cuisine_odyssey_frontend_test
-          POSTGRES_PASSWORD: ""
+          POSTGRES_PASSWORD: "password"
     # environment variables specific to Ruby/Rails, applied to the primary container.
     # environment:
     #   BUNDLE_JOBS: "3"

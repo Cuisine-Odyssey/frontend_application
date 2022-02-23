@@ -33,10 +33,10 @@ jobs:
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
-      # - image: circleci/postgres:9.5-alpine
-      #   auth:
-      #     username: mydockerhub-user
-      #     password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      - image: cimg/postgres:14.1
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
         environment: # add POSTGRES environment variables.
           POSTGRES_USER: circleci-demo-ruby
           POSTGRES_DB: rails_blog_test

@@ -31,8 +31,8 @@ jobs:
     docker:
       - image: cimg/ruby:2.7.2-node # this is our primary docker image, where step commands run.
         auth:
-          username: localhost
-          password: cuisine_odyssey_frontend  # context / project UI env-var reference
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
       - image: postgres:14.0
         # auth:
         #   username: mydockerhub-user
@@ -51,7 +51,7 @@ jobs:
     #   RAILS_ENV: test
     # A series of steps to run, some are similar to those in "build".
     working_directory: ~/cuisine_odyssey_frontend
-    
+
     steps:
       - checkout
       - ruby/install-deps

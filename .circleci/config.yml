@@ -13,7 +13,7 @@ jobs:
         environment:
           POSTGRES_USER: cuisine_odyssey_frontend
           POSTGRES_DB: cuisine_odyssey_frontend_test
-          POSTGRES_PASSWORD: ""
+          POSTGRES_PASSWORD: <%= ENV['CUISINE_ODYSSEY_FRONTEND_DATABASE_PASSWORD'] %>
     steps:
       - checkout
 

@@ -35,12 +35,16 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'faraday'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'dotenv-rails'
   gem 'pry'
   gem 'shoulda-matchers', '~> 3.1'
+  gem 'capybara'
 end
 
 group :development do
@@ -50,7 +54,6 @@ group :development do
 end
 
 group :test do
-  gem 'capybara'
   gem 'rspec-rails'
   gem 'simplecov', require: false
   gem 'webmock'

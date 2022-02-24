@@ -2,14 +2,31 @@
 <html>
   <head>
     <title>CuisineOdysseyFrontend</title>
+    <h1>Cuisine Odyssey</h1>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+
+    <style>
+      .navbar {
+        margin-bottom: 30px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        font-weight: bold;
+        display: inline-block;
+      }
+    </style>
+
+   
+    <%= render :partial => 'layouts/navbar' %>
+    
   </head>
 
   <body>
+ 
     <%= yield %>
+
   </body>
 </html>

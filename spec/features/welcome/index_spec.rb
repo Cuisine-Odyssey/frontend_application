@@ -31,12 +31,4 @@ RSpec.describe 'the website home page' do
     end
   end
 
-  it 'has a nav bar' do
-    within('#nav-bar') do
-      expect(page).to have_link('Home')
-      expect(page).to have_link('Login')
-      expect(page).to have_link('Register')
-      expect(page).to have_link('Logout')
-    end
-  end
 end

@@ -1,15 +1,20 @@
-<div id="slogan">
-  <h2>Connecting users to diverse foods and cultures.</h2>
-</div>
-
+<br>
+<br>
 <div id="instructions">
-  <h3>Spin the globe for unique regional recipes or the bottle for random cocktails</h3>
+  <p style="text-align: center;">Spin the globe for unique regional recipes or the bottle for random cocktails</p>
+</div>
+<br>
+<div id="spin-the-globe" style="float:left; display:flex; position:relative; left: 100px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" style="width:6em; height:6em;">
+
+  <div id="globe-button" style="position:relative;right: 100px;top: 100px">
+    <%= button_to 'Spin for recipes!', '/recipes', method: :get %>
+  </div>
 </div>
 
-<img src="https://image.tmdb.org/t/p/w92//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg">
-
-
-<div id="spin-the-globe">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif">
-  <%= button_to 'Spin for recipes!', '/recipes', method: :get %>
+<div id="spin-the-bottle" style="float:right;display:flex">
+  <img src="https://ia802306.us.archive.org/9/items/rotatingfood6/0_eSc9N3QdQiINZDQR.gif" style="width:6em; height:6em;">
+  <div id="bottle-button" style="position:relative;right: 100px;top: 100px">
+    <%= button_to 'Spin for drinks!', '/drinks', method: :get %>
+  </div>
 </div>

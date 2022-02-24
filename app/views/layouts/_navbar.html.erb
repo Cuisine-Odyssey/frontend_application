@@ -1,12 +1,10 @@
-<div class="navbar">
-  <nav id="nav-bar"> 
-    <ul>
-      <li><%= link_to 'Home', root_path %></li>
-      
-      <li><%= link_to 'Login', '/login' %></li>
-      <li><%= link_to 'Register', '/register' %></li>
-    
-      <li><%= link_to 'Logout', root_path %></li>
-    </ul>
-  </nav>
+<div class="header">
+  <h1 style="text-align: center;padding: 0px">Cuisine Odyssey</h1>
+  <p style="text-align: center">Connecting users to diverse foods and cultures.</p>
+  <ul id='tabs'>
+    <li><%= link_to 'Home', root_path %></li>
+    <li><%= link_to 'Login', '/login' %></li>
+    <li><%= link_to 'Register', '/register' %></li>
+    <li><%= link_to 'Logout', root_path %></li>
+  </ul>
 </div>

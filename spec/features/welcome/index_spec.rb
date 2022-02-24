@@ -39,5 +39,4 @@ RSpec.describe 'the website home page' do
       expect(page).to have_link('Logout')
     end
   end
-
 end

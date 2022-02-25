@@ -5,8 +5,14 @@
       <p style="float:right; font-size: 175%; color: #FFFFFF;">Connecting users to diverse foods and culture.</p>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Dashboard</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <% if !current_user %>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <% end %>
+
+      <% if current_user %>
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      <% end %>
     </ul>
   </div>
 </nav>

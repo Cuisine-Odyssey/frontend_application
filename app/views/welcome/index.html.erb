@@ -2,21 +2,21 @@
 <!-- <div id="instructions">
   <p style="text-align: center;">Spin the globe for unique regional recipes or the bottle for random cocktails</p>
 </div> -->
-<div id="spin-the-globe" style="float:left; display:flex; position:relative; left: 500px;">
+<div id="spin-the-globe" style="float:left; display:flex; position:relative; left: 350px;">
   <br>
   <br>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" class="img-circle" style="width:20em; height:20em; border-radius: 25%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" class="img-circle" style="width:35em; height:35em; border-radius: 25%">
 
-  <div class="btn-lg" id="globe-button" style="position:relative;right: 225px;top: 300px">
+  <div class="btn-lg" id="globe-button" style="position:relative;right: 340px;top: 500px">
     <%= button_to 'Spin for recipes!', '/recipes', method: :get %>
   </div>
 </div>
 
-<div id="spin-the-bottle" style="float:right; display:flex; position:relative; right: 230px;">
+<div id="spin-the-bottle" style="float:right; display:flex; position:relative; right: 200px;">
   <br>
   <br>
-  <img src="https://ia802306.us.archive.org/9/items/rotatingfood6/0_eSc9N3QdQiINZDQR.gif" style="width:20em; height:22em; border-radius: 25%" class="img-circle">
-  <div class="btn-lg" id="bottle-button" style="position:relative;right: 235px;top: 295px">
+  <img src="https://ia802306.us.archive.org/9/items/rotatingfood6/0_eSc9N3QdQiINZDQR.gif" style="width:35em; height:36em; border-radius: 25%" class="img-circle">
+  <div class="btn-lg" id="bottle-button" style="position:relative;right: 300px;top: 500px">
     <%= button_to 'Spin for drinks!', '/drinks', method: :get %>
   </div>
 </div>

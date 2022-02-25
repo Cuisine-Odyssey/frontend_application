@@ -57,7 +57,7 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'simplecov', require: false
-  gem 'webmock'
+  # gem 'webmock'
   gem 'vcr'
   gem 'launchy'
   gem 'orderly'

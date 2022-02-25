@@ -7,6 +7,12 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
+    <title>Navbar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
       #background {
         background: url(/assets/84cd2a9fbc6cbd5522b2f048a56703a8.jpg);
@@ -19,20 +25,6 @@
         background: url(/assets/banner2.jpeg);
         background-position: center;
       }
-
-      #tabs {
-        display:inline;
-        margin-left: 10px;
-        position:relative;
-        left: 1000px
-      }
-
-      .home-button {
-        text-align: left;
-        position:relative;
-        left: 17px;
-        top: 35px;
-      }
     </style>
 
 
@@ -40,7 +32,7 @@
 
   </head>
 
-  <body style="margin: 0px;">
+  <body>
 
     <%= yield %>
 

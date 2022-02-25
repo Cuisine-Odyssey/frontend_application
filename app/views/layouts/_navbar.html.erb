@@ -1,8 +1,15 @@
-<div class="header">
-  <h1 style="padding: 0px">Cuisine Odyssey</h1>
-  <p>Connecting users to diverse foods and cultures.</p>
-  <p class="tabs"><%= link_to 'Home', root_path %></p>
-  <p class="tabs"><%= link_to 'Login', '/login' %></p>
-  <p class="tabs"><%= link_to 'Register', '/register' %></p>
-  <p class="tabs"><%= link_to 'Logout', root_path %></p>
-</div>
+<nav class="header">
+  <h1 style="padding: 0px; text-align: center;">Cuisine Odyssey</h1>
+  <p style="text-align: center;">Connecting users to diverse foods and cultures.</p>
+
+  <div class="home-button">
+    <p><%= link_to 'Home', root_path %></p>
+  </div>
+
+  <div class="directory">
+
+    <p id="tabs"><%= link_to 'Login', '/login' %></p>
+    <p id="tabs"><%= link_to 'Register', '/register' %></p>
+    <p id="tabs"><%= link_to 'Logout', root_path %></p>
+  </div>
+</nav>

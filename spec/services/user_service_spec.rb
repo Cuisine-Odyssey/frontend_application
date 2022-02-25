@@ -5,7 +5,7 @@ require 'rails_helper'
 RSpec.describe 'User Service' do
   it 'returns a User after auth', :vcr do
     id = '10'
-    user_data = UserService.get_user(id)
+    user_data = UserService.get_user_by_id(id)
     expect(user_data).to be_a Hash
     expect(user_data[:data]).to be_a Hash
     expect(user_data[:data]).to have_key :first_name

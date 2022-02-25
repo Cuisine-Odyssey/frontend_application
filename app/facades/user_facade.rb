@@ -8,7 +8,7 @@ class UserFacade
     User.new(user[:data])
   end
 
-  def self.get_user(id)
-    UserService.get_user(id)
+  def self.get_user_by_id(id)
+    UserService.get_user_by_id(id)
   end
 end

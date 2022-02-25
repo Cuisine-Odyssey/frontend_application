@@ -1,5 +1,4 @@
-class UserService 
-
+class UserService
   def self.connection
     Faraday.new(url: 'https://localhost:3000/api/v1/') do |faraday|
       # faraday.params['api_key'] = ENV['backend_api_key']

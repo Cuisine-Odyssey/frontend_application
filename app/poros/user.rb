@@ -1,6 +1,7 @@
 # app/poros/user.rb
+
 class User
-  attr_reader :first_name, :last_name, :email,:liked_recipes
+  attr_reader :first_name, :last_name, :email, :liked_recipes
 
   def initialize(attributes)
     @first_name = attributes[:first_name]

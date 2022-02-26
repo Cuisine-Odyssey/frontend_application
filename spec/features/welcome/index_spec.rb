@@ -17,7 +17,7 @@ RSpec.describe 'the website home page' do
     # end
 
     within("#instructions") do
-      expect(page).to have_content('Spin the globe for unique regional recipes or the bottle for random cocktails')
+      expect(page).to have_content('Spin the globe for unique regional recipes, or the bottle for random cocktails')
     end
 
     #below is a placeholder image

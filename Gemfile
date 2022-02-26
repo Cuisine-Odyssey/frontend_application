@@ -35,8 +35,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'faraday'
-gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
 gem 'omniauth-google-oauth2'
 gem 'rspec_junit_formatter'
 

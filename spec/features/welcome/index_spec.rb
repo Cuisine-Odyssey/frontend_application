@@ -12,16 +12,16 @@ RSpec.describe 'the website home page' do
 
   it 'has basic app content' do
     # expect(page).to have_content('Cuisine Odyssey')
-    within("#slogan") do
-      expect(page).to have_content('Connecting users to diverse foods and culture')
-    end
+    # within("#slogan") do
+    #   expect(page).to have_content('Connecting users to diverse foods and culture')
+    # end
 
     within("#instructions") do
-      expect(page).to have_content('Spin the globe for unique regional recipes or the bottle for random cocktails')
+      expect(page).to have_content('Spin the globe for unique regional recipes, or the bottle for random cocktails')
     end
 
     #below is a placeholder image
-    expect(page).to have_css('img[src="https://image.tmdb.org/t/p/w92//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"]')
+    # expect(page).to have_css('img[src="https://image.tmdb.org/t/p/w92//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"]')
   end
 
   it 'has a button to roll the globe' do

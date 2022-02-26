@@ -9,5 +9,14 @@ RSpec.describe RecipeFacade, type: :facade do
         expect(recipe).to be_a(Recipe)
       end
     end
+
+    describe '::get_five_recipes' do
+      it 'should return an array of recipe objects' do
+        recipes = RecipeFacade.get_five_recipes
+
+        expect(recipes.first).to be_a(Recipe)
+        expect(recipes.count).to eq(5)
+      end
+    end
   end
 end

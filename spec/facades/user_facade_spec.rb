@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe "User Facade" do
   it ".get_user(id) returns a user's details" do
-    user = UserFacade.get_user('10')
+    user = UserFacade.get_user_by_id('10')
     expect(user).to be_a User
   end
 end

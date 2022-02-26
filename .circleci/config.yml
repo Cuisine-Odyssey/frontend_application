@@ -11,10 +11,6 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps
-      # Store bundle cache
-      # - node/install-packages:
-      #     pkg-manager: yarn
-      #     cache-key: "yarn.lock"
   test:
     parallelism: 3
     docker:
@@ -34,15 +30,14 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps
-      # - node/install-packages:
-      #     pkg-manager: yarn
-      #     cache-key: "yarn.lock"
       - run:
           name: Wait for DB
           command: dockerize -wait tcp://localhost:5432 -timeout 1m
       - run:
           name: Database setup
-          command: bundle exec rails db:schema:load --trace
+          command:
+            bundle exec rake db:create
+
       # Run rspec in parallel
       - ruby/rspec-test
       - ruby/rubocop-check

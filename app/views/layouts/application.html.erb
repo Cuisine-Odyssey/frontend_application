@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html id="background">
   <head>
-    <title>CuisineOdysseyFrontend</title>
-    <h1>Cuisine Odyssey</h1>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
+    <title>Navbar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-      .navbar {
-        margin-bottom: 30px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        font-weight: bold;
-        display: inline-block;
+      #background {
+        background: url(/assets/84cd2a9fbc6cbd5522b2f048a56703a8.jpg);
+        width: 90%;
+        height: 100%;
       }
+      .navbar-brand:hover {
+        background: powderblue !important;
+      }
+
     </style>
 
-   
     <%= render :partial => 'layouts/navbar' %>
-    
   </head>
 
   <body>
- 
     <%= yield %>
-
   </body>
 </html>

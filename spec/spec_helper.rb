@@ -15,7 +15,12 @@
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 require 'simplecov'
+<<<<<<< HEAD
 # require 'webmock/rspec'
+=======
+require 'webmock/rspec'
+
+>>>>>>> deb68be2ae2bb8fa27c487e392d1068e3153ff63
 SimpleCov.start 'rails'
 
 RSpec.configure do |config|

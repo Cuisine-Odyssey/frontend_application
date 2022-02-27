@@ -1,5 +1,5 @@
 <div id="instructions" style="background-color:powderblue;">
-  <h4 style="text-align: center;font-size: 175%;font-family: Trattatello;position:relative;bottom:10px">Spin the globe for unique regional recipes, or the bottle for random cocktails</h4>
+  <h4 style="text-align: center;font-size: 175%;font-family: Trattatello;position:relative;bottom:10px">Spin the globe for random regional recipes, or the bottle for random cocktails</h4>
 </div>
 
 <div id="spin-the-globe" style="float:left; display:flex; position:relative; left: 350px; top: 10px;">
@@ -7,8 +7,11 @@
   <br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" class="img-circle" style="width:35em; height:35em; border-radius: 25%">
 
-  <div class="btn-lg" id="globe-button" style="position:relative;right: 340px;top: 500px">
-    <%= button_to 'Spin for recipes!', '/recipes', method: :get %>
+  <div class="btn-lg" id="globe-button-1" style="position:relative;right: 450px;top: 500px">
+    <%= button_to 'Spin for one region!', '/recipes', method: :get %>
+  </div>
+  <div class="btn-lg" id="globe-button-2" style="position:relative;right: 430px;top: 500px">
+    <%= button_to 'Spin for all regions!', '/recipes', method: :get %>
   </div>
 </div>
 

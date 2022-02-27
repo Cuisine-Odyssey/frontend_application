@@ -13,10 +13,7 @@ class UserService
   end
 
   def self.get_user_by_id(id)
-    response = connection.get("users/#{id}") do |request|
-      # request.params['api_key'] = ENV['backend_api_key']
-    end
-
+    response = connection.get("users/#{id}")
     JSON.parse(response.body, symbolize_names: true)
   end
 end

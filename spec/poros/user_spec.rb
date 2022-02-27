@@ -8,7 +8,7 @@ RSpec.describe "User object" do
       first_name: 'Joe',
       last_name: 'Schmoe',
       email: 'jschmoe@mail.com',
-      liked_recipes: [5, 1835]
+      likes: [5, 1835]
     }
 
     user = User.new(attributes)

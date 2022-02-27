@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def current_user#ask erin
-    session[:access_token]
+    session[:access_token].present?
   end
 
   # def current_user

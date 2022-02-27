@@ -18,11 +18,11 @@ RSpec.describe 'Recipe Service' do
     end
   end
 
-  it 'returns a list of up to 5 recipes from random regions', :vcr do
+  it 'returns a list of up to 5 recipes from a given region', :vcr do
     VCR.use_cassette('returns_a_list_of_up_to_5_recipes_from_random_regions') do
-      recipe_list = RecipeService.get_five_recipes
+      recipe_list = RecipeService.get_five_recipes("Canadian")
       expect(recipe_list).to be_a Array
       expect(recipe_list.count).to eq(5)
-    end 
+    end
   end
 end

@@ -10,8 +10,8 @@ class RecipeService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.get_five_recipes
-    response = connection.get('randomselection.php')
-    JSON.parse(response.body, symbolize_names: true)[:meals].first(5)
+  def self.get_five_recipes(region)
+    response = connection.get("filter.php?a=#{region}")
+    JSON.parse(response.body, symbolize_names: true)[:meals].sample(5)
   end
 end

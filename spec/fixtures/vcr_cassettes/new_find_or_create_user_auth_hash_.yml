@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":"OneMore@gmail.com","first_name":"Babs","last_name":"Weir"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ea375d72902efaf37d42550472333a57"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c6e622eb-9890-4aff-822f-e09f39512c31
+      X-Runtime:
+      - '0.017871'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"Babs","last_name":"Weir","email":"OneMore@gmail.com","likes":[],"dislikes":[]}}}'
+  recorded_at: Sun, 27 Feb 2022 22:11:38 GMT
+recorded_with: VCR 6.0.0

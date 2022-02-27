@@ -25,13 +25,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1a92becb-2d77-49d1-92e2-3b9415bbf925
+      - 858bf353-21ac-4dee-bd90-b627d3466e64
       X-Runtime:
-      - '0.060638'
+      - '0.003226'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"10","type":"user","attributes":{"first_name":"Bob","last_name":"Weir","email":"TheOtherOne@gmail.com","likes":[],"dislikes":[]}}}'
-  recorded_at: Sun, 27 Feb 2022 18:55:47 GMT
+  recorded_at: Sun, 27 Feb 2022 21:46:23 GMT
 recorded_with: VCR 6.0.0

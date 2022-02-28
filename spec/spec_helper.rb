@@ -16,7 +16,6 @@
 
 require 'simplecov'
 require 'webmock/rspec'
-
 SimpleCov.start 'rails'
 
 RSpec.configure do |config|

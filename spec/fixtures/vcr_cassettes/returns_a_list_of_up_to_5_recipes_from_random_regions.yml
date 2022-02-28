@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Canadian
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 27 Feb 2022 22:49:16 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '442'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IJ0g%2BiGPayQIsLmFSEHpuIVskc2L6zAdpZW7IfVT0SWMhTlg9y%2BawFXlxlDnBARXEj9dAX71ajYSpPWk8haZpu2rKwSrvigSgk6H13%2Fv2FyHg4UPC7HK7vbd14hIrGfIM550Y42WP3zpnvD4c98CUQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e44f728098d6300-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"strMeal":"BeaverTails","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ryppsv1511815505.jpg","idMeal":"52928"},{"strMeal":"Breakfast
+        Potatoes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1550441882.jpg","idMeal":"52965"},{"strMeal":"Canadian
+        Butter Tarts","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wpputp1511812960.jpg","idMeal":"52923"},{"strMeal":"Montreal
+        Smoked Meat","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uttupv1511815050.jpg","idMeal":"52927"},{"strMeal":"Nanaimo
+        Bars","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vwuprt1511813703.jpg","idMeal":"52924"},{"strMeal":"Pate
+        Chinois","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yyrrxr1511816289.jpg","idMeal":"52930"},{"strMeal":"Pouding
+        chomeur","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yqqqwu1511816912.jpg","idMeal":"52932"},{"strMeal":"Poutine","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uuyrrx1487327597.jpg","idMeal":"52804"},{"strMeal":"Rappie
+        Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ruwpww1511817242.jpg","idMeal":"52933"},{"strMeal":"Split
+        Pea Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xxtsvx1511814083.jpg","idMeal":"52925"},{"strMeal":"Sugar
+        Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yrstur1511816601.jpg","idMeal":"52931"},{"strMeal":"Timbits","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/txsupu1511815755.jpg","idMeal":"52929"},{"strMeal":"Tourtiere","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ytpstt1511814614.jpg","idMeal":"52926"}]}'
+  recorded_at: Sun, 27 Feb 2022 22:49:16 GMT
+recorded_with: VCR 6.0.0

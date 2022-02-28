@@ -6,9 +6,10 @@
 <% if !current_user %>
   <% @five_recipes.each_with_index do |recipe, index| %>
     <% if index == 0 %>
-      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %>  </p>
     <% else %>
-      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> </p>
+      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style='color: red'></i> </p>
+ </p>
     <% end %>
   <% end %>
 <% else %>

@@ -1,0 +1,6 @@
+<h1> Recipes </h1>
+
+
+<% @five_recipes.each do |recipe| %>
+  <p> <%= recipe.title %> <%= image_tag(recipe.image, :size => "130x90") %> </p>
+<% end %>

@@ -6,15 +6,18 @@ RSpec.describe 'Recipe Index Page' do
       visit recipes_path
 
       within "#location" do
-        expect(page).to have_content("Canadian")
+        expect(page).to have_content("British")
       end
+
       save_and_open_page
-      click_link('Recipe')
+      # within "#test-1" do
+      #   expect(page).to have_an(String)
+      # end
     end
 
     it 'shows the proper logic for a logged in user', :user do
 
-      
+
     end
   end
 end

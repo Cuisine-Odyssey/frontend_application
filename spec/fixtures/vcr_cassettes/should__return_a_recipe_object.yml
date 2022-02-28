@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 16:17:27 GMT
+      - Mon, 28 Feb 2022 18:35:38 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '920'
+      - '870'
       Connection:
       - keep-alive
       Vary:
@@ -38,30 +38,32 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1xfPaVhaP1Gb4cZKlU7MiR6Ul5svRHTm%2FD1ZKreFasjUYVc5fNVUPUSUNIotuUtPvdZdyN87oPY79jYQZhsfrNsC9ebM1QoGVzrNcVZYgH9lDIq7aV0MZTQ%2FS2mjpBFN%2F6zeEg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HSOYG9FVbypR%2FnoW3s9FNEAdd2Vlk1qjJ3xGBEZX6K%2FbRU8hzHpo6Adnt9uOd6DLG4cQ4CraZUdaDsff9mJMLGAfmKkvSgLt8bg3pjMJWooqvO%2Fg%2Fp6AmRSbF2MU2XjR7MmtIQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4af6935c612cb3-ORD
+      - 6e4bc0fc2a87631a-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52917","strMeal":"White chocolate creme brulee","strDrinkAlternate":null,"strCategory":"Dessert","strArea":"French","strInstructions":"Heat
-        the cream, chocolate and vanilla pod in a pan until the chocolate has melted.
-        Take off the heat and allow to infuse for 10 mins, scraping the pod seeds
-        into the cream. If using the vanilla extract, add straight away. Heat oven
-        to 160C\/fan 140C\/gas 3.\r\nBeat yolks and sugar until pale. stir in the
-        chocolate cream. Strain into a jug and pour into ramekins. Place in a deep
-        roasting tray and pour boiling water halfway up the sides. Bake for 15-20
-        mins until just set with a wobbly centre. Chill in the fridge for at least
-        4 hrs.\r\nTo serve, sprinkle some sugar on top of the br\u00fbl\u00e9es and
-        caramelise with a blowtorch or briefly under a hot grill. Leave caramel to
-        harden, then serve.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uryqru1511798039.jpg","strTags":"Desert,DinnerParty,Pudding","strYoutube":"https:\/\/www.youtube.com\/watch?v=LmJ0lsPLHDc","strIngredient1":"Double
-        Cream","strIngredient2":"White Chocolate Chips","strIngredient3":"Vanilla","strIngredient4":"Egg
-        Yolks","strIngredient5":"Caster Sugar","strIngredient6":"Caster Sugar","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"568ml","strMeasure2":"100g
-        ","strMeasure3":"Pod of","strMeasure4":"6","strMeasure5":"2 tbs","strMeasure6":"Top","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/2540\/white-chocolate-crme-brle","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Mon, 28 Feb 2022 16:17:27 GMT
+      string: '{"meals":[{"idMeal":"52978","strMeal":"Kumpir","strDrinkAlternate":null,"strCategory":"Side","strArea":"Turkish","strInstructions":"If
+        you order kumpir in Turkey, the standard filling is first, lots of butter
+        mashed into the potato, followed by cheese. There\u2019s then a row of other
+        toppings that you can just point at to your heart\u2019s content \u2013 sweetcorn,
+        olives, salami, coleslaw, Russian salad, allsorts \u2013 and you walk away
+        with an over-stuffed potato because you got ever-excited by the choices on
+        offer.\r\n\r\nGrate (roughly \u2013 you can use as much as you like) 150g
+        of cheese.\r\nFinely chop one onion and one sweet red pepper.\r\nPut these
+        ingredients into a large bowl with a good sprinkling of salt and pepper, chilli
+        flakes (optional).","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/mlchx21564916997.jpg","strTags":"SideDish","strYoutube":"https:\/\/www.youtube.com\/watch?v=IEDEtZ4UVtI","strIngredient1":"Potatoes","strIngredient2":"Butter","strIngredient3":"Cheese","strIngredient4":"Onion","strIngredient5":"Red
+        Pepper","strIngredient6":"Red Chile Flakes","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"2
+        large","strMeasure2":"2 tbs","strMeasure3":"150g","strMeasure4":"1 large","strMeasure5":"1
+        large","strMeasure6":"Pinch","strMeasure7":" ","strMeasure8":" ","strMeasure9":"
+        ","strMeasure10":" ","strMeasure11":" ","strMeasure12":" ","strMeasure13":"
+        ","strMeasure14":" ","strMeasure15":" ","strMeasure16":" ","strMeasure17":"
+        ","strMeasure18":" ","strMeasure19":" ","strMeasure20":" ","strSource":"http:\/\/www.turkeysforlife.com\/2013\/10\/firinda-kumpir-turkish-street-food.html","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Mon, 28 Feb 2022 18:35:38 GMT
 recorded_with: VCR 6.0.0

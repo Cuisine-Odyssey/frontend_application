@@ -12,7 +12,7 @@
         <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
       <% else %>
       <div id="#locked-recipes">
-        <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style="color:red;"></i></p>
+        <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style="color:powderblue;"></i></p>
       </div>
       <% end %>
     <% end %>

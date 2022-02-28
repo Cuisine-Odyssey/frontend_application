@@ -1,6 +1,14 @@
 <h1> Recipes </h1>
 
+<div id="location">
+  <h2> <%= @one_recipe.location %>    </h2>
+</div>
 
-<% @five_recipes.each do |recipe| %>
-  <p> <%= recipe.title %> <%= image_tag(recipe.image, :size => "130x90") %> </p>
+
+<% @five_recipes.each_with_index do |recipe, index| %>
+  <% if index == 0 %>
+    <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+  <% else %>
+    <p> <%= image_tag(recipe.image, :size => "130x90") %>, <%= recipe.title %> </p>
+  <% end %>
 <% end %>

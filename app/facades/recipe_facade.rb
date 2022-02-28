@@ -10,4 +10,9 @@ class RecipeFacade
       FiveRecipe.new(recipe)
     end
   end
+
+  def self.get_single_recipe_details(recipe_id)
+    recipe_data = RecipeService.get_single_recipe_details(recipe_id)
+    Recipe.new(recipe_data)
+  end
 end

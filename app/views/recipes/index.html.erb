@@ -1,19 +1,29 @@
-
+<center>
 <div id="location">
   <h1> <%= @one_recipe.location %> Recipes </h1>
+  <br>
+  <br>
 </div>
-
+</center>
 <% if !current_user %>
   <% @five_recipes.each_with_index do |recipe, index| %>
     <% if index == 0 %>
-      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %>  </p>
+      <div id="test-1" style="position:relative; left: 600px">
+        <p><%= image_tag(recipe.image, :size => "130x90") %>   <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+        <br>
+      </div>
     <% else %>
-      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style='color: red'></i> </p>
- </p>
+      <div id="test-2" style="position:relative; left: 600px">
+        <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style='color: red'></i> </p>
+        <br>
+      </div>
     <% end %>
   <% end %>
 <% else %>
   <% @five_recipes.each do |recipe| %>
-  <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+  <div id="test-2" style="position:relative; left: 600px">
+    <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+    <br>
+  </div>
   <% end %>
 <% end %>

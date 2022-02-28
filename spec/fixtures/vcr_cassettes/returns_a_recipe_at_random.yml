@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/random.php
+    uri: https://www.themealdb.com/api/json/v2/<fake_api_key>/random.php
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 27 Feb 2022 22:49:16 GMT
+      - Mon, 28 Feb 2022 15:00:31 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '803'
+      - '1563'
       Connection:
       - keep-alive
       Vary:
@@ -38,30 +38,50 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xp0WHw7psyi5SNpletnxJa5gWAbD06xcZ1kPvCaUIZuIvRzFNBvJlyzLCcylX6Jy0Tfid4rfHNEhKtga5OZ4S81F5hl23g0npzW4zakdfkQlzuZZ4zYex7eQNHG7lSIso8RtsT907pNiy3s6rrlUag%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eVaxiubqbUnpmQHZOU%2B8hqg16VcTg7j%2FiG7WLm%2FJCuvg%2Fjcd8Mvtz7QdpsD99%2BncoFIu6A4XCUPCMeoZK%2FoIgLo9RnU2SmvyFlpqTd8NkgXj9jeSESrhOQ7O9mXN9Kkou1j0tg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e44f724abc9873b-ORD
+      - 6e4a85deead729f1-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52955","strMeal":"Egg Drop Soup","strDrinkAlternate":null,"strCategory":"Vegetarian","strArea":"Chinese","strInstructions":"In
-        a wok add chicken broth and wait for it to boil.\r\nNext add salt, sugar,
-        white pepper, sesame seed oil.\r\nWhen the chicken broth is boiling add the
-        vegetables to the wok.\r\nTo thicken the sauce, whisk together 1 Tablespoon
-        of cornstarch and 2 Tablespoon of water in a bowl and slowly add to your soup
-        until it''s the right thickness.\r\nNext add 1 egg slightly beaten with a
-        knife or fork and add it to the soup slowly and stir for 8 seconds\r\nServe
-        the soup in a bowl and add the green onions on top.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529446137.jpg","strTags":"Soup,Baking,Calorific","strYoutube":"https:\/\/www.youtube.com\/watch?v=9XpzHm9QpZg","strIngredient1":"Chicken
-        Stock","strIngredient2":"Salt","strIngredient3":"Sugar","strIngredient4":"Pepper","strIngredient5":"Sesame
-        Seed Oil","strIngredient6":"Peas","strIngredient7":"Mushrooms","strIngredient8":"Cornstarch","strIngredient9":"Water","strIngredient10":"Spring
-        Onions","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"3
-        cups ","strMeasure2":"1\/4 tsp","strMeasure3":"1\/4 tsp","strMeasure4":"pinch","strMeasure5":"1
-        tsp ","strMeasure6":"1\/3 cup","strMeasure7":"1\/3 cup","strMeasure8":"1 tbs","strMeasure9":"2
-        tbs","strMeasure10":"1\/4 cup","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/sueandgambo.com\/pages\/egg-drop-soup","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Sun, 27 Feb 2022 22:49:16 GMT
+      string: '{"meals":[{"idMeal":"52892","strMeal":"Treacle Tart","strDrinkAlternate":null,"strCategory":"Dessert","strArea":"British","strInstructions":"First
+        make the short crust pastry: measure the flour into a large bowl and rub in
+        the butter with your fingertips until the mixture resembles fine breadcrumbs
+        (alternatively, this can be done in a food processor). Add about three tablespoons
+        of cold water and mix to a firm dough, wrap in cling film and chill in the
+        fridge for about 20 minutes.\r\nPreheat the oven to 200C\/400F\/Gas 6 and
+        put a heavy baking tray in the oven to heat up. Grease a deep 18cm\/7in loose-bottomed
+        fluted flan tin with butter.\r\nRemove about 150g\/5\u00bdoz of pastry from
+        the main ball and set aside for the lattice top.\r\nRoll the rest of the pastry
+        out thinly on a lightly floured work surface and line the prepared flan tin
+        with the pastry.\r\nPrick the base with a fork, to stop the base rising up
+        during baking.\r\nPlace the reserved pastry for the lattice top on cling film
+        and roll out thinly. Egg wash the pastry and set aside to chill in the fridge
+        (the cling film makes it easier to move about). Do not cut into strips at
+        this stage. Do not egg wash the strips once they are on the tart as it will
+        drip into the treacle mixture.\r\nTo make the filling, heat the syrup gently
+        in a large pan but do not boil.\r\nOnce melted, add the breadcrumbs, lemon
+        juice and zest to the syrup. (You can add less lemon if you would prefer less
+        citrus taste.) If the mixture looks runny, add a few more breadcrumbs.\r\nPour
+        the syrup mixture into the lined tin and level the surface.\r\nRemove the
+        reserved pastry from the fridge and cut into long strips, 1cm\/\u00bdin wide.
+        Make sure they are all longer than the edges of the tart tin.\r\nEgg wash
+        the edge of the pastry in the tin, and start to make the woven laying lattice
+        pattern over the mixture, leave the strips hanging over the edge of the tin.\r\nOnce
+        the lattice is in place, use the tin edge to cut off the strips by pressing
+        down with your hands, creating a neat finish.\r\nBake on the pre-heated baking
+        tray in the hot oven for about 10 minutes until the pastry has started to
+        colour, and then reduce the oven temperature to 180C\/350F\/Gas 4. If at this
+        stage the lattice seems to be getting too dark brown, cover the tart with
+        tin foil.\r\nBake for a further 25-30 minutes until the pastry is golden-brown
+        and the filling set.\r\nRemove the tart from the oven and leave to firm up
+        in the tin. Serve warm or cold.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wprvrw1511641295.jpg","strTags":"Tart","strYoutube":"https:\/\/www.youtube.com\/watch?v=YMmgKCNcqwI","strIngredient1":"Plain
+        Flour","strIngredient2":"Butter","strIngredient3":"Golden Syrup","strIngredient4":"Breadcrumbs","strIngredient5":"Lemons","strIngredient6":"Eggs","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"250g","strMeasure2":"135g","strMeasure3":"400g","strMeasure4":"150g","strMeasure5":"Zest
+        of 2","strMeasure6":"1 beaten","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbc.co.uk\/food\/recipes\/mary_berrys_treacle_tart_28524","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Mon, 28 Feb 2022 15:00:31 GMT
 recorded_with: VCR 6.0.0

@@ -1,0 +1,124 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Feb 2022 19:49:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1051'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VMqDUOizlaaxuHZAiu2NS4XRK4ljbie%2FUfFDGOanbc%2BL4KZu07nCH%2FUI10wuqJyp7TYw9yYbOPjjWlqxoSsaETgCSRH3J6y3GqTj2F%2BmT4TiuvV5uaDsBoaMMLMLUDhVG4JFzyO6xBXZYU0zbXQ81A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e4c2d3c59f3608f-SEA
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52872","strMeal":"Spanish Tortilla","strDrinkAlternate":null,"strCategory":"Vegetarian","strArea":"Spanish","strInstructions":"Put
+        a large non-stick frying pan on a low heat. Cook the onion slowly in the oil
+        and butter until soft but not brown \u2013 this should take about 15 mins.
+        Add the potatoes, cover the pan and cook for a further 15-20 mins, stirring
+        occasionally to make sure they fry evenly.\r\nWhen the potatoes are soft and
+        the onion is shiny, crush 2 garlic cloves and stir in, followed by the beaten
+        eggs.\r\nPut the lid back on the pan and leave the tortilla to cook gently.
+        After 20 mins, the edges and base should be golden, the top set but the middle
+        still a little wobbly. To turn it over, slide it onto a plate and put another
+        plate on top, turn the whole thing over and slide it back into the pan to
+        finish cooking. Once cooked, transfer to a plate and serve the tortilla warm
+        or cold, scattered with the chopped parsley.\r\nTo accompany, take slices
+        of warmed baguette, stab all over with a fork and rub with the remaining garlic,
+        pile on grated tomatoes and season with sea salt and a drizzle of olive oil.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","strTags":"Egg,Light","strYoutube":"https:\/\/www.youtube.com\/watch?v=JceGMNG7rpU","strIngredient1":"Onion","strIngredient2":"Olive
+        Oil","strIngredient3":"Butter","strIngredient4":"Potatoes","strIngredient5":"Garlic","strIngredient6":"Eggs","strIngredient7":"Parsley","strIngredient8":"Baguette","strIngredient9":"Vine
+        Tomatoes","strIngredient10":"Olive Oil","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        sliced","strMeasure2":"4 tbsp","strMeasure3":"25g","strMeasure4":"400g","strMeasure5":"6
+        cloves","strMeasure6":"8","strMeasure7":"Handful","strMeasure8":"1","strMeasure9":"4","strMeasure10":"drizzle","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/spanish-tortilla","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Mon, 28 Feb 2022 19:49:32 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Spanish
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Feb 2022 19:49:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '227'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xvylgIc%2BvrX7QGGorf17FBR%2BdB2vqo7RSzp2Ae7Gl8tumMTCbhHWi9V5WZPteEalfe76%2FSBL99EDTcz7HgrXDh6hmSeWy2c4s%2BrxK5hOWiuPb%2FB27JkjlsyGbJ3L%2F6g%2FpBaTP9Kf0jvLKVeEaKqNFQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e4c2d3deb4730c8-SEA
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"strMeal":"Roast fennel and aubergine paella","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","idMeal":"52942"},{"strMeal":"Seafood
+        fideu\u00e0","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqqvyq1511179730.jpg","idMeal":"52836"},{"strMeal":"Spanish
+        Tortilla","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","idMeal":"52872"}]}'
+  recorded_at: Mon, 28 Feb 2022 19:49:32 GMT
+recorded_with: VCR 6.0.0

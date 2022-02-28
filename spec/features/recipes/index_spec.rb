@@ -9,7 +9,7 @@ RSpec.describe 'Recipe Index Page' do
         expect(page).to have_content("British")
       end
 
-      save_and_open_page
+
       # within "#test-1" do
       #   expect(page).to have_an(String)
       # end

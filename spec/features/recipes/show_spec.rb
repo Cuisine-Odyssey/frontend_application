@@ -8,7 +8,9 @@ RSpec.describe 'Recipe show page', type: :feature do
         
         expect(page).to have_content("Teriyaki Chicken Casserole")
         expect(page).to have_content("Japanese")
-        
+        # save_and_open_page
+        expect(page).to have_css("img[src*='https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg']")
+        expect(page).to have_link("Back to Recipes List")
       end
     end
   end

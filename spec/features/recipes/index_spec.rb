@@ -6,15 +6,33 @@ RSpec.describe 'Recipe Index Page' do
       visit recipes_path
 
       within "#location" do
-        expect(page).to have_content("Canadian")
+        expect(page).to have_content('Spanish Recipes')
       end
-      save_and_open_page
-      click_link('Recipe')
+
+      expect(page).to have_content('Spanish Tortilla')
+      expect(page).to have_content('Roast fennel and aubergine paella')
+      expect(page).to have_content('Seafood fideuà')
     end
 
-    it 'shows the proper logic for a logged in user', :user do
+    it 'shows the proper logic for a visitor', :vcr do
+      visit recipes_path
 
-      
+      within "#visitor" do
+        click_link
+        expect(current_path).to_not eq(recipes_path)
+      end
     end
+
+    xit 'shows the proper logic for a logged in user', :vcr do
+      visit recipes_path
+
+      #log in user with OAuth
+
+      within "#user" do
+        click_link('Seafood fideuà')
+        expect(current_path).to eq(recipes_path('52836'))
+      end
+    end
+
   end
 end

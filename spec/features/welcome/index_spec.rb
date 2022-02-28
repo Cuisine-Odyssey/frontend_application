@@ -36,12 +36,8 @@ RSpec.describe 'the website home page' do
         expect(page).to have_css('img[src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"]')
       end
 
-      within('#globe-button-1') do
-        expect(page).to have_button('Spin for one region!')
-      end
-
-      within('#globe-button-2') do
-        expect(page).to have_button('Spin for all regions!')
+      within('#globe-button') do
+        expect(page).to have_button('Spin for recipes!')
       end
     end
 

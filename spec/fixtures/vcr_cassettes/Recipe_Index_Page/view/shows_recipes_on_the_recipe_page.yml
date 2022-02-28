@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 16:38:58 GMT
+      - Mon, 28 Feb 2022 19:49:32 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1045'
+      - '1051'
       Connection:
       - keep-alive
       Vary:
@@ -38,41 +38,39 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JoU4%2Fd%2F0FpbAe%2FwBR0bX8%2Bdx7BZfwziqVM6mvm7novWtsTFeC7YalXze3mclE9EjltW7f%2FtgK6GDinlXO18QH4oKHNo6kRD4Bh4phNvFK%2B9YyfOO9xdgyzOuoS6ClMapHp1XeA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VMqDUOizlaaxuHZAiu2NS4XRK4ljbie%2FUfFDGOanbc%2BL4KZu07nCH%2FUI10wuqJyp7TYw9yYbOPjjWlqxoSsaETgCSRH3J6y3GqTj2F%2BmT4TiuvV5uaDsBoaMMLMLUDhVG4JFzyO6xBXZYU0zbXQ81A%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4b1618e8fa86d2-ORD
+      - 6e4c2d3c59f3608f-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52924","strMeal":"Nanaimo Bars","strDrinkAlternate":null,"strCategory":"Dessert","strArea":"Canadian","strInstructions":"Start
-        by making the biscuit base. In a bowl, over a pan of simmering water, melt
-        the butter with the sugar and cocoa powder, stirring occasionally until smooth.
-        Whisk in the egg for 2 to 3 mins until the mixture has thickened. Remove from
-        heat and mix in the biscuit crumbs, coconut and almonds if using, then press
-        into the base of a lined 20cm square tin. Chill for 10 mins.\r\nFor the middle
-        layer, make the custard icing; whisk together the butter, cream and custard
-        powder until light and fluffy, then gradually add the icing sugar until fully
-        incorporated. Spread over the bottom layer and chill in the fridge for at
-        least 10 mins until the custard is no longer soft.\r\nMelt the chocolate and
-        butter together in the microwave, then spread over the chilled bars and put
-        back in the fridge. Leave until the chocolate has fully set (about 2 hrs).
-        Take the mixture out of the tin and slice into squares to serve.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vwuprt1511813703.jpg","strTags":"Treat,Snack,Dairy","strYoutube":"https:\/\/www.youtube.com\/watch?v=MMrE4I1ZtWo","strIngredient1":"Custard","strIngredient2":"Caster
-        Sugar","strIngredient3":"Cocoa","strIngredient4":"Egg","strIngredient5":"Digestive
-        Biscuits","strIngredient6":"Desiccated Coconut","strIngredient7":"Almonds","strIngredient8":"Butter","strIngredient9":"Double
-        Cream","strIngredient10":"Custard Powder","strIngredient11":"Icing Sugar","strIngredient12":"Dark
-        Chocolate","strIngredient13":"Butter","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"125g","strMeasure2":"50g","strMeasure3":"5
-        tbs","strMeasure4":"1 beaten","strMeasure5":"200g shredded","strMeasure6":"100g
-        ","strMeasure7":"50g","strMeasure8":"100g ","strMeasure9":"4 tbs","strMeasure10":"3
-        tbs","strMeasure11":"250g","strMeasure12":"150g","strMeasure13":"50g","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/nanaimo-bars","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Mon, 28 Feb 2022 16:38:58 GMT
+      string: '{"meals":[{"idMeal":"52872","strMeal":"Spanish Tortilla","strDrinkAlternate":null,"strCategory":"Vegetarian","strArea":"Spanish","strInstructions":"Put
+        a large non-stick frying pan on a low heat. Cook the onion slowly in the oil
+        and butter until soft but not brown \u2013 this should take about 15 mins.
+        Add the potatoes, cover the pan and cook for a further 15-20 mins, stirring
+        occasionally to make sure they fry evenly.\r\nWhen the potatoes are soft and
+        the onion is shiny, crush 2 garlic cloves and stir in, followed by the beaten
+        eggs.\r\nPut the lid back on the pan and leave the tortilla to cook gently.
+        After 20 mins, the edges and base should be golden, the top set but the middle
+        still a little wobbly. To turn it over, slide it onto a plate and put another
+        plate on top, turn the whole thing over and slide it back into the pan to
+        finish cooking. Once cooked, transfer to a plate and serve the tortilla warm
+        or cold, scattered with the chopped parsley.\r\nTo accompany, take slices
+        of warmed baguette, stab all over with a fork and rub with the remaining garlic,
+        pile on grated tomatoes and season with sea salt and a drizzle of olive oil.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","strTags":"Egg,Light","strYoutube":"https:\/\/www.youtube.com\/watch?v=JceGMNG7rpU","strIngredient1":"Onion","strIngredient2":"Olive
+        Oil","strIngredient3":"Butter","strIngredient4":"Potatoes","strIngredient5":"Garlic","strIngredient6":"Eggs","strIngredient7":"Parsley","strIngredient8":"Baguette","strIngredient9":"Vine
+        Tomatoes","strIngredient10":"Olive Oil","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        sliced","strMeasure2":"4 tbsp","strMeasure3":"25g","strMeasure4":"400g","strMeasure5":"6
+        cloves","strMeasure6":"8","strMeasure7":"Handful","strMeasure8":"1","strMeasure9":"4","strMeasure10":"drizzle","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/spanish-tortilla","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Mon, 28 Feb 2022 19:49:32 GMT
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Canadian
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Spanish
     body:
       encoding: US-ASCII
       string: ''
@@ -89,11 +87,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 16:38:59 GMT
+      - Mon, 28 Feb 2022 19:49:32 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '442'
+      - '227'
       Connection:
       - keep-alive
       Vary:
@@ -108,26 +106,19 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Pc%2F93PG62mgmqtQ6r9xjblVKAWfmBbwoTtixFSylnH3shkpeJzQIIHccXLtoIm5zUgl8bh3n3zasQyLLU%2BczQWqBCKOsouGHNSYuk8n0zD385o%2BKeulSPTAIz9NAIvNrQkPi0A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xvylgIc%2BvrX7QGGorf17FBR%2BdB2vqo7RSzp2Ae7Gl8tumMTCbhHWi9V5WZPteEalfe76%2FSBL99EDTcz7HgrXDh6hmSeWy2c4s%2BrxK5hOWiuPb%2FB27JkjlsyGbJ3L%2F6g%2FpBaTP9Kf0jvLKVeEaKqNFQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4b161aea3d8716-ORD
+      - 6e4c2d3deb4730c8-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"BeaverTails","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ryppsv1511815505.jpg","idMeal":"52928"},{"strMeal":"Breakfast
-        Potatoes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1550441882.jpg","idMeal":"52965"},{"strMeal":"Canadian
-        Butter Tarts","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wpputp1511812960.jpg","idMeal":"52923"},{"strMeal":"Montreal
-        Smoked Meat","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uttupv1511815050.jpg","idMeal":"52927"},{"strMeal":"Nanaimo
-        Bars","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vwuprt1511813703.jpg","idMeal":"52924"},{"strMeal":"Pate
-        Chinois","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yyrrxr1511816289.jpg","idMeal":"52930"},{"strMeal":"Pouding
-        chomeur","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yqqqwu1511816912.jpg","idMeal":"52932"},{"strMeal":"Poutine","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uuyrrx1487327597.jpg","idMeal":"52804"},{"strMeal":"Rappie
-        Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ruwpww1511817242.jpg","idMeal":"52933"},{"strMeal":"Split
-        Pea Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xxtsvx1511814083.jpg","idMeal":"52925"},{"strMeal":"Sugar
-        Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yrstur1511816601.jpg","idMeal":"52931"},{"strMeal":"Timbits","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/txsupu1511815755.jpg","idMeal":"52929"},{"strMeal":"Tourtiere","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ytpstt1511814614.jpg","idMeal":"52926"}]}'
-  recorded_at: Mon, 28 Feb 2022 16:38:59 GMT
+      string: '{"meals":[{"strMeal":"Roast fennel and aubergine paella","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","idMeal":"52942"},{"strMeal":"Seafood
+        fideu\u00e0","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqqvyq1511179730.jpg","idMeal":"52836"},{"strMeal":"Spanish
+        Tortilla","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","idMeal":"52872"}]}'
+  recorded_at: Mon, 28 Feb 2022 19:49:32 GMT
 recorded_with: VCR 6.0.0

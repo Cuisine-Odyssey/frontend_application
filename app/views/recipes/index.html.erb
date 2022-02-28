@@ -1,18 +1,26 @@
-
 <div id="location">
-  <h1> <%= @one_recipe.location %> Recipes </h1>
+  <h1> <%= @one_recipe.location %> Recipes</h1>
+  <% if !current_user %>
+    <p>Log in to discover more recipes!</p>
+  <% end %>
 </div>
 
 <% if !current_user %>
-  <% @five_recipes.each_with_index do |recipe, index| %>
-    <% if index == 0 %>
-      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
-    <% else %>
-      <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> </p>
+  <div id="visitor">
+    <% @five_recipes.each_with_index do |recipe, index| %>
+      <% if index == 0 %>
+        <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+      <% else %>
+      <div id="#locked-recipes">
+        <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style="color:red;"></i></p>
+      </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 <% else %>
-  <% @five_recipes.each do |recipe| %>
-  <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
-  <% end %>
+  <div id="user">
+    <% @five_recipes.each do |recipe| %>
+    <p> <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
+    <% end %>
+  </div>
 <% end %>

@@ -17,6 +17,15 @@ class RecipeService
 
   def self.get_single_recipe_details(recipe_id)
     response = connection.get("lookup.php?i=#{recipe_id}")
-    JSON.parse(response.body, symbolize_names: false)
+    
+    no_nulls = JSON.load(response, proc do |a|
+      a.is_a?(Hash) && a.delete_if do |_k,v|
+        next unless v.is_a?(String)
+        v.empty?
+      end
+    end
+
+    # binding.pry
+    JSON.parse(no_nulls, symbolize_names: false)
   end
 end

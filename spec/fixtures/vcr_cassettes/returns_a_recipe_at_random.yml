@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/<fake_api_key>/random.php
+    uri: https://www.themealdb.com/api/json/v2/9973533/random.php
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 15:00:31 GMT
+      - Mon, 28 Feb 2022 16:17:29 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1563'
+      - '758'
       Connection:
       - keep-alive
       Vary:
@@ -38,50 +38,25 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eVaxiubqbUnpmQHZOU%2B8hqg16VcTg7j%2FiG7WLm%2FJCuvg%2Fjcd8Mvtz7QdpsD99%2BncoFIu6A4XCUPCMeoZK%2FoIgLo9RnU2SmvyFlpqTd8NkgXj9jeSESrhOQ7O9mXN9Kkou1j0tg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UVECr0c30KNKoKaP4ZS%2FEKtcXM4ElEWAnA8I%2B2M2JMGuY9j76KD5wmDC30wfhju4V6jzlOoB3h%2BpzNABXTotfowhG18eepmimo2Sd%2F5t9RWIWHs%2BHxM30oK0leyF3HdCStMvPQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4a85deead729f1-ORD
+      - 6e4af69dbab2638c-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52892","strMeal":"Treacle Tart","strDrinkAlternate":null,"strCategory":"Dessert","strArea":"British","strInstructions":"First
-        make the short crust pastry: measure the flour into a large bowl and rub in
-        the butter with your fingertips until the mixture resembles fine breadcrumbs
-        (alternatively, this can be done in a food processor). Add about three tablespoons
-        of cold water and mix to a firm dough, wrap in cling film and chill in the
-        fridge for about 20 minutes.\r\nPreheat the oven to 200C\/400F\/Gas 6 and
-        put a heavy baking tray in the oven to heat up. Grease a deep 18cm\/7in loose-bottomed
-        fluted flan tin with butter.\r\nRemove about 150g\/5\u00bdoz of pastry from
-        the main ball and set aside for the lattice top.\r\nRoll the rest of the pastry
-        out thinly on a lightly floured work surface and line the prepared flan tin
-        with the pastry.\r\nPrick the base with a fork, to stop the base rising up
-        during baking.\r\nPlace the reserved pastry for the lattice top on cling film
-        and roll out thinly. Egg wash the pastry and set aside to chill in the fridge
-        (the cling film makes it easier to move about). Do not cut into strips at
-        this stage. Do not egg wash the strips once they are on the tart as it will
-        drip into the treacle mixture.\r\nTo make the filling, heat the syrup gently
-        in a large pan but do not boil.\r\nOnce melted, add the breadcrumbs, lemon
-        juice and zest to the syrup. (You can add less lemon if you would prefer less
-        citrus taste.) If the mixture looks runny, add a few more breadcrumbs.\r\nPour
-        the syrup mixture into the lined tin and level the surface.\r\nRemove the
-        reserved pastry from the fridge and cut into long strips, 1cm\/\u00bdin wide.
-        Make sure they are all longer than the edges of the tart tin.\r\nEgg wash
-        the edge of the pastry in the tin, and start to make the woven laying lattice
-        pattern over the mixture, leave the strips hanging over the edge of the tin.\r\nOnce
-        the lattice is in place, use the tin edge to cut off the strips by pressing
-        down with your hands, creating a neat finish.\r\nBake on the pre-heated baking
-        tray in the hot oven for about 10 minutes until the pastry has started to
-        colour, and then reduce the oven temperature to 180C\/350F\/Gas 4. If at this
-        stage the lattice seems to be getting too dark brown, cover the tart with
-        tin foil.\r\nBake for a further 25-30 minutes until the pastry is golden-brown
-        and the filling set.\r\nRemove the tart from the oven and leave to firm up
-        in the tin. Serve warm or cold.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wprvrw1511641295.jpg","strTags":"Tart","strYoutube":"https:\/\/www.youtube.com\/watch?v=YMmgKCNcqwI","strIngredient1":"Plain
-        Flour","strIngredient2":"Butter","strIngredient3":"Golden Syrup","strIngredient4":"Breadcrumbs","strIngredient5":"Lemons","strIngredient6":"Eggs","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"250g","strMeasure2":"135g","strMeasure3":"400g","strMeasure4":"150g","strMeasure5":"Zest
-        of 2","strMeasure6":"1 beaten","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbc.co.uk\/food\/recipes\/mary_berrys_treacle_tart_28524","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Mon, 28 Feb 2022 15:00:31 GMT
+      string: '{"meals":[{"idMeal":"52914","strMeal":"Boulang\u00e8re Potatoes","strDrinkAlternate":null,"strCategory":"Side","strArea":"French","strInstructions":"Heat
+        oven to 200C\/fan 180C\/gas 6. Fry the onions and thyme sprigs in the oil
+        until softened and lightly coloured (about 5 mins).\r\nSpread a layer of potatoes
+        over the base of a 1.5-litre oiled gratin dish. Sprinkle over a few onions
+        (see picture, above) and continue layering, finishing with a layer of potatoes.
+        Pour over the stock and bake for 50-60 mins until the potatoes are cooked
+        and the top is golden and crisp.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qywups1511796761.jpg","strTags":"SideDish","strYoutube":"https:\/\/www.youtube.com\/watch?v=gcXPruv1Mjg","strIngredient1":"Onions","strIngredient2":"Thyme","strIngredient3":"Olive
+        Oil","strIngredient4":"Potatoes","strIngredient5":"Vegetable Stock","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"2
+        finely chopped","strMeasure2":"sprigs of fresh","strMeasure3":"2 tbs","strMeasure4":"1.5kg","strMeasure5":"425g","strMeasure6":"","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/5056\/boulangre-potatoes","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Mon, 28 Feb 2022 16:17:29 GMT
 recorded_with: VCR 6.0.0

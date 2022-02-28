@@ -13,12 +13,17 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-
 require 'simplecov'
 require 'webmock/rspec'
+# require 'capybara'
+# require 'omniauth'
+# require './spec/support/integration_spec_helper.rb'
+
 SimpleCov.start 'rails'
 
 RSpec.configure do |config|
+  # config.include IntegrationSpecHelper, :type => :request
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
@@ -97,3 +102,10 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+# Capybara.default_host = 'http://example.com'
+#
+# OmniAuth.config.test_mode = true
+# OmniAuth.config.add_mock(:google, {
+#   :email => 'user@gmail.com'
+# })

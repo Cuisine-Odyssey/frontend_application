@@ -12,3 +12,73 @@
  *
  */
 @import "bootstrap";
+
+#background {
+  background: url(/assets/84cd2a9fbc6cbd5522b2f048a56703a8.jpg);
+  width: 90%;
+  height: 100%;
+}
+
+#instructions-blurb {
+  text-align: center;
+  font-size: 175%;
+  font-family: Trattatello;
+  position:relative;
+  bottom:10px
+}
+
+#navbar-brand:hover {
+  background: powderblue !important;
+}
+
+#nav-blurb {
+  position: relative;
+  float: right;
+  top: 15px;
+  left: 20px;
+  font-size: 175%;
+  color: #FFFFFF;
+}
+
+#spin-the-globe {
+  float:left;
+  display:flex;
+  position:relative;
+  left: 350px;
+  top: 10px;
+}
+
+#spin-the-bottle {
+  position:relative;
+  display:flex;
+  float:right;
+  right: 200px;
+  top: 10px;
+}
+
+#globe-button {
+  position: relative;
+  right: 340px;
+  top: 500px;
+}
+
+#bottle-button {
+  position:relative;
+  right: 300px;
+  top: 500px;
+}
+
+#location {
+  position:relative;
+  left: 600px;
+}
+
+#visitor {
+    position:relative;
+    left: 525px;
+}
+
+#user {
+  position:relative;
+  left: 525px;
+}

@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Feb 2022 20:01:21 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1278'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wTFsdOrKiZaTDTBP44qFeQ8w7To%2FhnBZ0lH4x6lz4czr3SdP0DLGK%2BgOKnaY6SgYJrm6nSYuLzSTJifUacwp2u3cZI2ROpwL%2BKfvXrwklwqiLg%2FJgfVjVRDGjHHO68ZCRqXD9SRRlfSONkxaLwvLnA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e4c3e8dca0208e3-SEA
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52996","strMeal":"French Onion Chicken with Roasted
+        Carrots & Mashed Potatoes","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"American","strInstructions":"1\r\n\r\nPreheat
+        oven to 425 degrees. Wash and dry all produce. Trim, peel, and cut carrots
+        on a diagonal into \u00bc-inch-thick pieces. Dice potatoes into \u00bd-inch
+        pieces. Halve, peel, and thinly slice onion.\r\n\r\n2\r\n\r\nToss carrots
+        on a baking sheet with a drizzle of oil, salt, and pepper. Roast until browned
+        and tender, 15-20 minutes.\r\n\r\n3\r\n\r\nMeanwhile, place potatoes in a
+        medium pot with enough salted water to cover by 2 inches. Bring to a boil
+        and cook until tender, 12-15 minutes. Drain and return potatoes to pot; cover
+        to keep warm.\r\n\r\n4\r\n\r\nWhile potatoes cook, heat a drizzle of oil in
+        a large pan over medium-high heat. Add onion and cook, stirring occasionally,
+        until lightly browned and softened, 8-10 minutes. Sprinkle with 1 tsp sugar
+        (2 tsp for 4 servings). Stir in stock concentrate and 2 TBSP water (\u00bc
+        cup for 4); season with salt and pepper. Cook until jammy, 2-3 minutes more.
+        Turn off heat; transfer to a small bowl. Wash out pan.\r\n\r\n5\r\n\r\nPat
+        chicken dry with paper towels; season all over with salt and pepper. Heat
+        a drizzle of oil in pan used for onion over medium-high heat. Add chicken
+        and cook until browned and cooked through, 5-6 minutes per side. In the last
+        1-2 minutes of cooking, top with caramelized onion and cheese. Cover pan until
+        cheese melts. (If your pan doesn\u2019t have a lid, cover with a baking sheet!)\r\n\r\n6\r\n\r\nHeat
+        pot with drained potatoes over low heat; mash with sour cream, 2 TBSP butter
+        (4 TBSP for 4 servings), salt, pepper, and a splash of water (or milk, for
+        extra richness) until smooth. Divide chicken, roasted carrots, and mashed
+        potatoes between plates.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/b5ft861583188991.jpg","strTags":null,"strYoutube":"","strIngredient1":"Chicken
+        Breasts","strIngredient2":"Carrots","strIngredient3":"Small Potatoes","strIngredient4":"Onion","strIngredient5":"Beef
+        Stock","strIngredient6":"Mozzarella","strIngredient7":"Sour Cream","strIngredient8":"Butter","strIngredient9":"Sugar","strIngredient10":"Vegetable
+        Oil","strIngredient11":"Salt","strIngredient12":"Pepper","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"2","strMeasure2":"12
+        ounces","strMeasure3":"5","strMeasure4":"1","strMeasure5":"1","strMeasure6":"1
+        1\/2 cup ","strMeasure7":"2 tbsp","strMeasure8":" ","strMeasure9":" ","strMeasure10":"
+        ","strMeasure11":" ","strMeasure12":" ","strMeasure13":" ","strMeasure14":"
+        ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
+        ","strMeasure19":" ","strMeasure20":" ","strSource":"","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Mon, 28 Feb 2022 20:01:21 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=American
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Feb 2022 20:01:22 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1156'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=onIF%2BM0NYr%2BOMojSD%2B%2B%2B%2Bo3bfjpzPTNsJY2yZ5Ri3xD4%2FShGr1gMmq26oI1TZSmpeLG5nDMWjfEN5v%2Bp0Ab38DtRw5s0x2Qq5FM%2BtSwfMVaFew6doECN4kQgeEKKaL2WYcL34KuliI6qjk7cu64JRQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e4c3e90bb968f3b-SEA
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"strMeal":"Banana Pancakes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sywswr1511383814.jpg","idMeal":"52855"},{"strMeal":"BBQ
+        Pork Sloppy Joes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/atd5sh1583188467.jpg","idMeal":"52995"},{"strMeal":"Beef
+        Brisket Pot Roast","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ursuup1487348423.jpg","idMeal":"52812"},{"strMeal":"Big
+        Mac","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/urzj1d1587670726.jpg","idMeal":"53013"},{"strMeal":"Chick-Fil-A
+        Sandwich","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sbx7n71587673021.jpg","idMeal":"53016"},{"strMeal":"Chicken
+        Fajita Mac and Cheese","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qrqywr1503066605.jpg","idMeal":"52818"},{"strMeal":"Choc
+        Chip Pecan Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/rqvwxt1511384809.jpg","idMeal":"52856"},{"strMeal":"Chocolate
+        Raspberry Brownies","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yypvst1511386427.jpg","idMeal":"52860"},{"strMeal":"Clam
+        chowder","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/rvtvuw1511190488.jpg","idMeal":"52840"},{"strMeal":"French
+        Onion Chicken with Roasted Carrots & Mashed Potatoes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/b5ft861583188991.jpg","idMeal":"52996"},{"strMeal":"Fruit
+        and Cream Cheese Breakfast Pastries","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1543774956.jpg","idMeal":"52957"},{"strMeal":"Grilled
+        Mac and Cheese Sandwich","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xutquv1505330523.jpg","idMeal":"52829"},{"strMeal":"Honey
+        Balsamic Chicken with Crispy Broccoli & Potatoes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/kvbotn1581012881.jpg","idMeal":"52993"},{"strMeal":"Hot
+        Chocolate Fudge","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xrysxr1483568462.jpg","idMeal":"52787"},{"strMeal":"Kentucky
+        Fried Chicken","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xqusqy1487348868.jpg","idMeal":"52813"},{"strMeal":"Key
+        Lime Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qpqtuu1511386216.jpg","idMeal":"52859"},{"strMeal":"Krispy
+        Kreme Donut","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/4i5cnx1587672171.jpg","idMeal":"53015"},{"strMeal":"Lasagna
+        Sandwiches","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xr0n4r1576788363.jpg","idMeal":"52987"},{"strMeal":"New
+        York cheesecake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/swttys1511385853.jpg","idMeal":"52858"},{"strMeal":"Pancakes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/rwuyqx1511383174.jpg","idMeal":"52854"},{"strMeal":"Peach
+        & Blueberry Grunt","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ssxvup1511387476.jpg","idMeal":"52862"},{"strMeal":"Peanut
+        Butter Cheesecake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qtuuys1511387068.jpg","idMeal":"52861"},{"strMeal":"Peanut
+        Butter Cookies","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1544384070.jpg","idMeal":"52958"},{"strMeal":"Pumpkin
+        Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/usuqtp1511385394.jpg","idMeal":"52857"},{"strMeal":"Roasted
+        Eggplant With Tahini, Pine Nuts, and Lentils","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ysqrus1487425681.jpg","idMeal":"52816"},{"strMeal":"Rocky
+        Road Fudge","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vtxyxv1483567157.jpg","idMeal":"52786"},{"strMeal":"Salmon
+        Eggs Eggs Benedict","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1550440197.jpg","idMeal":"52962"},{"strMeal":"Salted
+        Caramel Cheescake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xqrwyr1511133646.jpg","idMeal":"52833"},{"strMeal":"Skillet
+        Apple Pork Chops with Roasted Sweet Potatoes & Zucchini","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/h3ijwo1581013377.jpg","idMeal":"52994"},{"strMeal":"Soy-Glazed
+        Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/o2wb6p1581005243.jpg","idMeal":"52992"},{"strMeal":"Stovetop
+        Eggplant With Harissa, Chickpeas, and Cumin Yogurt","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yqwtvu1487426027.jpg","idMeal":"52817"},{"strMeal":"Vegan
+        Chocolate Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qxutws1486978099.jpg","idMeal":"52794"}]}'
+  recorded_at: Mon, 28 Feb 2022 20:01:22 GMT
+recorded_with: VCR 6.0.0

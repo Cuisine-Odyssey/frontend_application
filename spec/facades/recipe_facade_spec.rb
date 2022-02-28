@@ -17,7 +17,7 @@ RSpec.describe RecipeFacade, type: :facade do
         VCR.use_cassette('returns_a_array') do
           recipes = RecipeFacade.get_five_recipes("Canadian")
 
-          expect(recipes.first).to be_a(Recipe)
+          expect(recipes.first).to be_a(FiveRecipe)
           expect(recipes.count).to eq(5)
         end
       end

@@ -11,5 +11,10 @@ RSpec.describe 'Recipe Index Page' do
       save_and_open_page
       click_link('Recipe')
     end
+
+    it 'shows the proper logic for a logged in user', :user do
+
+      
+    end
   end
 end

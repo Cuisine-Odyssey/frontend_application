@@ -6,6 +6,7 @@
 ![simplecov](https://img.shields.io/gem/v/simplecov?color=blue&label=simplecov) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/contributors-1-orange.svg?style=flat)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[Backend Application](https://github.com/Cuisine-Odyssey/backend_application) 
 
 ## Background and Description
 
@@ -18,9 +19,7 @@
 - Utilize advanced active record techniques to perform complex database queries
 - Practice serializing to protect and format data in a conventional format.
 
-## Schema
-- See image below for project database schema:
-<img width="1010" alt="Screen Shot 2022-02-10 at 11 56 33 AM" src="https://user-images.githubusercontent.com/90224504/153457206-8c74f40f-20a8-4d89-8c97-0f7446a0393a.png">
+
 
 ## Requirements and Setup (for Mac):
 

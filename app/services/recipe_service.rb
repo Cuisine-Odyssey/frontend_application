@@ -33,5 +33,12 @@ class RecipeService
       request.body = JSON.generate(custom_params)
     end
   end
+
+  def self.add_recipe_dislike(custom_params)
+    response = internal_connection.post('dislike') do |request|
+      request.headers['Content-Type'] = 'application/json'
+      request.body = JSON.generate(custom_params)
+    end
+  end
   
 end

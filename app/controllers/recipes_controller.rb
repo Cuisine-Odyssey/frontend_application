@@ -16,8 +16,8 @@ class RecipesController < ApplicationController
       'vote': 'like'
     }
 
-    response = RecipeFacade.add_recipe_like(custom_params)
-    
+    RecipeFacade.add_recipe_like(custom_params)
+    flash[:notice] = "You have liked this recipe!"
   end
 
   def dislike

@@ -18,13 +18,15 @@ RSpec.describe 'Recipe show page', type: :feature do
   context 'user likes a recipe' do
     it 'adds a like to a user' do
       VCR.use_cassette('like_a_recipe') do
+        visit root_path
+        click_link 'Login'
+        # allow_any_instance_of(ApplicationController).to  receive(:current_user).and_return(user)
         Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
-        #mock the current user/session
         
-        visit "/recipes/52772"
+        visit '/recipes/52772'
+        click_button 'Like'
         
-        click_button "Like"
-
+        # expect(page).to have_content('You have liked this recipe!')
       end
     end
   end

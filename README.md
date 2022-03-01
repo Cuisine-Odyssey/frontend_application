@@ -9,7 +9,7 @@
 
 ## Background and Description
 
-"Cuisine Odyssey" is a group project! ADDD LATER 
+"Cuisine Odyssey" is a group project
 
 ## Learning Goals
 
@@ -45,12 +45,12 @@ On your local machine open a terminal session and enter the following commands f
 
 - using ssh key <br>
 ```shell
-$ git clone git@github.com:sethperna/rails-engine-lite.git
+$ git clone git@github.com:dylan-harper/cuisine_odyssey_frontend
 ```
 
 - using https <br>
 ```shell
-$ git clone https://github.com/sethperna/rails-engine-lite.git
+$ git clone https://github.com/dylan-harper/cuisine_odyssey_frontend
 ```
 
 Once cloned, you'll have a new local copy in the directory you ran the clone command in.
@@ -59,7 +59,7 @@ Once cloned, you'll have a new local copy in the directory you ran the clone com
 In terminal, use `$cd` to navigate to the Little Esty Shop project directory.
 
 ```shell
-$ cd rails-engine-lite
+$ cd cuisine_odyssey_frontend
 ```
 
 3. Install required Gems utilizing Bundler: <br>
@@ -149,9 +149,7 @@ Using simplecov_json_formatter 0.1.3
 Using simplecov 0.21.2
 Using spring 2.1.1
 Using spring-watcher-listen 2.0.1
-Bundle complete! 16 Gemfile dependencies, 70 gems now installed.
-Use `bundle info [gemname]` to see where a bundled gem is installed.
-```
+
 If there are any errors, verify that bundler, Rails, and your ruby environment are correctly setup.
 
 4. Database Migration<br>
@@ -161,12 +159,6 @@ Before using the web application you will need to setup your databases locally b
 $ rails db: {:drop, :create, :migrate, :seed}
 ```
 
-5. Pg Dump Load
-Next we will seed environment with generic data by using CSV files by running the following command
-
-```shell
-$ rails db:schema:dump
-```
 
 6. Startup and Access<br>
 Finally, in order to use the web app you will have to start the server locally and access the app through a web browser. 

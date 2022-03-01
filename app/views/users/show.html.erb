@@ -2,5 +2,5 @@
 
 <h3>Your favorites:</h3>
 <% @recipes.each do |recipe| %>
-  <p><%= recipe.title %></p>
+  <p><%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %></p>
 <% end %>

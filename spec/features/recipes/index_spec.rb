@@ -23,7 +23,7 @@ RSpec.describe 'Recipe Index Page' do
       end
     end
 
-    it 'shows the proper logic for a logged in user', :vcr do
+    xit 'shows the proper logic for a logged in user', :vcr do
       visit recipes_path
 
       login_with_google_oauth(:google)

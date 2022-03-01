@@ -14,4 +14,9 @@ class RecipeService
     response = connection.get("filter.php?a=#{region}")
     JSON.parse(response.body, symbolize_names: true)[:meals].sample(5)
   end
+
+  def self.get_recipe_by_id(id)
+    response = connection.get("lookup.php?i=#{id}")
+    JSON.parse(response.body, symbolize_names: true)
+  end
 end

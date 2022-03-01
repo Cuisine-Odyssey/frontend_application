@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 19:58:33 GMT
+      - Tue, 01 Mar 2022 22:58:54 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '864'
+      - '929'
       Connection:
       - keep-alive
       Vary:
@@ -38,38 +38,37 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=29cTGD5c9ZWroNYgDaQ5ETeJu0dyN7XpBVM70BQSq3xTnnu0MequGboYZN2tpoasKOMvKwuzIoZ64w1WqRzEpE0SYgLF1CRACaqKkuThY%2BrL0KVBc%2FO07B%2BSiaHd3ddbB0OdWw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iQfc8eiL69vskw4j6Q3XPjDizraBVZx%2BFro7FwGukcIj4%2FFAT%2FhBq3eAI0jdmfOUmer1gHSRIzhJsLd03sNJxZ%2FxmW0F69l5WBBMQQd50CNUHUwWidyNdPc8S9sSzz5eMlup2nYeFuikEtm1xa5dlQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5477d46e95e865-EWR
+      - 6e5580033f92571c-IAD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52972","strMeal":"Tunisian Lamb Soup","strDrinkAlternate":null,"strCategory":"Lamb","strArea":"Tunisian","strInstructions":"Add
-        the lamb to a casserole and cook over high heat. When browned, remove from
-        the heat and set aside.\r\nKeep a tablespoon of fat in the casserole and discard
-        the rest. Reduce to medium heat then add the garlic, onion and spinach and
-        cook until the onion is translucent and the spinach wilted or about 5 minutes.\r\nReturn
-        the lamb to the casserole with the onion-spinach mixture, add the tomato puree,
-        cumin, harissa, chicken, chickpeas, lemon juice, salt and pepper in the pan.
-        Simmer over low heat for about 20 minutes.\r\nAdd the pasta and cook for 15
-        minutes or until pasta is cooked.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/t8mn9g1560460231.jpg","strTags":"Soup","strYoutube":"https:\/\/www.youtube.com\/watch?v=w1qgTQmLRe4","strIngredient1":"Lamb
-        Mince","strIngredient2":"Garlic","strIngredient3":"Onion","strIngredient4":"Spinach","strIngredient5":"Tomato
-        Puree","strIngredient6":"Cumin","strIngredient7":"Chicken Stock","strIngredient8":"Harissa
-        Spice","strIngredient9":"Chickpeas","strIngredient10":"Lemon Juice","strIngredient11":"Macaroni","strIngredient12":"Salt","strIngredient13":"Pepper","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"500g","strMeasure2":"2
-        cloves minced","strMeasure3":"1","strMeasure4":"300g","strMeasure5":"3 tbs","strMeasure6":"1
-        tbs","strMeasure7":"1 Litre","strMeasure8":"3 tsp","strMeasure9":"400g","strMeasure10":"1\/2
-        ","strMeasure11":"150g","strMeasure12":"Pinch","strMeasure13":"Pinch","strMeasure14":"
-        ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
-        ","strMeasure19":" ","strMeasure20":" ","strSource":"http:\/\/allrecipes.co.uk\/recipe\/16694\/tunisian-lamb-soup.aspx","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 19:58:33 GMT
+      string: '{"meals":[{"idMeal":"52897","strMeal":"Carrot Cake","strDrinkAlternate":null,"strCategory":"Dessert","strArea":"British","strInstructions":"For
+        the carrot cake, preheat the oven to 160C\/325F\/Gas 3. Grease and line a
+        26cm\/10in springform cake tin.\r\nMix all of the ingredients for the carrot
+        cake, except the carrots and walnuts, together in a bowl until well combined.
+        Stir in the carrots and walnuts.\r\nSpoon the mixture into the cake tin and
+        bake for 1 hour 15 minutes, or until a skewer inserted into the middle comes
+        out clean. Remove the cake from the oven and set aside to cool for 10 minutes,
+        then carefully remove the cake from the tin and set aside to cool completely
+        on a cooling rack.\r\nMeanwhile, for the icing, beat the cream cheese, caster
+        sugar and butter together in a bowl until fluffy. Spread the icing over the
+        top of the cake with a palette knife.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vrspxv1511722107.jpg","strTags":"Cake,Treat,Sweet","strYoutube":"https:\/\/www.youtube.com\/watch?v=asjZ7iTrGKA","strIngredient1":"Vegetable
+        Oil","strIngredient2":"Plain Flour","strIngredient3":"Bicarbonate Of Soda","strIngredient4":"Sugar","strIngredient5":"Eggs","strIngredient6":"Salt","strIngredient7":"Cinnamon","strIngredient8":"Carrots","strIngredient9":"Walnuts","strIngredient10":"Cream
+        Cheese","strIngredient11":"Caster Sugar","strIngredient12":"Butter","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"450ml","strMeasure2":"400g","strMeasure3":"2
+        tsp","strMeasure4":"550ml","strMeasure5":"5","strMeasure6":"\u00bd tsp","strMeasure7":"2
+        tsp","strMeasure8":"500g grated","strMeasure9":"150g","strMeasure10":"200g","strMeasure11":"150g","strMeasure12":"100g
+        ","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbc.co.uk\/food\/recipes\/classic_carrot_cake_08513","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Tunisian
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=British
     body:
       encoding: US-ASCII
       string: ''
@@ -86,11 +85,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 19:58:34 GMT
+      - Tue, 01 Mar 2022 22:58:54 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '341'
+      - '1632'
       Connection:
       - keep-alive
       Vary:
@@ -105,25 +104,74 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ARdX4I72rwOR36UYykJ1U2mhKYU7hp5VF1J0%2B1CKGiAfO%2B7aqEp9GVgNQtmaGdmCD6P9yOEdBARaC6rSu4PlOKC1uKHJhUJurTANHWgVZbnXkVVHTPw8ib%2FE%2BYbAg111NKXM%2BQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LNEgSlNcaJ%2Fj9d3IOPn2ePwqLJrKn1uNJi0S0fzxMURniyyTqxLz2dgw71RlHlJdWn%2Flo6yk9%2BEHR0ESdOTktNRrEMCVVr7XGoPqJZcUoXf5T7Pake6VH5L6DgHhTErdEEzustSRlwtbhSE6yrkUvg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5477d57ee11891-EWR
+      - 6e5580048c1881a6-IAD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"Cashew Ghoriba Biscuits","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/t3r3ka1560461972.jpg","idMeal":"52976"},{"strMeal":"Chakchouka
-        ","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/gpz67p1560458984.jpg","idMeal":"52969"},{"strMeal":"Kafteji","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1bsv1q1560459826.jpg","idMeal":"52971"},{"strMeal":"Keleya
-        Zaara","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/8x09hy1560460923.jpg","idMeal":"52974"},{"strMeal":"Leblebi
-        Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/x2fw9e1560460636.jpg","idMeal":"52973"},{"strMeal":"Tuna
-        and Egg Briks","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/2dsltq1560461468.jpg","idMeal":"52975"},{"strMeal":"Tunisian
-        Lamb Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/t8mn9g1560460231.jpg","idMeal":"52972"},{"strMeal":"Tunisian
-        Orange Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/y4jpgq1560459207.jpg","idMeal":"52970"}]}'
-  recorded_at: Tue, 01 Mar 2022 19:58:33 GMT
+      string: '{"meals":[{"strMeal":" Bubble & Squeak","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xusqvw1511638311.jpg","idMeal":"52885"},{"strMeal":"Apple
+        & Blackberry Crumble","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xvsurr1511719182.jpg","idMeal":"52893"},{"strMeal":"Apple
+        Frangipan Tart","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wxywrq1468235067.jpg","idMeal":"52768"},{"strMeal":"Baked
+        salmon with fennel & tomatoes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1548772327.jpg","idMeal":"52959"},{"strMeal":"Bakewell
+        tart","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wyrqqq1468233628.jpg","idMeal":"52767"},{"strMeal":"Battenberg
+        Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ywwrsp1511720277.jpg","idMeal":"52894"},{"strMeal":"Bean
+        & Sausage Hotpot","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vxuyrx1511302687.jpg","idMeal":"52848"},{"strMeal":"Beef
+        and Mustard Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sytuqu1511553755.jpg","idMeal":"52874"},{"strMeal":"Beef
+        and Oyster pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wrssvt1511556563.jpg","idMeal":"52878"},{"strMeal":"Beef
+        Dumpling Stew","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uyqrrv1511553350.jpg","idMeal":"52873"},{"strMeal":"Beef
+        Sunday Roast","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ssrrrs1503664277.jpg","idMeal":"52824"},{"strMeal":"Beef
+        Wellington","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vvpprx1487325699.jpg","idMeal":"52803"},{"strMeal":"Blackberry
+        Fool","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/rpvptu1511641092.jpg","idMeal":"52891"},{"strMeal":"Bread
+        and Butter Pudding","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg","idMeal":"52792"},{"strMeal":"Broccoli
+        & Stilton soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tvvxpv1511191952.jpg","idMeal":"52842"},{"strMeal":"Carrot
+        Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vrspxv1511722107.jpg","idMeal":"52897"},{"strMeal":"Chelsea
+        Buns","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vqpwrv1511723001.jpg","idMeal":"52898"},{"strMeal":"Chicken
+        & mushroom Hotpot","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uuuspp1511297945.jpg","idMeal":"52846"},{"strMeal":"Chicken
+        Ham and Leek Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xrrtss1511555269.jpg","idMeal":"52875"},{"strMeal":"Chocolate
+        Avocado Mousse","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uttuxy1511382180.jpg","idMeal":"52853"},{"strMeal":"Chocolate
+        Caramel Crispy","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1550442508.jpg","idMeal":"52966"},{"strMeal":"Christmas
+        cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ldnrm91576791881.jpg","idMeal":"52990"},{"strMeal":"Christmas
+        Pudding Flapjack","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vvusxs1483907034.jpg","idMeal":"52788"},{"strMeal":"Christmas
+        Pudding Trifle","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/r33cud1576791081.jpg","idMeal":"52989"},{"strMeal":"Classic
+        Christmas pudding","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1d85821576790598.jpg","idMeal":"52988"},{"strMeal":"Creamy
+        Tomato Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/stpuws1511191310.jpg","idMeal":"52841"},{"strMeal":"Dundee
+        cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wxyvqq1511723401.jpg","idMeal":"52899"},{"strMeal":"Eccles
+        Cakes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wtqrqw1511639627.jpg","idMeal":"52888"},{"strMeal":"English
+        Breakfast","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/utxryw1511721587.jpg","idMeal":"52895"},{"strMeal":"Eton
+        Mess","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uuxwvq1483907861.jpg","idMeal":"52791"},{"strMeal":"Fish
+        pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ysxwuq1487323065.jpg","idMeal":"52802"},{"strMeal":"Full
+        English Breakfast","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sqrtwu1511721265.jpg","idMeal":"52896"},{"strMeal":"Jam
+        Roly-Poly","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ysqupp1511640538.jpg","idMeal":"52890"},{"strMeal":"Kedgeree","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/utxqpt1511639216.jpg","idMeal":"52887"},{"strMeal":"Lamb
+        and Potato pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sxrpws1511555907.jpg","idMeal":"52877"},{"strMeal":"Lancashire
+        hotpot","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uttrxw1511637813.jpg","idMeal":"52884"},{"strMeal":"Madeira
+        Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/urtqut1511723591.jpg","idMeal":"52900"},{"strMeal":"McSinghs
+        Scotch pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vssrtx1511557680.jpg","idMeal":"52880"},{"strMeal":"Mince
+        Pies","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qe8pf51576795532.jpg","idMeal":"52991"},{"strMeal":"Minced
+        Beef Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xwutvy1511555540.jpg","idMeal":"52876"},{"strMeal":"Mushroom
+        & Chestnut Rotolo","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ssyqwr1511451678.jpg","idMeal":"52864"},{"strMeal":"Parkin
+        Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qxuqtt1511724269.jpg","idMeal":"52902"},{"strMeal":"Rock
+        Cakes","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tqrrsq1511723764.jpg","idMeal":"52901"},{"strMeal":"Salmon
+        Avocado Salad","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1549542994.jpg","idMeal":"52960"},{"strMeal":"Smoky
+        Lentil Chili with Squash","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/uwxqwy1483389553.jpg","idMeal":"52784"},{"strMeal":"Spotted
+        Dick","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xqvyqr1511638875.jpg","idMeal":"52886"},{"strMeal":"Steak
+        and Kidney Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qysyss1511558054.jpg","idMeal":"52881"},{"strMeal":"Sticky
+        Toffee Pudding","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xqqqtu1511637379.jpg","idMeal":"52883"},{"strMeal":"Sticky
+        Toffee Pudding Ultimate","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xrptpq1483909204.jpg","idMeal":"52793"},{"strMeal":"Strawberry
+        Rhubarb Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/178z5o1585514569.jpg","idMeal":"53005"},{"strMeal":"Summer
+        Pudding","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/rsqwus1511640214.jpg","idMeal":"52889"},{"strMeal":"Three
+        Fish Pie","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/spswqs1511558697.jpg","idMeal":"52882"},{"strMeal":"Toad
+        In The Hole","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ytuvwr1503070420.jpg","idMeal":"52822"},{"strMeal":"Treacle
+        Tart","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wprvrw1511641295.jpg","idMeal":"52892"},{"strMeal":"Turkey
+        Meatloaf","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ypuxtw1511297463.jpg","idMeal":"52845"},{"strMeal":"Vegetarian
+        Casserole","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vptwyt1511450962.jpg","idMeal":"52863"},{"strMeal":"Vegetarian
+        Chilli","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqurxy1511453156.jpg","idMeal":"52867"}]}'
+  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -147,19 +195,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"a6c1f1bfb3c8f613683317c0156ebd06"
+      - W/"798d75b03701383ef24dde2ba9ca6e8d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 63f50cd4-cafb-42a2-84d4-1033ccea0b1b
+      - beea4c21-4055-4303-afce-f781fbf06769
       X-Runtime:
-      - '0.005616'
+      - '0.003214'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"5","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -187,15 +235,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9839d716-08d8-4b5e-809c-fca9b9e4dca7
+      - e28853da-e75c-4d2a-9dda-ee3131638d51
       X-Runtime:
-      - '0.005649'
+      - '0.003885'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -223,15 +271,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 62829844-e0d5-41c3-8701-d7b3855bee87
+      - b7200718-3da6-44f1-a2cb-0864bf662ae6
       X-Runtime:
-      - '0.004584'
+      - '0.004779'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/random.php
@@ -251,11 +299,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 19:58:34 GMT
+      - Tue, 01 Mar 2022 22:58:55 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '673'
+      - '1217'
       Connection:
       - keep-alive
       Vary:
@@ -270,31 +318,46 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x3JvrdAUsEXhDk%2FwXLSwBSQAi5EpBM1bHnrfevIpj%2BYN1Kwnb66hOdW2V7lmTukIvRyYqc9VBc5FJetDwBNA0gg4ppuG%2Bw02lOTum4ga5ElDklo0qMabYDqjV8CCRjc82sGgIw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dk3PMrFb22X90bbCm1Gi9Ox41nUQqOy%2FzLLImCrQcX9tMOAVE6UVxbH991DqUA%2BQL47qA8edBMrXWXORwvMxWuz2VS2eyoiCN4sJ4K7A8mmxIivYTiSSzNkv7Z3gbbxlEJPen%2Bezpxi0rcxP7RMgtA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5477d75b6719ff-EWR
+      - 6e5580062e698f14-IAD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52773","strMeal":"Honey Teriyaki Salmon","strDrinkAlternate":null,"strCategory":"Seafood","strArea":"Japanese","strInstructions":"Mix
-        all the ingredients in the Honey Teriyaki Glaze together. Whisk to blend well.
-        Combine the salmon and the Glaze together.\r\n\r\nHeat up a skillet on medium-low
-        heat. Add the oil, Pan-fry the salmon on both sides until it\u2019s completely
-        cooked inside and the glaze thickens.\r\n\r\nGarnish with sesame and serve
-        immediately.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xxyupu1468262513.jpg","strTags":"Fish,Breakfast,DateNight","strYoutube":"https:\/\/www.youtube.com\/watch?v=4MpYuaJsvRw","strIngredient1":"Salmon","strIngredient2":"Olive
-        oil","strIngredient3":"Soy Sauce","strIngredient4":"Sake","strIngredient5":"Sesame
-        Seed","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"1
-        lb","strMeasure2":"1 tablespoon","strMeasure3":"2 tablespoons","strMeasure4":"2
-        tablespoons","strMeasure5":"4 tablespoons","strMeasure6":"","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+      string: '{"meals":[{"idMeal":"52942","strMeal":"Roast fennel and aubergine paella","strDrinkAlternate":null,"strCategory":"Vegan","strArea":"Spanish","strInstructions":"1
+        Put the fennel, aubergine, pepper and courgette in a roasting tray. Add a
+        glug of olive oil, season with salt and pepper and toss around to coat the
+        veggies in the oil. Roast in the oven for 20 minutes, turning a couple of
+        times until the veg are pretty much cooked through and turning golden.\r\n\r\n2
+        Meanwhile, heat a paella pan or large frying pan over a low\u2013 medium heat
+        and add a glug of olive oil. Saut\u00e9 the onion for 8\u201310 minutes until
+        softened. Increase the heat to medium and stir in the rice, paprika and saffron.
+        Cook for around 1 minute to start toasting the rice, then add the white wine.
+        Reduce by about half before stirring in two-thirds of the stock. Reduce to
+        a simmer and cook for 10 minutes without a lid, stirring a couple of times.\r\n\r\n3
+        Stir in the peas, add some seasoning, then gently mix in the roasted veg.
+        Pour over the remaining stock, arrange the lemon wedges on top and cover with
+        a lid or some aluminium foil. Cook for a further 10 minutes.\r\n\r\n4 To ensure
+        you get the classic layer of toasted rice at the bottom of the pan, increase
+        the heat to high until you hear a slight crackle. Remove from the heat and
+        sit for 5 minutes before sprinkling over the parsley and serving.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","strTags":"Vegan,Paella","strYoutube":"https:\/\/www.youtube.com\/watch?v=H5SmjR-fxUs","strIngredient1":"Baby
+        Aubergine","strIngredient2":"Fennel","strIngredient3":"Red Pepper","strIngredient4":"Courgettes","strIngredient5":"Onion","strIngredient6":"Paella
+        Rice","strIngredient7":"Paprika","strIngredient8":"Saffron","strIngredient9":"White
+        Wine","strIngredient10":"Vegetable Stock","strIngredient11":"Frozen Peas","strIngredient12":"Lemon","strIngredient13":"Parsley","strIngredient14":"Salt","strIngredient15":"Black
+        Pepper","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"6
+        small","strMeasure2":"4 small","strMeasure3":"1 thinly sliced","strMeasure4":"1
+        medium","strMeasure5":"1 finely chopped ","strMeasure6":"300g","strMeasure7":"1
+        tsp ","strMeasure8":"pinch","strMeasure9":"200ml","strMeasure10":"700ml","strMeasure11":"100g
+        ","strMeasure12":"1 chopped","strMeasure13":"Handful","strMeasure14":"pinch","strMeasure15":"pinch","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.homestylemag.co.uk\/recipe\/517\/main-courses\/roast-fennel-and-aubergine-paella","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 01 Mar 2022 22:58:55 GMT
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Japanese
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Spanish
     body:
       encoding: US-ASCII
       string: ''
@@ -311,11 +374,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 19:58:34 GMT
+      - Tue, 01 Mar 2022 22:58:55 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '359'
+      - '227'
       Connection:
       - keep-alive
       Vary:
@@ -330,168 +393,19 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nIGAgH6pJqcD2tmzt3lPtrUCvRcr1VTMFILe4ZRFtWYd0G%2BrLDsrrp7er8tCNyLKj6yYWzMFr%2Fx4PyVbgVz5sRErgmqlVjBlG1P178cv1314TUCmu%2BzTVPAAD3LCv2L7BLJN4A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gy%2BfWkjjoVCufQeci8JXa6NQQfPqpHLGxw7Yw85MhTFf1lW%2BqSHkj8BFU3Y2W3mGvebdQKPEOYZcw6YqwQlGHfxF%2FpA%2FBtd%2FSM0iCLs9LeQHmM0fxN%2BPy0szNvbzRycN9TH2b19Ne8Ok91wKHVyBLg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5477d8dc028c29-EWR
+      - 6e5580075e257fed-IAD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"Chicken Karaage","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tyywsw1505930373.jpg","idMeal":"52831"},{"strMeal":"Honey
-        Teriyaki Salmon","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xxyupu1468262513.jpg","idMeal":"52773"},{"strMeal":"Japanese
-        gohan rice","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/kw92t41604181871.jpg","idMeal":"53033"},{"strMeal":"Japanese
-        Katsudon","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/d8f6qx1604182128.jpg","idMeal":"53034"},{"strMeal":"Katsu
-        Chicken curry","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vwrpps1503068729.jpg","idMeal":"52820"},{"strMeal":"Teriyaki
-        Chicken Casserole","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wvpsxx1468256321.jpg","idMeal":"52772"},{"strMeal":"Tonkatsu
-        pork","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/lwsnkl1604181187.jpg","idMeal":"53032"},{"strMeal":"Yaki
-        Udon","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wrustq1511475474.jpg","idMeal":"52871"}]}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 66327d6b-1207-4845-abd9-dfa17f56399c
-      X-Runtime:
-      - '0.006330'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 9668f73a-f693-4c6a-9515-15ff79df4b61
-      X-Runtime:
-      - '0.005424'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 688793ae-ca89-4339-b357-5ac174dd5bc7
-      X-Runtime:
-      - '0.004598'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - b0ddd7c9-3722-4547-82ef-eaca9fc1b745
-      X-Runtime:
-      - '0.003956'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+      string: '{"meals":[{"strMeal":"Roast fennel and aubergine paella","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","idMeal":"52942"},{"strMeal":"Seafood
+        fideu\u00e0","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqqvyq1511179730.jpg","idMeal":"52836"},{"strMeal":"Spanish
+        Tortilla","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","idMeal":"52872"}]}'
+  recorded_at: Tue, 01 Mar 2022 22:58:55 GMT
 recorded_with: VCR 6.0.0

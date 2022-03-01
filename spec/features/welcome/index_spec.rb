@@ -10,10 +10,9 @@ RSpec.describe 'the website home page' do
     expect(current_path).to eq(root_path)
   end
 
-  it 'has a link to login page' do
+  it 'has a link to login page', :vcr do
     Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
     click_link 'Login'
-
     expect(current_path).to eq('/')
   end
 

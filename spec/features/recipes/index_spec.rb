@@ -14,7 +14,7 @@ RSpec.describe 'Recipe Index Page' do
       expect(page).to have_content('Seafood fideuà')
     end
 
-    it 'shows the proper logic for a visitor', :vcr do
+    xit 'shows the proper logic for a visitor', :vcr do
       visit recipes_path
 
       within "#visitor" do
@@ -33,19 +33,16 @@ RSpec.describe 'Recipe Index Page' do
     end
 
     it "logs in a user from the recipe index page", :vcr do
-      Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
-
       visit recipes_path
+
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(:user)
       click_link('Login')
       expect(current_path).to eq(root_path)
       click_button('Spin for recipes!')
       expect(current_path).to eq(recipes_path)
-      expect(page).to have_link('Cream Cheese Tart')
-      expect(page).to have_link('Potato Gratin with Chicken')
-      expect(page).to have_link('Chivito uruguayo')
-
-
+      expect(page).to have_link('Spanish Tortilla')
+      expect(page).to have_link('Seafood fideuà')
+      expect(page).to have_link('Roast fennel and aubergine paella')
     end
-
   end
 end

@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 14:16:11 GMT
+      - Tue, 01 Mar 2022 19:58:33 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '929'
+      - '864'
       Connection:
       - keep-alive
       Vary:
@@ -38,42 +38,38 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DJyA7tlsOzkXIWVpRfIIAWFBmgRAyNtkk3dqSY7eKQXsb7XzGYXl%2Bl05LcQbMXaaifbSOzq424Mcy15rCAAkH78H%2BQWKjqR4qcF0TB21%2BeEPEXRBiRRHtDssr8%2B5Lk6FGPhjLPwjqQbl2CXuy4FtkA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=29cTGD5c9ZWroNYgDaQ5ETeJu0dyN7XpBVM70BQSq3xTnnu0MequGboYZN2tpoasKOMvKwuzIoZ64w1WqRzEpE0SYgLF1CRACaqKkuThY%2BrL0KVBc%2FO07B%2BSiaHd3ddbB0OdWw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e52824c9fb259cd-IAD
+      - 6e5477d46e95e865-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52950","strMeal":"Szechuan Beef","strDrinkAlternate":null,"strCategory":"Beef","strArea":"Chinese","strInstructions":"STEP
-        1 - MARINATING THE BEEF\r\nIn a bowl, add the beef, salt, sesame seed oil,
-        white pepper, egg white, 2 Tablespoon of corn starch and 1 Tablespoon of oil.\r\nSTEP
-        2 - STIR FRY\r\nFirst Cook the beef by adding 2 Tablespoon of oil until the
-        beef is golden brown.\r\nSet the beef aside\r\nIn a wok add 1 Tablespoon of
-        oil, minced ginger, minced garlic and stir-fry for few seconds.\r\nNext add
-        all of the vegetables and then add sherry cooking wine and 1 cup of water.\r\nTo
-        make the sauce add oyster sauce, hot pepper sauce, and sugar.\r\nadd the cooked
-        beef and 1 spoon of soy sauce\r\nTo thicken the sauce, whisk together 1 Tablespoon
-        of cornstarch and 2 Tablespoon of water in a bowl and slowly add to your stir-fry
-        until it''s the right thickness.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529443236.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=SQGZqZYz7Ms","strIngredient1":"Beef","strIngredient2":"Salt","strIngredient3":"Sesame
-        Seed Oil","strIngredient4":"Pepper","strIngredient5":"Egg White","strIngredient6":"Starch","strIngredient7":"Oil","strIngredient8":"Ginger","strIngredient9":"Garlic","strIngredient10":"Onion","strIngredient11":"Carrots","strIngredient12":"Green
-        Pepper","strIngredient13":"Celery","strIngredient14":"Mushrooms","strIngredient15":"Cooking
-        wine","strIngredient16":"Water","strIngredient17":"Oyster Sauce","strIngredient18":"Hotsauce","strIngredient19":"Sugar","strIngredient20":"Soy
-        Sauce","strMeasure1":"1\/2 lb","strMeasure2":"1\/2 tsp","strMeasure3":"1 tsp
-        ","strMeasure4":"1 pinch","strMeasure5":"1","strMeasure6":"3 tbs","strMeasure7":"4
-        tbs","strMeasure8":"1 tsp ","strMeasure9":"1 tsp ","strMeasure10":"3\/4 cup
-        ","strMeasure11":"1\/2 cup ","strMeasure12":"3\/4 cup ","strMeasure13":"1
-        cup ","strMeasure14":"1 cup ","strMeasure15":"1 tbs","strMeasure16":"1 cup
-        ","strMeasure17":"1 tbs","strMeasure18":"1\/2 tsp","strMeasure19":"1 tsp ","strMeasure20":"1
-        tbs","strSource":"https:\/\/sueandgambo.com\/pages\/szechuan-beef","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 14:16:11 GMT
+      string: '{"meals":[{"idMeal":"52972","strMeal":"Tunisian Lamb Soup","strDrinkAlternate":null,"strCategory":"Lamb","strArea":"Tunisian","strInstructions":"Add
+        the lamb to a casserole and cook over high heat. When browned, remove from
+        the heat and set aside.\r\nKeep a tablespoon of fat in the casserole and discard
+        the rest. Reduce to medium heat then add the garlic, onion and spinach and
+        cook until the onion is translucent and the spinach wilted or about 5 minutes.\r\nReturn
+        the lamb to the casserole with the onion-spinach mixture, add the tomato puree,
+        cumin, harissa, chicken, chickpeas, lemon juice, salt and pepper in the pan.
+        Simmer over low heat for about 20 minutes.\r\nAdd the pasta and cook for 15
+        minutes or until pasta is cooked.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/t8mn9g1560460231.jpg","strTags":"Soup","strYoutube":"https:\/\/www.youtube.com\/watch?v=w1qgTQmLRe4","strIngredient1":"Lamb
+        Mince","strIngredient2":"Garlic","strIngredient3":"Onion","strIngredient4":"Spinach","strIngredient5":"Tomato
+        Puree","strIngredient6":"Cumin","strIngredient7":"Chicken Stock","strIngredient8":"Harissa
+        Spice","strIngredient9":"Chickpeas","strIngredient10":"Lemon Juice","strIngredient11":"Macaroni","strIngredient12":"Salt","strIngredient13":"Pepper","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"500g","strMeasure2":"2
+        cloves minced","strMeasure3":"1","strMeasure4":"300g","strMeasure5":"3 tbs","strMeasure6":"1
+        tbs","strMeasure7":"1 Litre","strMeasure8":"3 tsp","strMeasure9":"400g","strMeasure10":"1\/2
+        ","strMeasure11":"150g","strMeasure12":"Pinch","strMeasure13":"Pinch","strMeasure14":"
+        ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
+        ","strMeasure19":" ","strMeasure20":" ","strSource":"http:\/\/allrecipes.co.uk\/recipe\/16694\/tunisian-lamb-soup.aspx","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 01 Mar 2022 19:58:33 GMT
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Chinese
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Tunisian
     body:
       encoding: US-ASCII
       string: ''
@@ -90,11 +86,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 14:16:11 GMT
+      - Tue, 01 Mar 2022 19:58:34 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '360'
+      - '341'
       Connection:
       - keep-alive
       Vary:
@@ -109,29 +105,25 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2V8%2FtISIxvpk6PT1t0KVybwGlZa2LPLqohj6QB6Mj7svitImMwOPA86aZYbuqyNTnrcOnaNoVInI07RQMK2iGAnqIx9gY218C0%2BvYfPGj5e196DcnrZRJjnvfzuaNtZcH7ySqR1a0v0LeCXRxbyVjg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ARdX4I72rwOR36UYykJ1U2mhKYU7hp5VF1J0%2B1CKGiAfO%2B7aqEp9GVgNQtmaGdmCD6P9yOEdBARaC6rSu4PlOKC1uKHJhUJurTANHWgVZbnXkVVHTPw8ib%2FE%2BYbAg111NKXM%2BQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e52824dedd57fb7-IAD
+      - 6e5477d57ee11891-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"Beef Lo Mein","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529444830.jpg","idMeal":"52952"},{"strMeal":"Chicken
-        Congee","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529446352.jpg","idMeal":"52956"},{"strMeal":"Egg
-        Drop Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529446137.jpg","idMeal":"52955"},{"strMeal":"General
-        Tso''s Chicken","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529444113.jpg","idMeal":"52951"},{"strMeal":"Hot
-        and Sour Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529445893.jpg","idMeal":"52954"},{"strMeal":"Kung
-        Pao Chicken","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1525872624.jpg","idMeal":"52945"},{"strMeal":"Kung
-        Po Prawns","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1525873040.jpg","idMeal":"52946"},{"strMeal":"Ma
-        Po Tofu","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1525874812.jpg","idMeal":"52947"},{"strMeal":"Shrimp
-        Chow Fun","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529445434.jpg","idMeal":"52953"},{"strMeal":"Sweet
-        and Sour Pork","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529442316.jpg","idMeal":"52949"},{"strMeal":"Szechuan
-        Beef","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1529443236.jpg","idMeal":"52950"},{"strMeal":"Wontons","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1525876468.jpg","idMeal":"52948"}]}'
-  recorded_at: Tue, 01 Mar 2022 14:16:11 GMT
+      string: '{"meals":[{"strMeal":"Cashew Ghoriba Biscuits","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/t3r3ka1560461972.jpg","idMeal":"52976"},{"strMeal":"Chakchouka
+        ","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/gpz67p1560458984.jpg","idMeal":"52969"},{"strMeal":"Kafteji","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1bsv1q1560459826.jpg","idMeal":"52971"},{"strMeal":"Keleya
+        Zaara","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/8x09hy1560460923.jpg","idMeal":"52974"},{"strMeal":"Leblebi
+        Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/x2fw9e1560460636.jpg","idMeal":"52973"},{"strMeal":"Tuna
+        and Egg Briks","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/2dsltq1560461468.jpg","idMeal":"52975"},{"strMeal":"Tunisian
+        Lamb Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/t8mn9g1560460231.jpg","idMeal":"52972"},{"strMeal":"Tunisian
+        Orange Cake","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/y4jpgq1560459207.jpg","idMeal":"52970"}]}'
+  recorded_at: Tue, 01 Mar 2022 19:58:33 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -155,19 +147,91 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"798d75b03701383ef24dde2ba9ca6e8d"
+      - W/"a6c1f1bfb3c8f613683317c0156ebd06"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 04aa058b-f8d6-4754-b641-aca5220fcf66
+      - 63f50cd4-cafb-42a2-84d4-1033ccea0b1b
       X-Runtime:
-      - '0.005754'
+      - '0.005616'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 14:16:11 GMT
+      string: '{"data":{"id":"5","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9839d716-08d8-4b5e-809c-fca9b9e4dca7
+      X-Runtime:
+      - '0.005649'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 62829844-e0d5-41c3-8701-d7b3855bee87
+      X-Runtime:
+      - '0.004584'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/random.php
@@ -187,11 +251,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 14:16:11 GMT
+      - Tue, 01 Mar 2022 19:58:34 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '960'
+      - '673'
       Connection:
       - keep-alive
       Vary:
@@ -206,36 +270,31 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2%2B%2FNDOj7b1WgikNt%2FZ3wgKJVMwS3BhVAbqO78JiqtGv7dTgR%2BRK3q0HSF0hS0gNM8i94VTcak0lxo3pwHrXqv1DWxnvnLmpkXhx7r2TlGxwQstPSY2HGI0coWLsdkTNUlURQhOL11riHdTS4XQweWg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x3JvrdAUsEXhDk%2FwXLSwBSQAi5EpBM1bHnrfevIpj%2BYN1Kwnb66hOdW2V7lmTukIvRyYqc9VBc5FJetDwBNA0gg4ppuG%2Bw02lOTum4ga5ElDklo0qMabYDqjV8CCRjc82sGgIw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e52824f8ca3e11a-IAD
+      - 6e5477d75b6719ff-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52780","strMeal":"Potato Gratin with Chicken","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Unknown","strInstructions":"15
-        minute potato gratin with chicken and bacon greens: a gratin always seems
-        more effort and more indulgent than ordinary boiled or roasts, but it doesn''t
-        have to take 45mins, it''s nice for a change and you can control the calorie
-        content by going with full fat to low fat creme fraiche. (It''s always tastes
-        better full fat though obviously!) to serve 4: use 800g of potatoes, finely
-        slice and boil in a pan for about 5-8 mins till firmish, not soft. Finely
-        slice 3 onions and place in an oven dish with 2 tblsp of olive oil and 100ml
-        of chicken stock. Cook till the onions are soft then drain the potatoes and
-        pour onto the onions. Season and spoon over cream or creme fraiche till all
-        is covered but not swimming. Grate Parmesan over the top then finish under
-        the grill till nicely golden. serve with chicken and bacon, peas and spinach.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qwrtut1468418027.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=p3u8eiy3yHI","strIngredient1":"Potatoes","strIngredient2":"Onions","strIngredient3":"Olive
-        Oil","strIngredient4":"Chicken Stock","strIngredient5":"Creme Fraiche","strIngredient6":"Parmesan","strIngredient7":"Chicken
-        Breasts","strIngredient8":"Bacon","strIngredient9":"Spinach","strIngredient10":"Peas","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"800g","strMeasure2":"3","strMeasure3":"2
-        tblsp","strMeasure4":"100ml","strMeasure5":"1 pot","strMeasure6":"Topping","strMeasure7":"4","strMeasure8":"4","strMeasure9":"Topping","strMeasure10":"Topping","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":"https:\/\/www.instagram.com\/p\/BHxR7hYBJ6P","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 14:16:11 GMT
+      string: '{"meals":[{"idMeal":"52773","strMeal":"Honey Teriyaki Salmon","strDrinkAlternate":null,"strCategory":"Seafood","strArea":"Japanese","strInstructions":"Mix
+        all the ingredients in the Honey Teriyaki Glaze together. Whisk to blend well.
+        Combine the salmon and the Glaze together.\r\n\r\nHeat up a skillet on medium-low
+        heat. Add the oil, Pan-fry the salmon on both sides until it\u2019s completely
+        cooked inside and the glaze thickens.\r\n\r\nGarnish with sesame and serve
+        immediately.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xxyupu1468262513.jpg","strTags":"Fish,Breakfast,DateNight","strYoutube":"https:\/\/www.youtube.com\/watch?v=4MpYuaJsvRw","strIngredient1":"Salmon","strIngredient2":"Olive
+        oil","strIngredient3":"Soy Sauce","strIngredient4":"Sake","strIngredient5":"Sesame
+        Seed","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"1
+        lb","strMeasure2":"1 tablespoon","strMeasure3":"2 tablespoons","strMeasure4":"2
+        tablespoons","strMeasure5":"4 tablespoons","strMeasure6":"","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Unknown
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Japanese
     body:
       encoding: US-ASCII
       string: ''
@@ -252,11 +311,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 14:16:11 GMT
+      - Tue, 01 Mar 2022 19:58:34 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '228'
+      - '359'
       Connection:
       - keep-alive
       Vary:
@@ -271,19 +330,168 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BDMeauT9YnAGu9gt8mg%2B6YHyfMHVO91sMuSiZWuKcyO8Q0bYF98gP1WJDEOI23GirfXQ6BZWUGotRoRUyIgsgmXcQ7hWB75iOOWIb4QNKr4xmgCGaYE1mkLCosJowzUbTamjlN6BQsjwJ5JpO%2BnLFQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nIGAgH6pJqcD2tmzt3lPtrUCvRcr1VTMFILe4ZRFtWYd0G%2BrLDsrrp7er8tCNyLKj6yYWzMFr%2Fx4PyVbgVz5sRErgmqlVjBlG1P178cv1314TUCmu%2BzTVPAAD3LCv2L7BLJN4A%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5282515dc3829c-IAD
+      - 6e5477d8dc028c29-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"Chivito uruguayo","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/n7qnkb1630444129.jpg","idMeal":"53063"},{"strMeal":"Cream
-        Cheese Tart","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wurrux1468416624.jpg","idMeal":"52779"},{"strMeal":"Potato
-        Gratin with Chicken","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qwrtut1468418027.jpg","idMeal":"52780"}]}'
-  recorded_at: Tue, 01 Mar 2022 14:16:11 GMT
+      string: '{"meals":[{"strMeal":"Chicken Karaage","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tyywsw1505930373.jpg","idMeal":"52831"},{"strMeal":"Honey
+        Teriyaki Salmon","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/xxyupu1468262513.jpg","idMeal":"52773"},{"strMeal":"Japanese
+        gohan rice","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/kw92t41604181871.jpg","idMeal":"53033"},{"strMeal":"Japanese
+        Katsudon","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/d8f6qx1604182128.jpg","idMeal":"53034"},{"strMeal":"Katsu
+        Chicken curry","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vwrpps1503068729.jpg","idMeal":"52820"},{"strMeal":"Teriyaki
+        Chicken Casserole","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wvpsxx1468256321.jpg","idMeal":"52772"},{"strMeal":"Tonkatsu
+        pork","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/lwsnkl1604181187.jpg","idMeal":"53032"},{"strMeal":"Yaki
+        Udon","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wrustq1511475474.jpg","idMeal":"52871"}]}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 66327d6b-1207-4845-abd9-dfa17f56399c
+      X-Runtime:
+      - '0.006330'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9668f73a-f693-4c6a-9515-15ff79df4b61
+      X-Runtime:
+      - '0.005424'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 688793ae-ca89-4339-b357-5ac174dd5bc7
+      X-Runtime:
+      - '0.004598'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b0ddd7c9-3722-4547-82ef-eaca9fc1b745
+      X-Runtime:
+      - '0.003956'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
+  recorded_at: Tue, 01 Mar 2022 19:58:34 GMT
 recorded_with: VCR 6.0.0

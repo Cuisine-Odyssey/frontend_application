@@ -33,23 +33,8 @@ RSpec.describe 'Recipe Index Page' do
     end
 
     it "logs in a user from the recipe index page", :vcr do
-      OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
-                                                                     provider: 'google_oauth2',
-                                                                     uid: '123456789',
-                                                                     info: {
-                                                                       name: 'wade wade',
-                                                                       email: 'wade.wade@gmail.com',
-                                                                       first_name: 'wade',
-                                                                       last_name: 'wade',
-                                                                       image: 'https://lh3.googleusercontent.com/url/photo.jpg'
-                                                                     },
-                                                                     credentials: {
-                                                                       token: 'token',
-                                                                       refresh_token: 'another_token',
-                                                                       expires_at: 1_354_920_555,
-                                                                       expires: true
-                                                                     }
-                                                                   })
+      Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
+
       visit recipes_path
       click_link('Login')
       expect(current_path).to eq(root_path)
@@ -58,10 +43,7 @@ RSpec.describe 'Recipe Index Page' do
       expect(page).to have_link('Cream Cheese Tart')
       expect(page).to have_link('Potato Gratin with Chicken')
       expect(page).to have_link('Chivito uruguayo')
-    
-      # expect(page).to have_selector('link', count: 5)
-      # expect(page).to have_link(count: 2..5) #ask erin
-      # expect(page).to have_selector(%(a[href="#{recipe_path}"]), count: 2..5)
+
 
     end
 

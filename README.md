@@ -6,18 +6,25 @@
 ![simplecov](https://img.shields.io/gem/v/simplecov?color=blue&label=simplecov) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/contributors-1-orange.svg?style=flat)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[Backend Application](https://github.com/Cuisine-Odyssey/backend_application) 
+
 
 ## Background and Description
 
-"Cuisine Odyssey" is a group project
+"Cuisine Odyssey" is a group project inspired by the dilemma of not knowing what to cook for dinner. The app's interface allows the user to spin a globe or a bottle, depending on if they are looking for recipes or cocktails. When the user clicks to spin, a random region is selected and up to 5 recipes are generated. The user can choose to spin again, to save the recipe to their dashboard using a "like" feature, or dislike the recipes. This portion of the project encapsulates the front end of the application and creates the viewable user interface.
+
+[Backend Application](https://github.com/Cuisine-Odyssey/backend_application) 
 
 ## Learning Goals
 
-- Practice building API endpoints to expose limited data.
-- Utilize advanced routing techniques including namespacing to organize and group like functionality together.
-- Utilize advanced active record techniques to perform complex database queries
-- Practice serializing to protect and format data in a conventional format.
+- Consume two or more external APIs 
+- Build APIs that return JSON responses 
+- Use an external OAuth provider to authenticate users 
+- Refactor code for better code organization/readability 
+- Create a project with a separate frontend and backend 
+- Implement a production-quality user interface using Bootstrap
+- Practice good project management by using project boards, participating in daily stand-ups and team retros 
+- Utilize quality workflow practices: small commits, descriptive pull requests, and code reviews 
+- Write thorough, understandable documentation
 
 
 
@@ -55,10 +62,10 @@ $ git clone https://github.com/dylan-harper/cuisine_odyssey_frontend
 Once cloned, you'll have a new local copy in the directory you ran the clone command in.
 
 2. Change to the project directory:<br>
-In terminal, use `$cd` to navigate to the Little Esty Shop project directory.
+In terminal, use `$cd` to navigate to the Frontend Application project directory.
 
 ```shell
-$ cd cuisine_odyssey_frontend
+$ cd frontend_application
 ```
 
 3. Install required Gems utilizing Bundler: <br>

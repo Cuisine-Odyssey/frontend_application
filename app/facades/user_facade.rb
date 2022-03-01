@@ -12,7 +12,7 @@ class UserFacade
     }
 
     user = UserService.get_user(params)
-    # binding.pry
+    
     User.new(user[:data][:attributes])
   end
 

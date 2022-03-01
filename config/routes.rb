@@ -8,5 +8,6 @@ Rails.application.routes.draw do
 
   resources :recipes, only: [:index, :show]
 
-  post '/recipes/:id', to: 'recipes#like'
+  post '/recipes/:id/like', to: 'recipes#like'
+  post '/recipes/:id/dislike', to: 'recipes#dislike'
 end

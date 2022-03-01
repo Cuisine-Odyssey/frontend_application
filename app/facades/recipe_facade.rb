@@ -15,4 +15,9 @@ class RecipeFacade
     recipe_data = RecipeService.get_single_recipe_details(recipe_id)
     Recipe.new(recipe_data)
   end
+
+  def self.add_recipe_like(custom_params)
+    like_response = RecipeService.add_recipe_like(custom_params)
+    JSON.parse(like_response.body, symbolize_names: true)
+  end
 end

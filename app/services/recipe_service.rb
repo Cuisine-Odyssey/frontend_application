@@ -17,6 +17,7 @@ class RecipeService
     JSON.parse(response.body, symbolize_names: true)[:meals].sample(5)
   end
 
+<<<<<<< HEAD
   def self.get_single_recipe_details(recipe_id)
     response = external_connection.get("lookup.php?i=#{recipe_id}")
     JSON.parse(response.body, symbolize_names: true)
@@ -33,4 +34,10 @@ class RecipeService
       request.body = JSON.generate(custom_params)
     end
   end
+=======
+  def self.get_recipe_by_id(id)
+    response = connection.get("lookup.php?i=#{id}")
+    JSON.parse(response.body, symbolize_names: true)
+  end
+>>>>>>> bedd94540458036513a2fc2c8f85a984861a349a
 end

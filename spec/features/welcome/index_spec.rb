@@ -10,10 +10,11 @@ RSpec.describe 'the website home page' do
     expect(current_path).to eq(root_path)
   end
 
-  xit 'has a link to login page' do
+  it 'has a link to login page' do
+    Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
     click_link 'Login'
 
-    expect(current_path).to eq('/auth/google_oauth2')
+    expect(current_path).to eq('/')
   end
 
   describe 'the welcome page features' do

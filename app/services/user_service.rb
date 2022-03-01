@@ -22,4 +22,13 @@ class UserService
     response = connection.get("users/#{id}")
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.backend_conn
+    Faraday.new(url: "http://localhost:3000")
+  end
+
+  def self.get_user_recipe(user_id)
+    response = backend_conn.get("/api/v1/users/#{user_id}")
+    JSON.parse(response.body, symbolize_names: true)
+  end
 end

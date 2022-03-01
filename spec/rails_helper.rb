@@ -79,8 +79,11 @@ VCR.configure do |config|
   config.ignore_request {|request| request.uri == 'https://accounts.google.com/o/oauth2/token' }
   config.configure_rspec_metadata!
   config.default_cassette_options = { re_record_interval: 7.days}
+  config.allow_http_connections_when_no_cassette = true
 end
   # config.filter_sensitive_data('<fake_movie_key>') { ENV['movies_api_key'] }
   # config.configure_rspec_metadata!
   #another config.filter_sensitive_data
   # config.default_cassette_options = { re_record_interval: 7.days }
+
+  OmniAuth.config.test_mode = true

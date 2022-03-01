@@ -23,15 +23,43 @@ RSpec.describe 'Recipe Index Page' do
       end
     end
 
-    it 'shows the proper logic for a logged in user', :vcr do
+    xit 'shows the proper logic for a logged in user', :vcr do
       visit recipes_path
-
-      login_with_google_oauth(:google)
 
       within "#user" do
         click_link('Seafood fideuà')
         expect(current_path).to eq(recipes_path('52836'))
       end
+    end
+
+    it "logs in a user from the recipe index page" do
+      OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
+                                                                     provider: 'google_oauth2',
+                                                                     uid: '123456789',
+                                                                     info: {
+                                                                       name: 'wade wade',
+                                                                       email: 'wade.wade@gmail.com',
+                                                                       first_name: 'wade',
+                                                                       last_name: 'wade',
+                                                                       image: 'https://lh3.googleusercontent.com/url/photo.jpg'
+                                                                     },
+                                                                     credentials: {
+                                                                       token: 'token',
+                                                                       refresh_token: 'another_token',
+                                                                       expires_at: 1_354_920_555,
+                                                                       expires: true
+                                                                     }
+                                                                   })
+      visit recipes_path
+      click_link('Login')
+      expect(current_path).to eq(root_path)
+      click_button('Spin for recipes!')
+      expect(current_path).to eq(recipes_path)
+      # expect(page).to have_link("Irish stew")
+        # expect(current_path).to eq(recipes_path("52797"))
+
+        # {"idMeal":"52797","strMeal":"Spicy North African Potato Salad"
+      # end
     end
 
   end

@@ -4,7 +4,7 @@ require 'rails_helper'
 RSpec.describe 'Recipe Service' do
   it 'returns a faraday response', :vcr do
     VCR.use_cassette('returns_a_faraday_response') do
-      connection = RecipeService.connection
+      connection = RecipeService.external_connection
       expect(connection).to be_a(Faraday::Connection)
     end
   end

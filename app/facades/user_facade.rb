@@ -22,7 +22,7 @@ class UserFacade
     recipes = []
 
     likes.each do |recipe_id|
-      recipes << Recipe.new(RecipeService.get_recipe_by_id(recipe_id))
+      recipes << Recipe.new(RecipeService.get_single_recipe_details(recipe_id))
     end
     recipes
   end

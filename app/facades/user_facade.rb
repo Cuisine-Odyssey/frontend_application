@@ -4,7 +4,7 @@ require 'faraday'
 
 class UserFacade
   def self.find_or_create_user(auth_hash)
-    # binding.pry
+    
     params = {
       'email': auth_hash['info']['email'],
       'first_name': auth_hash['info']['first_name'],
@@ -12,6 +12,7 @@ class UserFacade
     }
 
     user = UserService.get_user(params)
+    # binding.pry
     User.new(user[:data][:attributes])
   end
 

@@ -1,7 +1,5 @@
 <h1><%= @recipe.title %></h1>
 
-<%= link_to "Back to Recipes List", :back %>
-
 <h3>Recipe Region: <%= @recipe.location %></h3>
 
 <h3>Ingredients: </h3>
@@ -21,10 +19,7 @@
   <p><%= @recipe.instructions %></p>
 </div>
 
-<%
-=begin%>
  <div class="like-or-dislike">
-  <%= button_to "Like", %>
+  <%= button_to "Like", "/recipes/#{@recipe.recipe_id}", method: :post, params: { email: session[:user_email], recipe_api_id: @recipe.recipe_id } %>
 </div> 
-<%
-=end%>
+

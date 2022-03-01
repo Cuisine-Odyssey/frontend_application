@@ -15,5 +15,15 @@ RSpec.describe 'Recipe show page', type: :feature do
     end
   end
 
+  context 'user likes a recipe' do
+    it 'adds a like to a user' do
+      VCR.use_cassette('like_a_recipe') do
+        #mock the current user/session
+        visit "/recipes/52772"
+        
+        click_button "Like"
+      end
+    end
+  end
 
 end

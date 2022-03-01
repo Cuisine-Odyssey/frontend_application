@@ -17,6 +17,7 @@ class UserFacade
 
 #edge case - how many recipes can a user like?
   def self.get_user_recipes(params)
+    require "pry"; binding.pry
     user = UserService.get_user(params)
     likes = user[:data][:attributes][:likes]
     recipes = []

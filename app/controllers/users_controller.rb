@@ -8,7 +8,6 @@ class UsersController < ApplicationController
       }
 
     @recipes = UserFacade.get_user_recipes(hash)
-    require "pry"; binding.pry
   end
 
 end

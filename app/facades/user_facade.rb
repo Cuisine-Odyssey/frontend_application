@@ -11,14 +11,14 @@ class UserFacade
       'last_name': auth_hash['info']['last_name']
     }
     user = UserService.create_or_update_user(params)
-    
+
     User.new(user[:data][:attributes])
   end
 
 #edge case - how many recipes can a user like?
   def self.get_user_recipes(params)
     user = UserService.create_or_update_user(params)
-    likes = user[:data][:attributes][:likes]
+    likes = user[:data][:attributes][:recipe_likes]
     recipes = []
 
     likes.each do |recipe_id|

@@ -10,19 +10,14 @@ class RecipesController < ApplicationController
   end
 
   def like
-    
     custom_params = {
       'recipe_api_id': params[:id],
       'email': params[:email],
       'vote': 'like'
     }
-    
-    response = RecipeFacade.add_recipe_like(custom_params)
-    
+    RecipeFacade.add_recipe_like(custom_params)
+    render partial: 'like'
     @like = true
-    # render partial: 'like'
-
-    # render html: helpers.tag.strong('You have liked this recipe!')
   end
 
   def dislike
@@ -32,12 +27,8 @@ class RecipesController < ApplicationController
       'vote': 'dislike'
     }
 
-    response = Faraday.post("http://localhost:3000/api/v1/recipes/dislike") do |request|
-      request.headers['Content-Type'] = 'application/json'
-      request.body = JSON.generate(custom_params)
-    end
-
-    JSON.parse(response.body, symbolize_names: true)
+    RecipeFacade.add_recipe_dislike(custom_params)
+    render partial: 'dislike'
+    @dislike = true
   end
-  
 end

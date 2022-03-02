@@ -193,6 +193,13 @@ At this point you should be taken to the welcome page of the web-app. If you enc
      </td>
       <td align="center"><a href="https://github.com/dylan-harper"><img src="https://avatars.githubusercontent.com/u/39470230?v=4" width="100px;" alt=""/><br /><sub><b>Dylan(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=dylan-harper" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Adylan-harper" title="Reviewed Pull Requests">👀</a>
      </td>
+      <td align="center"><a href="https://github.com/WadeNaughton"><img src="https://avatars.githubusercontent.com/u/90228086?v=4" width="100px;" alt=""/><br /><sub><b>Wade(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=WadeNaughton" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3AWadeNaughton" title="Reviewed Pull Requests">👀</a>
+     </td>
+      <td align="center"><a href="https://github.com/hannahkwarren"><img src="https://avatars.githubusercontent.com/u/17674781?v=4" width="100px;" alt=""/><br /><sub><b>Hannah(she/her)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=hannahkwarren" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Ahannahkwarren" title="Reviewed Pull Requests">👀</a>
+     </td>
+      <td align="center"><a href="https://github.com/dkassin"><img src="https://avatars.githubusercontent.com/u/76177498?v=4" width="100px;" alt=""/><br /><sub><b>David(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=dkassin" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Adkassin" title="Reviewed Pull Requests">👀</a>
+     </td>
+      
       
   
     </tr>

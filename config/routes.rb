@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   resources :cocktails, only: [:index]
   post '/recipes/:id/like', to: 'recipes#like'
   post '/recipes/:id/dislike', to: 'recipes#dislike'
+  post '/cocktails/:id/like', to: 'cocktails#like'
+  post '/cocktails/:id/dislike', to: 'cocktails#dislike'
 end

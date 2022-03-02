@@ -23,19 +23,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"798d75b03701383ef24dde2ba9ca6e8d"
+      - W/"391df0385eccde0ec727e5b733e4a413"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - afc1c0d7-1bf6-4310-ab85-89e0b0492ccb
+      - f3440e46-907f-4230-95f6-3ee017691538
       X-Runtime:
-      - '0.165184'
+      - '0.004163'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:52:40 GMT
+      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[],"recipe_dislikes":[],"cocktail_likes":[],"cocktail_dislikes":[]}}}'
+  recorded_at: Wed, 02 Mar 2022 04:17:26 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -59,19 +59,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      - W/"d027cfcbb16f215b6812fd0eb98d005a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5ae4d715-e678-4c8c-8cfe-4f44740b6f67
+      - 16d74634-6399-473c-8a4f-f64b8ab24486
       X-Runtime:
-      - '0.056043'
+      - '0.005772'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:52:40 GMT
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"recipe_likes":[],"recipe_dislikes":[],"cocktail_likes":[],"cocktail_dislikes":[]}}}'
+  recorded_at: Wed, 02 Mar 2022 04:17:26 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -95,17 +95,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      - W/"d027cfcbb16f215b6812fd0eb98d005a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9a569ef4-622e-4d8f-8948-2bd196c831e7
+      - 2034a298-1350-452d-90a5-a5bd9eb1dfe8
       X-Runtime:
-      - '0.004700'
+      - '0.006995'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:52:40 GMT
+      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"recipe_likes":[],"recipe_dislikes":[],"cocktail_likes":[],"cocktail_dislikes":[]}}}'
+  recorded_at: Wed, 02 Mar 2022 04:17:26 GMT
 recorded_with: VCR 6.0.0

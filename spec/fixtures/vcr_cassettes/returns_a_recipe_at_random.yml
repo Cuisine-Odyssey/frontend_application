@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 16:17:29 GMT
+      - Wed, 02 Mar 2022 04:17:27 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '758'
+      - '1268'
       Connection:
       - keep-alive
       Vary:
@@ -38,25 +38,45 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UVECr0c30KNKoKaP4ZS%2FEKtcXM4ElEWAnA8I%2B2M2JMGuY9j76KD5wmDC30wfhju4V6jzlOoB3h%2BpzNABXTotfowhG18eepmimo2Sd%2F5t9RWIWHs%2BHxM30oK0leyF3HdCStMvPQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=swPao1FhweGRFiRTzb3lksZA7wuUHoEO7n6dRUy9CIAAEVNTgD77EKcI7W32R%2BHeqIkn0nPtjiQxIEu9GTPDuk6meWbnxAk5Ja2pZn0Cg9xjhVQ6aAleJ32WTMpVHtKQGceFLggSz8nSaCoJK9VSEA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4af69dbab2638c-ORD
+      - 6e5752a27aec8f64-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52914","strMeal":"Boulang\u00e8re Potatoes","strDrinkAlternate":null,"strCategory":"Side","strArea":"French","strInstructions":"Heat
-        oven to 200C\/fan 180C\/gas 6. Fry the onions and thyme sprigs in the oil
-        until softened and lightly coloured (about 5 mins).\r\nSpread a layer of potatoes
-        over the base of a 1.5-litre oiled gratin dish. Sprinkle over a few onions
-        (see picture, above) and continue layering, finishing with a layer of potatoes.
-        Pour over the stock and bake for 50-60 mins until the potatoes are cooked
-        and the top is golden and crisp.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qywups1511796761.jpg","strTags":"SideDish","strYoutube":"https:\/\/www.youtube.com\/watch?v=gcXPruv1Mjg","strIngredient1":"Onions","strIngredient2":"Thyme","strIngredient3":"Olive
-        Oil","strIngredient4":"Potatoes","strIngredient5":"Vegetable Stock","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"2
-        finely chopped","strMeasure2":"sprigs of fresh","strMeasure3":"2 tbs","strMeasure4":"1.5kg","strMeasure5":"425g","strMeasure6":"","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/5056\/boulangre-potatoes","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Mon, 28 Feb 2022 16:17:29 GMT
+      string: '{"meals":[{"idMeal":"52947","strMeal":"Ma Po Tofu","strDrinkAlternate":null,"strCategory":"Beef","strArea":"Chinese","strInstructions":"Add
+        a small pinch of salt and sesame oil to minced beef. Mix well and set aside.\r\nMix
+        1 tablespoon of cornstarch with 2 and \u00bd tablespoons of water in a small
+        bowl to make water starch.\r\nCut tofu into square cubes (around 2cms). Bring
+        a large amount of water to a boil and then add a pinch of salt. Slide the
+        tofu in and cook for 1 minute. Move out and drain.\r\nGet a wok and heat up
+        around 2 tablespoons of oil, fry the minced meat until crispy. Transfer out
+        beef out and leave the oil in.\r\nFry doubanjiang for 1 minute over slow fire
+        and then add garlic, scallion white, ginger and fermented black beans to cook
+        for 30 seconds until aroma. Then mix pepper flakes in.\r\nAdd water to the
+        seasonings and bring to boil over high fire. Gently slide the tofu cubes.
+        Add light soy sauce and beef.Slow the heat after boiling and then simmer for
+        6-8 minutes. Then add chopped garlic greens.\r\nStir the water starch and
+        then pour half of the mixture to the simmering pot. Wait for around 30 seconds
+        and then pour the other half. You can slightly taste the tofu and add pinch
+        of salt if not salty enough. By the way, if you feel it is too spicy, add
+        some sugar can milder the taste. But be carefully as the broth is very hot
+        at this point.\r\nTransfer out when almost all the seasonings stick to tofu
+        cubes. Sprinkle Szechuan peppercorn powder (to taste)and chopped garlic greens
+        if using.\r\nServe immediately with steamed rice.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1525874812.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=IhwPQL9dFYc","strIngredient1":"Tofu","strIngredient2":"Minced
+        Beef","strIngredient3":"Sesame Seed Oil","strIngredient4":"Doubanjiang","strIngredient5":"Fermented
+        Black Beans","strIngredient6":"Pepper","strIngredient7":"Salt","strIngredient8":"Sichuan
+        pepper","strIngredient9":"Soy Sauce","strIngredient10":"Water","strIngredient11":"Olive
+        Oil","strIngredient12":"Scallions","strIngredient13":"Spring Onions","strIngredient14":"Garlic","strIngredient15":"Ginger","strIngredient16":"Water","strIngredient17":"Cornstarch","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"450g","strMeasure2":"100g
+        ","strMeasure3":"1\/2 tbs","strMeasure4":"1 1\/2 tsp ","strMeasure5":"1\/2
+        tsp","strMeasure6":"1 tbs","strMeasure7":"1\/2 tsp","strMeasure8":"1\/2 tsp","strMeasure9":"1
+        tbs","strMeasure10":"400ml","strMeasure11":"2 tbs","strMeasure12":"2 chopped","strMeasure13":"4","strMeasure14":"2
+        cloves chopped","strMeasure15":"4 sliced","strMeasure16":"2 1\/2 tbs","strMeasure17":"1
+        tbs","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.chinasichuanfood.com\/mapo-tofu-recipe\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Wed, 02 Mar 2022 04:17:27 GMT
 recorded_with: VCR 6.0.0

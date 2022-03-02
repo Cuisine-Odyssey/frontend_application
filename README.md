@@ -51,12 +51,12 @@ On your local machine open a terminal session and enter the following commands f
 
 - using ssh key <br>
 ```shell
-$ git clone git@github.com:dylan-harper/cuisine_odyssey_frontend
+$ git clone git@github.com:Cuisine-Odyssey/frontend_application.git
 ```
 
 - using https <br>
 ```shell
-$ git clone https://github.com/dylan-harper/cuisine_odyssey_frontend
+$ git clone https://github.com/Cuisine-Odyssey/frontend_application
 ```
 
 Once cloned, you'll have a new local copy in the directory you ran the clone command in.
@@ -187,7 +187,7 @@ At this point you should be taken to the welcome page of the web-app. If you enc
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/sethperna"><img src="https://avatars.githubusercontent.com/u/90224504?s=400&u=b0c82b444d7708000e2747f860d4d2c3efb616cc&v=4" width="100px;" alt=""/><br /><sub><b>Seth (he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=sethperna" title="Code">💻</a> <a href="#ideas-sethperna" title="Ideas, Planning, & Feedback">�</a> <a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=sethperna" title="Tests">⚠️</a> <a href="https://github.com/cuisine-odyssey/frontend_application/pulls?q=is%3Apr+reviewed-by%3sethperna" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/sethperna"><img src="https://avatars.githubusercontent.com/u/90224504?s=400&u=b0c82b444d7708000e2747f860d4d2c3efb616cc&v=4" width="100px;" alt=""/><br /><sub><b>Seth (he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=sethperna" title="Code">💻</a> <a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=sethperna" title="Tests">⚠️</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3ASethPerna" title="Reviewed Pull Requests">👀</a></td>
       
   
 

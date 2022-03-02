@@ -40,12 +40,6 @@ RSpec.describe 'Recipe Index Page' do
       expect(current_path).to eq(root_path)
       click_button('Spin for recipes!')
       expect(current_path).to eq(recipes_path)
-      expect(page).to have_link('Cream Cheese Tart')
-      expect(page).to have_link('Potato Gratin with Chicken')
-      expect(page).to have_link('Chivito uruguayo')
-
-
     end
-
   end
 end

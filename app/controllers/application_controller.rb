@@ -2,7 +2,8 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def current_user
-    session[:access_token].present? && UserFacade.find_or_create_user({ 'info' => { 'email': session[:email] } })
+    binding.pry
+    session[:access_token].present? && UserFacade.get_user_by_email(session[:email])
   end
 
   def user

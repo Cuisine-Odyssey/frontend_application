@@ -1,0 +1,38 @@
+<center>
+<h1 id="cocktail-name"><%= @cocktail.name %></h1>
+<br>
+<br>
+<%= image_tag(@cocktail.image) %>
+<br>
+<h3>Ingredients: </h3>
+
+<div >
+  <ul>
+  <% @cocktail.cocktail_hash.each do |k,v| %>
+    <li id="cocktail-ingredients"><%= k %>, <%= v %></li>
+    <% end %>
+  </ul>
+</div>
+
+
+<h3>Instructions: </h3>
+<div>
+  <p id="cocktail-instructions"><%= @cocktail.instructions %></p>
+</div>
+</center>
+
+<% if current_user %>
+  <div class="like-or-dislike-buttons">
+    <%= button_to "Like", "/cocktails/#{@cocktail.api_id}/like", method: :post, params: { email: session[:email] }, remote: true %>
+
+    <%= button_to "Dislike", "/cocktails/#{@cocktail.api_id}/dislike", method: :post, params: { email: session[:email] }, remote: true %>
+  </div>
+
+  <div id="like-dislike-feedback">
+    <% if @like == true %>
+      <p id="liked">You have liked this recipe!</p>
+    <% elsif @dislike == true %>
+      <p>You hate this recipe!</p>
+    <% end %>
+  </div>
+<% end %>

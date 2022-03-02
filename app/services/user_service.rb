@@ -7,7 +7,7 @@ class UserService
 
   def self.get_user_by_email(email)
     response = connection.get('users') do |request|
-      request.params['email'] = params[:email]
+      request.params['email'] = email
     end
     JSON.parse(response.body, symbolize_names: true)
   end

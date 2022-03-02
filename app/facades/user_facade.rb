@@ -19,6 +19,7 @@ class UserFacade
 
   def self.get_user_recipes(params)
     user = UserService.create_or_update_user(params)
+    # binding.pry
     likes = user[:data][:attributes][:recipe_likes]
     recipes = []
 

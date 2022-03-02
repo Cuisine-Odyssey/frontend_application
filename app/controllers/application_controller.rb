@@ -2,7 +2,6 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def current_user
-    
     session[:access_token].present? && UserFacade.get_user_by_email(session[:email])
   end
 

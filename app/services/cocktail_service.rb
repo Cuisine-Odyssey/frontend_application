@@ -9,4 +9,16 @@ class CocktailService
 
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.internal_connection_cocktail
+    Faraday.new(url: 'http://localhost:3000/api/v1/cocktails/')
+  end
+
+
+  def self.add_cocktail_like(custom_params)
+    response = internal_connection_cocktail.post('like') do |request|
+      request.headers['Content-Type'] = 'application/json'
+      request.body = JSON.generate(custom_params)
+    end
+  end
 end

@@ -1,8 +1,6 @@
 class UserService
 
   def self.connection
-    #if the port != localhost
-    #Faraday.new(url: 'mysterious-ridge')
     Faraday.new(url: ENV['BACKEND_CONNECTION']) do |faraday|
     end
   end

@@ -21,11 +21,6 @@ class UserFacade
     user = UserService.create_or_update_user(params)
     likes = user[:data][:attributes][:recipe_likes]
     recipes = []
-    require "pry"; binding.pry
-
-    # if likes == nil
-    #   return []
-    # end
 
     likes.each do |recipe_id|
       recipes << Recipe.new(RecipeService.get_single_recipe_details(recipe_id))

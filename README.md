@@ -189,6 +189,8 @@ At this point you should be taken to the welcome page of the web-app. If you enc
   <tr>
     <td align="center"><a href="https://github.com/sethperna"><img src="https://avatars.githubusercontent.com/u/90224504?s=400&u=b0c82b444d7708000e2747f860d4d2c3efb616cc&v=4" width="100px;" alt=""/><br /><sub><b>Seth (he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=sethperna" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3ASethPerna" title="Reviewed Pull Requests">👀</a></td>
       
+       <td align="center"><a href="https://github.com/kanderson852"><img src="https://avatars.githubusercontent.com/u/90224504?s=400&u=b0c82b444d7708000e2747f860d4d2c3efb616cc&v=4" width="100px;" alt=""/><br /><sub><b>Seth (he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=kanderson852" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Akanderson852" title="Reviewed Pull Requests">👀</a></td>
+      
   
 
 </table>

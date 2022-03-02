@@ -17,7 +17,12 @@ class RecipesController < ApplicationController
     }
 
     RecipeFacade.add_recipe_like(custom_params)
-    flash[:notice] = "You have liked this recipe!"
+    # flash[:notice] = 'You have liked this recipe!'
+    respond_to do |format|
+      format.html {}
+      format.js {}
+    end
+    # render partial: 'like'
   end
 
   def dislike

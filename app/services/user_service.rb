@@ -1,7 +1,7 @@
 class UserService
 
   def self.connection
-    Faraday.new(url: 'http://localhost:3000/api/v1/') do |faraday|
+    Faraday.new(url: ENV['BACKEND_CONNECTION']) do |faraday|
     end
   end
 

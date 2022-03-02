@@ -18,15 +18,43 @@ RSpec.describe 'Recipe show page', type: :feature do
   context 'user likes a recipe' do
     it 'adds a like to a user' do
       VCR.use_cassette('like_a_recipe') do
+        allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(:user)
+
+        # visit root_path
+        # click_link 'Login'
+        # Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
+        
+        visit '/recipes/52772'
+        click_button 'Like'
+        
+        expect(page).to have_content('You have liked this recipe!')
+      end
+    end
+  end
+
+  context 'user dislikes a recipe' do
+    it 'adds a dislike to a user' do
+      VCR.use_cassette('dislike_a_recipe') do
+        # auth_hash = { 'info' =>
+        #   {
+        #     'email' => 'TheOtherOne@gmail.com',
+        #     'first_name' => 'Bob',
+        #     'last_name' => 'Weir'
+        #   }
+        # }
+
+        # user = UserFacade.find_or_create_user(auth_hash)
+
         visit root_path
         click_link 'Login'
-        # allow_any_instance_of(ApplicationController).to  receive(:current_user).and_return(user)
+        # allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
         Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
         
         visit '/recipes/52772'
         click_button 'Like'
         
-        # expect(page).to have_content('You have liked this recipe!')
+        expect(page).to have_content('You have disliked this recipe!')
       end
     end
   end

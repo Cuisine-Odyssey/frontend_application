@@ -1,7 +1,7 @@
 # Cuisine Odyssey Frontend Application
 
-![languages](https://img.shields.io/github/languages/top/dylan-harper/cuisine_odyssey_frontend?color=red)
-![PRs](https://img.shields.io/github/issues-pr-closed/dylan-harper/cuisine_odyssey_frontend)
+![languages](https://img.shields.io/github/languages/top/Cuisine-Odyssey/frontend_application?color=red)
+![PRs](https://img.shields.io/github/issues-pr-closed/Cuisine-Odyssey/frontend_application)
 ![rspec](https://img.shields.io/gem/v/rspec?color=blue&label=rspec)
 ![simplecov](https://img.shields.io/gem/v/simplecov?color=blue&label=simplecov) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/contributors-1-orange.svg?style=flat)](#contributors-)
@@ -17,6 +17,7 @@
 ## Learning Goals
 
 - Consume two or more external APIs 
+- Implement Circle CI for continuous integration/testing
 - Build APIs that return JSON responses 
 - Use an external OAuth provider to authenticate users 
 - Refactor code for better code organization/readability 
@@ -39,10 +40,18 @@
 - Pry
 - SimpleCov
 - Capybara
-- Shoulda-Matchers v5.0
+- Shoulda-Matchers 
 - Factory_Bot_Rails
 - Faker
-- jsonapi-serializer
+- jsonapi-serialize
+- omniauth-google-oauth2
+- Figaro
+- Webmock
+- VCR
+- jquery-rails
+- rspec_junit_formatter
+- Orderly
+- dotenv-rails
 
 ## Setup
 1. Clone this repository:
@@ -199,9 +208,6 @@ At this point you should be taken to the welcome page of the web-app. If you enc
      </td>
       <td align="center"><a href="https://github.com/dkassin"><img src="https://avatars.githubusercontent.com/u/76177498?v=4" width="100px;" alt=""/><br /><sub><b>David(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=dkassin" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Adkassin" title="Reviewed Pull Requests">👀</a>
      </td>
-      
-      
-  
     </tr>
 </table>
 

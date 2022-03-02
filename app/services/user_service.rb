@@ -1,7 +1,9 @@
 class UserService
 
   def self.connection
-    Faraday.new(url: 'http://localhost:3000/api/v1/') do |faraday|
+    #if the port != localhost
+    #Faraday.new(url: 'mysterious-ridge')
+    Faraday.new(url: ENV['RAILS_ENV']) do |faraday|
     end
   end
 

@@ -10,19 +10,19 @@ class RecipesController < ApplicationController
   end
 
   def like
+    
     custom_params = {
       'recipe_api_id': params[:id],
       'email': params[:email],
       'vote': 'like'
     }
-
-    RecipeFacade.add_recipe_like(custom_params)
-    # flash[:notice] = 'You have liked this recipe!'
-    respond_to do |format|
-      format.html {}
-      format.js {}
-    end
+    
+    response = RecipeFacade.add_recipe_like(custom_params)
+    
+    @like = true
     # render partial: 'like'
+
+    # render html: helpers.tag.strong('You have liked this recipe!')
   end
 
   def dislike

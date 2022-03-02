@@ -5,11 +5,12 @@ class UserService
     end
   end
 
-  # def self.get_user_by_email(email)
-  #   response = connection.get("users") do |request|
-      # request.params['email'] = params[:email]
-  #   JSON.parse(response.body, symbolize_names: true)
-  # end
+  def self.get_user_by_email(email)
+    response = connection.get('users') do |request|
+      request.params['email'] = email
+    end
+    JSON.parse(response.body, symbolize_names: true)
+  end
 
   def self.create_or_update_user(params)
     response = connection.post("users") do |request|
@@ -24,8 +25,4 @@ class UserService
   #   JSON.parse(response.body, symbolize_names: true)
   # end
 
-  # def self.get_user_recipes(email)
-  #   response = connection.post("/api/v1/users/#{user_id}/recipes")
-  #   JSON.parse(response.body, symbolize_names: true)
-  # end
 end

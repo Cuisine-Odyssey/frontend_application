@@ -16,17 +16,15 @@ class RecipesController < ApplicationController
       'email': params[:email],
       'vote': params[:vote]
     }
-
     @response = RecipeFacade.add_recipe_vote(custom_params)
     @recipe = RecipeFacade.get_single_recipe_details(params[:id])
+
     if params[:vote] == 'like'
       @choice = 'You have liked this recipe!'
     elsif params[:vote] == 'dislike'
       @choice = 'Ew Gross!!'
     end
-    #@like = true
-    # render partial: 'like'
+
     render partial: 'like', locals: { :recipe => @recipe, :vote => @choice }
-    # render html: helpers.tag.strong('You have liked this recipe!')
   end
 end

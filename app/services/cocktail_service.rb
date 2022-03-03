@@ -11,7 +11,7 @@ class CocktailService
   end
 
   def self.internal_connection_cocktail
-    Faraday.new(url: 'http://localhost:3000/api/v1/cocktails/')
+    Faraday.new(url: ENV['BACKEND_CONNECTION'])
   end
 
   def self.get_cocktail_data(id)

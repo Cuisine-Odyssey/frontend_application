@@ -24,7 +24,7 @@ class RecipeService
 
   # internal api calls - likes and dislikes
   def self.internal_connection
-    Faraday.new(url: 'http://localhost:3000/api/v1/recipes/')
+    Faraday.new(url: ENV['BACKEND_CONNECTION'])
   end
 
   def self.send_recipe_vote(custom_params)

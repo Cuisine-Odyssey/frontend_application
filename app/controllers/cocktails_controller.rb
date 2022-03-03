@@ -11,7 +11,7 @@ class CocktailsController < ApplicationController
      }
     internal_cocktail_data = CocktailFacade.add_cocktail_vote(custom_params)
     @cocktail = CocktailFacade.get_cocktail(params[:id])
-    require "pry"; binding.pry
+
     if params[:vote] == 'like'
       @choice = 'You have liked this recipe!'
     elsif params[:vote] == 'dislike'

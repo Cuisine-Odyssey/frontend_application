@@ -193,7 +193,7 @@ BACKEND_CONNECTION: http://localhost:3000/api/v1/
 7. Visit https://www.themealdb.com/api.php to sign up for an API key, the API key you recieve will work for both TheMealDB and TheCocktailDB https://www.thecocktaildb.com/api.php add this in application.yml <br>
 
 ```shell
-external_api_key: api_key_goes_here
+EXTERNAL_API_KEY: api_key_goes_here
 ```
 
 8. Startup and Access<br>

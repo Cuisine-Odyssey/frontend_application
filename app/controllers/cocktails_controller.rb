@@ -11,15 +11,15 @@ class CocktailsController < ApplicationController
     }
 
     internal_cocktail_data = CocktailFacade.add_cocktail_like(custom_params)
-    @like = true
-    
+        
     redirect_to "/cocktails/#{internal_cocktail_data[:data][:attributes][:cocktail_api_id]}"
   end
 
   def show
+    @like
     @cocktail = CocktailFacade.get_cocktail(params[:id])
   end
-  
+
   # def dislike
   #   custom_params = {
   #     'cocktail_api_id': params[:id],

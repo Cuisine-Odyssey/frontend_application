@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: http://localhost:3000/api/v1/users
+    uri: http://localhost:3000/api/v1/recipes/like
     body:
       encoding: UTF-8
-      string: '{"user":{"email":"chuck@gmail.com","first_name":"Chuck","last_name":"Norris"}}'
+      string: '{"recipe_api_id":"52994","email":"chuck@gmail.com","vote":"like"}'
     headers:
       User-Agent:
       - Faraday v2.2.0
@@ -23,156 +23,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"30a560e8c6cf9f05cf3cac10dfd197c2"
+      - W/"869dab08250f30c927f57108943b3241"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9284df04-37fe-487e-865c-f8931c4d938f
+      - 1876c182-8364-4d31-b95f-ae4f35d284d2
       X-Runtime:
-      - '0.005356'
+      - '0.023273'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"user","attributes":{"first_name":"Chuck","last_name":"Norris","email":"chuck@gmail.com","recipe_likes":[52962,52824],"recipe_dislikes":[21],"cocktail_likes":[21],"cocktail_dislikes":[13]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:13 GMT
-- request:
-    method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52962
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 03 Mar 2022 02:40:13 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '997'
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Powered-By:
-      - ASP.NET
-      - PHP/7.0.9
-      Access-Control-Allow-Origin:
-      - "*"
-      Cf-Cache-Status:
-      - DYNAMIC
-      Expect-Ct:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K3Gz6FMrbAI18H%2FkBD8RGseRutazMNetfj2RxSwvGNUtsnQ%2B2luQVBNOEFkBI%2FvaI7N8MLJ8ZE7w5pmIjHC%2B3HbEplMb7k5VuEyrju%2F3YdTcYf9YnBPpndNtx3rf3o9zX9iMijlGaWyxt9LTbk739A%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Cf-Ray:
-      - 6e5f0194aa9e6840-SEA
-      Alt-Svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
-    body:
-      encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52962","strMeal":"Salmon Eggs Eggs Benedict","strDrinkAlternate":null,"strCategory":"Breakfast","strArea":"American","strInstructions":"First
-        make the Hollandaise sauce. Put the lemon juice and vinegar in a small bowl,
-        add the egg yolks and whisk with a balloon whisk until light and frothy. Place
-        the bowl over a pan of simmering water and whisk until mixture thickens. Gradually
-        add the butter, whisking constantly until thick \u2013 if it looks like it
-        might be splitting, then whisk off the heat for a few mins. Season and keep
-        warm.\r\n\r\nTo poach the eggs, bring a large pan of water to the boil and
-        add the vinegar. Lower the heat so that the water is simmering gently. Stir
-        the water so you have a slight whirlpool, then slide in the eggs one by one.
-        Cook each for about 4 mins, then remove with a slotted spoon.\r\n\r\nLightly
-        toast and butter the muffins, then put a couple of slices of salmon on each
-        half. Top each with an egg, spoon over some Hollandaise and garnish with chopped
-        chives.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1550440197.jpg","strTags":"Bun,Brunch","strYoutube":"https:\/\/www.youtube.com\/watch?v=Woiiet4vQ58","strIngredient1":"Eggs","strIngredient2":"White
-        Wine Vinegar","strIngredient3":"English Muffins","strIngredient4":"Butter","strIngredient5":"Smoked
-        Salmon","strIngredient6":"Lemon Juice","strIngredient7":"White Wine Vinegar","strIngredient8":"Egg","strIngredient9":"Unsalted
-        Butter","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"4","strMeasure2":"2
-        tbs","strMeasure3":"2","strMeasure4":"To serve","strMeasure5":"8 slices","strMeasure6":"2
-        tsp","strMeasure7":"2 tsp","strMeasure8":"3 Yolkes","strMeasure9":"125g","strMeasure10":"
-        ","strMeasure11":" ","strMeasure12":" ","strMeasure13":" ","strMeasure14":"
-        ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
-        ","strMeasure19":" ","strMeasure20":" ","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/73606\/eggs-benedict-with-smoked-salmon-and-chives","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:13 GMT
-- request:
-    method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52824
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 03 Mar 2022 02:40:14 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '1001'
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Powered-By:
-      - ASP.NET
-      - PHP/7.0.9
-      Access-Control-Allow-Origin:
-      - "*"
-      Cf-Cache-Status:
-      - DYNAMIC
-      Expect-Ct:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1AtKiir%2FjMW%2F%2FnBw1SM%2FSpnE8753MDt7%2BchfVR9AQznk8zMRZwhwEEuLWsNfl9dTYJWWKDo0cIL8f509zYNexTTG6LSriVbJuBcaHq%2FDBepM%2FmWCf64H8Jc0omfD%2BStSICLOpZVsIUDV%2Fvu9Dia2pA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Cf-Ray:
-      - 6e5f0196fd6a140c-SEA
-      Alt-Svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
-    body:
-      encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52824","strMeal":"Beef Sunday Roast","strDrinkAlternate":null,"strCategory":"Beef","strArea":"British","strInstructions":"Cook
-        the Broccoli and Carrots in a pan of boiling water until tender.\r\n\r\nRoast
-        the Beef and Potatoes in the oven for 45mins, the potatoes may need to be
-        checked regularly to not overcook.\r\n\r\nTo make the Yorkshire puddings:\r\nHeat
-        oven to 230C\/fan 210C\/gas 8. Drizzle a little sunflower oil evenly into
-        2 x 4-hole Yorkshire pudding tins or a 12-hole non-stick muffin tin and place
-        in the oven to heat through\r\nTo make the batter, tip 140g plain flour into
-        a bowl and beat in four eggs until smooth. Gradually add 200ml milk and carry
-        on beating until the mix is completely lump-free. Season with salt and pepper.
-        Pour the batter into a jug, then remove the hot tins from the oven. Carefully
-        and evenly pour the batter into the holes. Place the tins back in the oven
-        and leave undisturbed for 20-25 mins until the puddings have puffed up and
-        browned. Serve immediately.\r\n\r\nPlate up and add the Gravy as desired.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ssrrrs1503664277.jpg","strTags":"MainMeal","strYoutube":"https:\/\/www.youtube.com\/watch?v=2l3-dBdNehY","strIngredient1":"Beef","strIngredient2":"Broccoli","strIngredient3":"Potatoes","strIngredient4":"Carrots","strIngredient5":"plain
-        flour","strIngredient6":"Eggs","strIngredient7":"milk","strIngredient8":"sunflower
-        oil","strIngredient9":null,"strIngredient10":null,"strIngredient11":null,"strIngredient12":null,"strIngredient13":null,"strIngredient14":null,"strIngredient15":null,"strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"8
-        slices","strMeasure2":"12 florets","strMeasure3":"1 Packet","strMeasure4":"1
-        Packet","strMeasure5":"140g","strMeasure6":"4","strMeasure7":"200ml","strMeasure8":"drizzle
-        (for cooking)","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/9020\/best-yorkshire-puddings","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:14 GMT
+      string: '{"data":{"id":"17","type":"recipe","attributes":{"recipe_api_id":52994,"sum_likes":1,"sum_dislikes":0}}}'
+  recorded_at: Thu, 03 Mar 2022 20:55:22 GMT
 recorded_with: VCR 6.0.0

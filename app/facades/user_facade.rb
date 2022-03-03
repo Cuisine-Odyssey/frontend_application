@@ -23,9 +23,11 @@ class UserFacade
     recipe_ids = user[:data][:attributes][:recipe_likes]
     recent_likes = recipe_ids.last(5)
     recipes = []
-
-    recent_likes.each do |recipe_id|
-      recipes << Recipe.new(RecipeService.get_single_recipe_details(recipe_id))
+    # binding.pry
+    if !recent_likes.empty? 
+      recent_likes.each do |recipe_id|
+        recipes << Recipe.new(RecipeService.get_single_recipe_details(recipe_id))
+      end
     end
     recipes
   end

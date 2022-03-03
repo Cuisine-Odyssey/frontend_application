@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Mar 2022 02:40:19 GMT
+      - Thu, 03 Mar 2022 20:30:54 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1259'
+      - '1193'
       Connection:
       - keep-alive
       Vary:
@@ -38,39 +38,43 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GOvsvTDKthG8XnA2Iih4wqgqIkBhZltaXM2JeCIqFOW4wsAUQPN5N2oVrbZFZLisWo16gg9Eg0yTSeo8jukSenAKx1Il1j2UeqUg60KXq5jcXeLNYyMOSCtvMKOvysTlNwb%2F65t3xHIcq2OVhJI7EA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NaNMxgSVVV8nKykjCSM4tSDRMjdlbH6Ly5I6%2B4CZQlH3YbxARf6aKNIT8Ngvzay17yv9j3I2IFtz9BdBbpqMyFp90UafZDGXRQP0iokaf8zNXblqIkTyfvUdXw%2BKMgRcT86UBQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5f01bacda56016-SEA
+      - 6e6521f5be248ce0-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52939","strMeal":"Callaloo Jamaican Style","strDrinkAlternate":null,"strCategory":"Miscellaneous","strArea":"Jamaican","strInstructions":"Cut
-        leaves and soft stems from the kale branches, them soak in a bowl of cold
-        water for about 5-10 minutes or until finish with prep.\r\nProceed to slicing
-        the onions, mincing the garlic and dicing the tomatoes. Set aside\r\nRemove
-        kale from water cut in chunks.\r\nPlace bacon on saucepan and cook until crispy.
-        Then add onions, garlic, thyme, stir for about a minute or more\r\nAdd tomatoes;
-        scotch bonnet pepper, smoked paprika. Saut\u00e9 for about 2-3 more minutes.\r\nFinally
-        add vegetable, salt, mix well, and steamed for about 6-8 minutes or until
-        leaves are tender. Add a tiny bit of water as needed. Adjust seasonings and
-        turn off the heat.\r\nUsing a sharp knife cut both ends off the plantain.
-        This will make it easy to grab the skin of the plantains. Slit a shallow line
-        down the long seam of the plantain; peel only as deep as the peel. Remove
-        plantain peel by pulling it back.\r\nSlice the plantain into medium size lengthwise
-        slices and set aside.\r\nCoat a large frying pan with cooking oil spray. Spray
-        the tops of the plantains with a generous layer of oil spray and sprinkle
-        with salt, freshly ground pepper.\r\nLet the plantains \"fry\" on medium heat,
-        shaking the frying pan to redistribute them every few minutes.\r\nAs the plantains
-        brown, continue to add more cooking oil spray, salt and pepper (if needed)
-        until they have reached the desired color and texture.\r\nRemove and serve
-        with kale","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ussyxw1515364536.jpg","strTags":"Savory","strYoutube":"https:\/\/www.youtube.com\/watch?v=bCr3GasJWwE","strIngredient1":"Kale","strIngredient2":"Bacon","strIngredient3":"Garlic","strIngredient4":"Onion","strIngredient5":"Paprika","strIngredient6":"Thyme","strIngredient7":"Tomato","strIngredient8":"Red
-        Pepper","strIngredient9":"Banana","strIngredient10":"Vegetable Oil","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1  bunch","strMeasure2":"2
-        strips","strMeasure3":"3 cloves Chopped","strMeasure4":"1 medium","strMeasure5":"1\/2
-        tsp","strMeasure6":"1 Sprig","strMeasure7":"1","strMeasure8":"1","strMeasure9":"4","strMeasure10":"Splash","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.africanbites.com\/callaloo-jamaican-style\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:19 GMT
+      string: '{"meals":[{"idMeal":"53028","strMeal":"Shawarma","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Egyptian","strInstructions":"Combine
+        the marinade ingredients in a large ziplock bag (or bowl).\r\nAdd the chicken
+        and use your hands to make sure each piece is coated. If using a ziplock bag,
+        I find it convenient to close the bag then massage the bag to disperse the
+        rub all over each chicken piece.\r\nMarinate overnight or up to 24 hours.\r\nCombine
+        the Yoghurt Sauce ingredients in a bowl and mix. Cover and put in the fridge
+        until required (it will last for 3 days in the fridge).\r\nHeat grill\/BBQ
+        (or large heavy based pan on stove) on medium high. You should not need to
+        oil it because the marinade has oil in it and also thigh fillets have fat.
+        But if you are worried then oil your hotplate\/grill. (See notes for baking)\r\nPlace
+        chicken on the grill and cook the first side for 4 to 5 minutes until nicely
+        charred, then turn and cook the other side for 3 to 4 minutes (the 2nd side
+        takes less time).\r\nRemove chicken from the grill and cover loosely with
+        foil. Set aside to rest for 5 minutes.\r\nTO SERVE\r\nSlice chicken and pile
+        onto platter alongside flatbreads, Salad and the Yoghurt Sauce.\r\nTo make
+        a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a
+        bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/kcv6hj1598733479.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=3lxUIeKDgic","strIngredient1":"Chicken
+        Thighs","strIngredient2":"Coriander","strIngredient3":"Cumin","strIngredient4":"Cardamom","strIngredient5":"Cayenne
+        Pepper","strIngredient6":"Paprika","strIngredient7":"Lemon Juice","strIngredient8":"Olive
+        Oil","strIngredient9":"Greek Yogurt","strIngredient10":"Garlic Clove","strIngredient11":"Cumin","strIngredient12":"Lemon
+        Juice","strIngredient13":"Lettuce","strIngredient14":"Tomato","strIngredient15":"Pita
+        Bread","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        kg","strMeasure2":"1 tbs","strMeasure3":"1 tbs","strMeasure4":"1 tbs","strMeasure5":"1
+        tsp ","strMeasure6":"2 tsp","strMeasure7":"2 tbs","strMeasure8":"3 tbs","strMeasure9":"1
+        cup ","strMeasure10":"1","strMeasure11":"1 tsp ","strMeasure12":"Splash","strMeasure13":"Sliced","strMeasure14":"Sliced","strMeasure15":"6","strMeasure16":"
+        ","strMeasure17":" ","strMeasure18":" ","strMeasure19":" ","strMeasure20":"
+        ","strSource":"https:\/\/www.recipetineats.com\/chicken-sharwama-middle-eastern\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:54 GMT
 recorded_with: VCR 6.0.0

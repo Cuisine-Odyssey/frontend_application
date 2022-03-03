@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Mar 2022 02:40:17 GMT
+      - Thu, 03 Mar 2022 20:30:44 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -38,13 +38,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v7ZP7DVaHt90ooog8YrNcbYEWhY6v2q3iIlDId9cwKH2RCsiAxtpVtENTMyS%2BLTpSzVwGo1bvB4nd01wDtwjSqJr%2B%2Bch0fMhZbLQP0rw4pNQ%2BO7zUzowgMdQLtZJRVCMghMD9rEcqoxpHvJ%2FuI6IKg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E6BHbnvqbxv6idxAf502Gy6GWuc6l1mWbRyb8powzNOAgbekyJ7awopTVfEq4AroZuhfhLkC4kIgv7iuMNIVoI2P7F404NL6gyc%2FZMXs9w%2FNjlM5SiHLGBnX00NQ%2Fz6OM8KvOA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5f01acb9233a38-SEA
+      - 6e6521b989ba8c6b-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -72,7 +72,7 @@ http_interactions:
         cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
         teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
         (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:17 GMT
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/users
@@ -96,19 +96,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b191908cd5426840aa38a08338c10e4e"
+      - W/"1d73565df435036e9ff26da649cfd5e3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3db3cb4e-7084-4c77-8c39-e788cfa776eb
+      - 9733cca1-be61-4bb8-bb9f-ab31551a4c77
       X-Runtime:
-      - '0.007514'
+      - '0.006952'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:17 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -130,19 +130,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b191908cd5426840aa38a08338c10e4e"
+      - W/"1d73565df435036e9ff26da649cfd5e3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0c962747-caff-4714-b272-7b9cef555929
+      - 8816187a-4a1a-49da-a738-1e2efebd0cd5
       X-Runtime:
-      - '0.010045'
+      - '0.008527'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:17 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -164,19 +164,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b191908cd5426840aa38a08338c10e4e"
+      - W/"1d73565df435036e9ff26da649cfd5e3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 38ede5e3-45c6-4b73-8ea0-e73288c5956d
+      - 58f8f27f-2fbb-4651-a489-09d471643803
       X-Runtime:
-      - '0.004933'
+      - '0.006522'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:17 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52772
@@ -196,7 +196,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Mar 2022 02:40:18 GMT
+      - Thu, 03 Mar 2022 20:30:45 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -215,13 +215,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BrUSga5D1PTcJvDZ7DogZRe1Ni2b8AtSi2nT86C3o9iLQPvGSN4L7jr%2F1aIZnPGMgiNAU%2BNFNbBcLzgDNmAZ6X2evDEzcO%2FYhTcT%2B1v8Hinv8eQEthb7BCeqhO1DSguZyjAHfAhbJPppg2ZR%2B1Xz2Q%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P9EWzzgY%2FmiauybMhSkSbtmZGY7ESkhvQ9yttKNXMzAIfQNa4cSHv2c3ZobjThEtxBUNjHn%2BjqiJELhgdx4eGM5zT%2BlD8D9LS4ZKU022SbHmU6BE1de7G5cWUZkEMW8NxSMRYA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5f01aeea338f58-SEA
+      - 6e6521bb4b1befd8-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -249,7 +249,7 @@ http_interactions:
         cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
         teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
         (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:17 GMT
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -271,19 +271,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b191908cd5426840aa38a08338c10e4e"
+      - W/"1d73565df435036e9ff26da649cfd5e3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c725461f-3b4d-41e6-b8b0-26193c7e4a89
+      - 63371b85-6779-416f-a472-c88b3d40a7ed
       X-Runtime:
-      - '0.009426'
+      - '0.004877'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -305,19 +305,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b191908cd5426840aa38a08338c10e4e"
+      - W/"1d73565df435036e9ff26da649cfd5e3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4342fdf1-5cc9-48d5-babf-d5e0176e9ee9
+      - 0a507698-a688-4aee-b400-fc162ea3dc5c
       X-Runtime:
-      - '0.006112'
+      - '0.004670'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -339,19 +339,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b191908cd5426840aa38a08338c10e4e"
+      - W/"1d73565df435036e9ff26da649cfd5e3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5680fa67-2093-41ea-9333-33dbab2a143d
+      - e473ba51-d75a-4564-ae7c-576e5e1bc6ce
       X-Runtime:
-      - '0.004454'
+      - '0.003433'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/recipes/like
@@ -375,19 +375,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"25d0aa032e2db8c3f5b52ed233a5af04"
+      - W/"670927cad4ef19970b2d49afe13a4b88"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 54c75ff9-8344-41d5-9c26-cf7feef09fdd
+      - 96cb0784-640b-4539-a69c-8e2f489d5d97
       X-Runtime:
-      - '0.008421'
+      - '0.024325'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"20","type":"recipe","attributes":{"recipe_api_id":52772,"sum_likes":2,"sum_dislikes":0}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"16","type":"recipe","attributes":{"recipe_api_id":52772,"sum_likes":1,"sum_dislikes":0}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52772
@@ -407,7 +407,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Mar 2022 02:40:18 GMT
+      - Thu, 03 Mar 2022 20:30:45 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -426,13 +426,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9R5IHDfEJo1WAUlww3FYuSO9wYE5cl95uEXQEUtbx1T7Q1dOtv3igfNX6vd%2FDqRyTqYmCZEpdwH4NG54GaKOTeyI51aU5wqIPkyk74WhccESzx5P9UTBxrvyCn5Metu5RrpxDK69An%2BmBmvTcCht8g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dHT8OgHHAI1a99GJ4WEsA1y8xIyZWR5AV2yK601vosFASCIekjEvgu9FGqW9bsQo6IM0yY2pIec1%2FvT2LhXGy00Yi04DhHP53qVRi2g6Ww9PEkZByrLwWoBGOGcFWTfFuYdJsA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5f01b1b8773a13-SEA
+      - 6e6521bd6d548c17-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -460,5 +460,5 @@ http_interactions:
         cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
         teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
         (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
 recorded_with: VCR 6.0.0

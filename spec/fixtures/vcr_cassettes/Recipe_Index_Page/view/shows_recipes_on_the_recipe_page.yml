@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Mar 2022 02:40:15 GMT
+      - Thu, 03 Mar 2022 20:30:43 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1589'
+      - '862'
       Connection:
       - keep-alive
       Vary:
@@ -38,57 +38,36 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zK88ngnPhipmfCmbEexIEpy1GvKC53NLZwUwVzfohWfPHanCpcHiSpIqjZmKgb9eIY43bs8aJXqkx8eNyew9Fk%2FeH0M%2Ba1jyktG%2BCZjxnp8TVxF%2FwrDfMNkts4%2BpmdWYqGxH%2FZsout9QMKqM%2FqSr3A%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zWrKQA3HiXu%2FK5pie264R8WnshWBsN7%2FTQR%2FbWMVZd%2FtoaxrbnvCSuqhHVcOERkQtwdO%2BAjZQkMNLVXwVqv2bGKRJSK%2BBA4DF%2Fg3gesxrNOyF4G5n5Luo0g%2F6QlZ0DEiURdkpg%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5f019ec95160d7-SEA
+      - 6e6521b0be461902-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52937","strMeal":"Jerk chicken with rice & peas","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Jamaican","strInstructions":"To
-        make the jerk marinade, combine all the ingredients in a food processor along
-        with 1 tsp salt, and blend to a pur\u00e9e. If you\u2019re having trouble
-        getting it to blend, just keep turning off the blender, stirring the mixture,
-        and trying again. Eventually it will start to blend up \u2013 don\u2019t be
-        tempted to add water, as you want a thick paste.\r\n\r\nTaste the jerk mixture
-        for seasoning \u2013 it should taste pretty salty, but not unpleasantly, puckering
-        salty. You can now throw in more chillies if it\u2019s not spicy enough for
-        you. If it tastes too salty and sour, try adding in a bit more brown sugar
-        until the mixture tastes well balanced.\r\n\r\nMake a few slashes in the chicken
-        thighs and pour the marinade over the meat, rubbing it into all the crevices.
-        Cover and leave to marinate overnight in the fridge.\r\n\r\nIf you want to
-        barbecue your chicken, get the coals burning 1 hr or so before you\u2019re
-        ready to cook. Authentic jerked meats are not exactly grilled as we think
-        of grilling, but sort of smoke-grilled. To get a more authentic jerk experience,
-        add some wood chips to your barbecue, and cook your chicken over slow, indirect
-        heat for 30 mins. To cook in the oven, heat to 180C\/160C fan\/gas 4. Put
-        the chicken pieces in a roasting tin with the lime halves and cook for 45
-        mins until tender and cooked through.\r\n\r\nWhile the chicken is cooking,
-        prepare the rice & peas. Rinse the rice in plenty of cold water, then tip
-        it into a large saucepan with all the remaining ingredients except the kidney
-        beans. Season with salt, add 300ml cold water and set over a high heat. Once
-        the rice begins to boil, turn it down to a medium heat, cover and cook for
-        10 mins.\r\n\r\nAdd the beans to the rice, then cover with a lid. Leave off
-        the heat for 5 mins until all the liquid is absorbed. Squeeze the roasted
-        lime over the chicken and serve with the rice & peas, and some hot sauce if
-        you like it really spicy.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tytyxu1515363282.jpg","strTags":"Chilli,Curry","strYoutube":"https:\/\/www.youtube.com\/watch?v=qfchrS2D_v4","strIngredient1":"Chicken
-        Thighs","strIngredient2":"Lime","strIngredient3":"Spring Onions","strIngredient4":"Ginger","strIngredient5":"Garlic","strIngredient6":"Onion","strIngredient7":"Red
-        Chilli","strIngredient8":"Thyme","strIngredient9":"Lime","strIngredient10":"Soy
-        Sauce","strIngredient11":"Vegetable Oil","strIngredient12":"Brown Sugar","strIngredient13":"Allspice","strIngredient14":"Basmati
-        Rice","strIngredient15":"Coconut Milk","strIngredient16":"Spring Onions","strIngredient17":"Thyme","strIngredient18":"Garlic","strIngredient19":"Allspice","strIngredient20":"Kidney
-        Beans","strMeasure1":"12","strMeasure2":"1\/2 ","strMeasure3":"1  bunch","strMeasure4":"1
-        tbs chopped","strMeasure5":"3 cloves","strMeasure6":"1\/2 ","strMeasure7":"3
-        chopped","strMeasure8":"1\/2 teaspoon","strMeasure9":"Juice of 1","strMeasure10":"2
-        tbs","strMeasure11":"2 tbs","strMeasure12":"3 tbs","strMeasure13":"1 tbs","strMeasure14":"200g","strMeasure15":"400g","strMeasure16":"1  bunch","strMeasure17":"2
-        sprigs","strMeasure18":"2 cloves chopped","strMeasure19":"1 tbs","strMeasure20":"800g","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/2369635\/jerk-chicken-with-rice-and-peas","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:15 GMT
+      string: '{"meals":[{"idMeal":"52850","strMeal":"Chicken Couscous","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Moroccan","strInstructions":"Heat
+        the olive oil in a large frying pan and cook the onion for 1-2 mins just until
+        softened. Add the chicken and fry for 7-10 mins until cooked through and the
+        onions have turned golden. Grate over the ginger, stir through the harissa
+        to coat everything and cook for 1 min more.\r\n\r\nTip in the apricots, chickpeas
+        and couscous, then pour over the stock and stir once. Cover with a lid or
+        tightly cover the pan with foil and leave for about 5 mins until the couscous
+        has soaked up all the stock and is soft. Fluff up the couscous with a fork
+        and scatter over the coriander to serve. Serve with extra harissa, if you
+        like.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qxytrx1511304021.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=GZQGy9oscVk","strIngredient1":"Olive
+        Oil","strIngredient2":"Onion","strIngredient3":"Chicken Breast","strIngredient4":"Ginger","strIngredient5":"Harissa
+        Spice","strIngredient6":"Dried Apricots","strIngredient7":"Chickpeas","strIngredient8":"Couscous","strIngredient9":"Chicken
+        Stock","strIngredient10":"Coriander","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        tbsp","strMeasure2":"1 chopped","strMeasure3":"200g","strMeasure4":"pinch","strMeasure5":"2
+        tblsp ","strMeasure6":"10","strMeasure7":"220g","strMeasure8":"200g","strMeasure9":"200ml","strMeasure10":"Handful","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/13139\/onepan-chicken-couscous","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:43 GMT
 - request:
     method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Jamaican
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Moroccan
     body:
       encoding: US-ASCII
       string: ''
@@ -105,11 +84,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Mar 2022 02:40:15 GMT
+      - Thu, 03 Mar 2022 20:30:43 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '369'
+      - '362'
       Connection:
       - keep-alive
       Vary:
@@ -124,24 +103,23 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=54QO5Z%2BBKHZbZUjPylh5oDhNeTee88YLBLR8Aj%2F6PAq8OdFwBd4cNR456zxJjXBK5TpT3qDWDZ07NM%2BnAtb5jEp3et3plvXrd2EjGrIWwLGxtaATgCT0P%2Fg9R%2BFGjfq6LZp%2B8z%2BBSLNCTPlVmaNTGQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EFkxcV3uyJ%2FrSB2GTox%2B8FpQH83Vmse07FkET5Q%2BNyg3buh%2FKKYDIpKrQAaN%2B93LMb9y3X9aOeXH8fjnrzIkV0ZjJDf7Obli%2Bb3Bnsa4sqWw4GS7GSmZT39NgYyhFK85Uv1obQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5f01a06f235fce-SEA
+      - 6e6521b22a841977-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"Brown Stew Chicken","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sypxpx1515365095.jpg","idMeal":"52940"},{"strMeal":"Callaloo
-        Jamaican Style","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ussyxw1515364536.jpg","idMeal":"52939"},{"strMeal":"Escovitch
-        Fish","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520084413.jpg","idMeal":"52944"},{"strMeal":"Jamaican
-        Beef Patties","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wsqqsw1515364068.jpg","idMeal":"52938"},{"strMeal":"Jerk
-        chicken with rice & peas","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/tytyxu1515363282.jpg","idMeal":"52937"},{"strMeal":"Oxtail
-        with broad beans","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520083578.jpg","idMeal":"52943"},{"strMeal":"Red
-        Peas Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/sqpqtp1515365614.jpg","idMeal":"52941"},{"strMeal":"Saltfish
-        and Ackee","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vytypy1511883765.jpg","idMeal":"52936"}]}'
-  recorded_at: Thu, 03 Mar 2022 02:40:15 GMT
+      string: '{"meals":[{"strMeal":"Chicken Couscous","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qxytrx1511304021.jpg","idMeal":"52850"},{"strMeal":"Lamb
+        Tagine","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/yuwtuu1511295751.jpg","idMeal":"52843"},{"strMeal":"Lamb
+        tomato and sweet spices","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qtwtss1468572261.jpg","idMeal":"52782"},{"strMeal":"Moroccan
+        Carrot Soup","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/jcr46d1614763831.jpg","idMeal":"53047"},{"strMeal":"Rigatoni
+        with fennel sausage sauce","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qtqvys1468573168.jpg","idMeal":"52783"},{"strMeal":"Spicy
+        North African Potato Salad","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/urtwux1486983078.jpg","idMeal":"52797"},{"strMeal":"Tahini
+        Lentils","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vpxyqt1511464175.jpg","idMeal":"52869"}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:43 GMT
 recorded_with: VCR 6.0.0

@@ -3,12 +3,11 @@
     <a class="navbar-brand" href="/"style="font-size: 250%;color: #FFFFFF; font-family: Monaco;">Cuisine Odyssey</a>
     <p id='nav-blurb'> Connecting users to diverse foods and culture.</p>
       <% if !current_user %>
-        <a class="nav-link active" aria-current="page" href="/auth/google_oauth2"style="color: #FFFFFF; font-family: Monaco; padding-left: 10px; padding-right: 10px"><span class="glyphicon glyphicon-log-in"></span>Login</a> </li>
+        <a class="nav-link" href="/auth/google_oauth2"><span class="glyphicon glyphicon-log-in"></span>Login</a>
       <% end %>
-
       <% if current_user %>
-        <li class="nav-item"><a href="/dashboard"style="color: #FFFFFF; font-family: Monaco; padding-left: 10px; padding-right: 10px">Dashboard</a></li>
-        <li><a href="/logout"style="font-size: 100%;color: #FFFFFF; font-family: Monaco;"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        <a class="nav-item" href="/dashboard">Dashboard</a>
+        <a class ="logout" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
       <% end %>
   </div>
 </nav>

@@ -36,51 +36,45 @@
 .navbar-brand:hover {
   background: powderblue !important;
 }
+.logout {
+font-size: 100%;
+color: #FFFFFF;
+font-family: Monaco;
+}
+
+.nav-item {
+color: #FFFFFF;
+font-family: Monaco;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.nav-link {
+color: #FFFFFF;
+font-family: Monaco;
+padding-left: 10px;
+padding-right: 10px;
+}
 
 #nav-blurb {
   position: relative;
   float: right;
   top: 10px;
   bottom: 20px;
-  // left: 10px;
   font-size: 125%;
   color: #FFFFFF;
   padding: 10px;
   font-family: Monaco;
 }
 
-
-
-
-// #spin-the-globe {
-//   float:left;
-//   display:flex;
-//   position:relative;
-//   left: 350px;
-//   top: 10px;
-// }
-//
-// #spin-the-bottle {
-//   // position:relative;
-//   // display:flex;
-//   // float:right;
-//   // right: 200px;
-//   // top: 10px;
-//
-// }
-
 #globe-button {
   position: relative;
-  // right: 340px;
-  // top: 500px;
   text-align: center;
   direction: ltr;
 }
 
 #bottle-button {
   position:relative;
-  // right: 300px;
-  // top: 500px;
   text-align: center;
   direction: ltr;
 }
@@ -98,4 +92,9 @@
 #user {
   position:relative;
   left: 525px;
+}
+
+.images {
+  width: 100%;
+  height: auto;
 }

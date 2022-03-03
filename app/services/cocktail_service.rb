@@ -1,7 +1,7 @@
 class CocktailService
 
   def self.connection
-    Faraday.new(url:'https://www.thecocktaildb.com/api/json/v2/9973533')
+    Faraday.new(url:"https://www.thecocktaildb.com/api/json/v2/#{ENV['EXTERNAL_API_KEY']}/")
   end
 
   def self.search_random_cocktail

@@ -1,9 +1,9 @@
 # app/services/recipe_service.rb
+
 class RecipeService
-  # external api calls to TheMealDB
 
   def self.external_connection
-    Faraday.new(url: 'https://www.themealdb.com/api/json/v2/9973533/')
+    Faraday.new(url: "https://www.themealdb.com/api/json/v2/#{ENV['EXTERNAL_API_KEY']}/")
   end
 
   def self.get_random_recipe
@@ -22,7 +22,6 @@ class RecipeService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  # internal api calls - likes and dislikes
   def self.internal_connection
     Faraday.new(url: ENV['BACKEND_CONNECTION'])
   end

@@ -11,7 +11,7 @@
   <% @recipe.combined.each do |k,v| %>
     <li><%= k %>, <%= v %></li>
     <% end %>
-  </ul>  
+  </ul>
 </div>
 
 <div class="recipe-instructions">
@@ -21,16 +21,8 @@
 
 <% if current_user %>
   <div class="like-or-dislike-buttons">
-    <%= button_to "Like", "/recipes/#{@recipe.recipe_id}/like", method: :post, action: :like, params: { email: session[:email] }, remote: true %>
-    
-    <%= button_to "Dislike", "/recipes/#{@recipe.recipe_id}/dislike", method: :post, params: { email: session[:email] }, remote: true %>
-  </div> 
+    <%= button_to "Like", "/recipes/#{@recipe.recipe_id}/like", method: :post, params: { email: session[:email], vote: 'like'} %>
 
-  <div id="like-dislike-feedback">
-    <% if @like == true %>
-      <p>You have liked this recipe!</p>
-    <% elsif @dislike == true %>
-      <p>You hate this recipe!</p>
-    <% end %>
+    <%= button_to "Dislike", "/recipes/#{@recipe.recipe_id}/dislike", method: :post, params: { email: session[:email], vote: 'dislike' } %>
   </div>
 <% end %>

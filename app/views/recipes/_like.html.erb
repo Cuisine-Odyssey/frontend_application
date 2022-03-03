@@ -1,3 +1,20 @@
-<div id="like"> 
-  <p>You have liked this recipe!</p>
+<h1><%= @recipe.title %></h1><h2><%= @choice %></h2>
+
+<h3>Recipe Region: <%= @recipe.location %></h3>
+
+<h3>Ingredients: </h3>
+
+<div class="recipe-ingredients">
+  <%= image_tag(@recipe.image) %>
+
+  <ul>
+  <% @recipe.combined.each do |k,v| %>
+    <li><%= k %>, <%= v %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="recipe-instructions">
+<h3>Instructions: </h3>
+  <p><%= @recipe.instructions %></p>
 </div>

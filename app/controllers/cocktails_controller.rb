@@ -4,6 +4,10 @@ class CocktailsController < ApplicationController
   end
 
   def show
+    if params[:vote] == nil
+      return @cocktail = CocktailFacade.get_cocktail(params[:id])
+    end
+    
     custom_params = {
        'cocktail_api_id': params[:id],
        'email': params[:email],
@@ -13,7 +17,7 @@ class CocktailsController < ApplicationController
     @cocktail = CocktailFacade.get_cocktail(params[:id])
 
     if params[:vote] == 'like'
-      @choice = 'You have liked this recipe!'
+      @choice = 'You have liked this cocktail!'
     elsif params[:vote] == 'dislike'
       @choice = 'Hangover Avoided!'
     end

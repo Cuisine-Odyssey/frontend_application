@@ -3,7 +3,6 @@
 require 'rails_helper'
 
 RSpec.describe 'Recipe Show Page', type: :feature do
-
   context 'receives a valid recipe id' do
     it 'can view recipe details', :vcr do
       visit '/recipes/52772'
@@ -17,9 +16,7 @@ RSpec.describe 'Recipe Show Page', type: :feature do
   context 'user likes a recipe' do
     it 'adds a like to a user', :vcr do
       visit '/recipes/52772'
-      # # Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
       click_link('Login')
-      # allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(:user)
       visit '/recipes/52772'
       click_button 'Like'
 

@@ -166,6 +166,7 @@ Using simplecov_json_formatter 0.1.3
 Using simplecov 0.21.2
 Using spring 2.1.1
 Using spring-watcher-listen 2.0.1
+```
 
 If there are any errors, verify that bundler, Rails, and your ruby environment are correctly setup.
 
@@ -176,8 +177,26 @@ Before using the web application you will need to setup your databases locally b
 $ rails db: {:drop, :create, :migrate, :seed}
 ```
 
+5. Set up environment variables
 
-6. Startup and Access<br>
+```shell
+$ bundle exec figaro install
+```
+This will create a hidden file called application.yml. In this file you will need to set up a OAuth client_id and client_secret from your OAuth provider. We chose to use Google OAuth, feel free to use which ever provider you would like or alternativley use BCrypt. If BCrypt is used function for password on views and password digest will need to be added into the db migration, views and models.
+
+6. Add backend connection in application.yml to set up a local variable for your endpoints if you choose to deploy outside of localhost.<br>
+
+```shell
+BACKEND_CONNECTION: http://localhost:3000/api/v1/ 
+```
+
+7. Visit https://www.themealdb.com/api.php to sign up for an API key, the API key you recieve will work for both TheMealDB and TheCocktailDB https://www.thecocktaildb.com/api.php add this in application.yml <br>
+
+```shell
+external_api_key: api_key_goes_here
+```
+
+8. Startup and Access<br>
 Finally, in order to use the web app you will have to start the server locally and access the app through a web browser. 
 - Start server
 ```shell

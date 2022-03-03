@@ -21,7 +21,7 @@ class UserFacade
     #change below to just get user info?
     user = UserService.create_or_update_user(params)
     recipe_ids = user[:data][:attributes][:recipe_likes]
-    recent_likes = recipe_ids.last(5).uniq
+    recent_likes = recipe_ids.last(5)
     recipes = []
 
     recent_likes.each do |recipe_id|
@@ -33,7 +33,7 @@ class UserFacade
   def self.get_user_cocktails(params)
     user = UserService.create_or_update_user(params)
     cocktail_ids = user[:data][:attributes][:cocktail_likes]
-    recent_likes = cocktail_ids.last(5).uniq
+    recent_likes = cocktail_ids.last(5)
     cocktails = []
 
     recent_likes.each do |cocktail_id|

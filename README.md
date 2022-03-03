@@ -10,6 +10,8 @@
 
 ## Background and Description
 
+[Heroku Website](https://shielded-forest-41795.herokuapp.com/)
+
 "Cuisine Odyssey" is a group project inspired by the dilemma of not knowing what to cook for dinner. The app's interface allows the user to spin a globe or a bottle, depending on if they are looking for recipes or cocktails. When the user clicks to spin, a random region is selected and up to 5 recipes are generated. The user can choose to spin again, to save the recipe to their dashboard using a "like" feature, or dislike the recipes. This portion of the project encapsulates the front end of the application and creates the viewable user interface.
 
 [Backend Application](https://github.com/Cuisine-Odyssey/backend_application) 
@@ -183,7 +185,7 @@ $ rails s
 ```
 
 - Open web browser and visit link
-    http://localhost:3000/
+    http://localhost:5000/
     
 At this point you should be taken to the welcome page of the web-app. If you encounter any errors or have not reached the web-app please confirm you followed the steps above and that your environment is properly set up.
 

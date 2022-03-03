@@ -1,0 +1,23 @@
+<center>
+<h1 id="cocktail-name"><%= @cocktail.name %></h1>
+<br>
+<br>
+<%= image_tag(@cocktail.image) %>
+<br>
+<h3>Ingredients: </h3>
+
+<div >
+  <ul>
+  <% @cocktail.cocktail_hash.each do |k,v| %>
+    <li id="cocktail-ingredients"><%= k %>, <%= v %></li>
+    <% end %>
+  </ul>
+</div>
+
+
+<h3>Instructions: </h3>
+<div>
+  <p id="cocktail-instructions"><%= @cocktail.instructions %></p>
+</div>
+<%= @choice %>
+</center>

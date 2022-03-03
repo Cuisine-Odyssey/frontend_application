@@ -14,10 +14,10 @@ class CocktailService
     Faraday.new(url: 'http://localhost:3000/api/v1/cocktails/')
   end
 
-  # def self.search_cocktail_by_id()
-  #
-  # end
-
+  def self.get_cocktail_data(id)
+    response = connection.get("lookup.php?i=#{id}")
+    JSON.parse(response.body, symbolize_names: true)
+  end
 
   def self.add_cocktail_like(custom_params)
     response = internal_connection_cocktail.post('like') do |request|

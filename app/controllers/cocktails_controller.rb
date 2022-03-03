@@ -1,7 +1,6 @@
 class CocktailsController < ApplicationController
   def index
     @cocktail = CocktailFacade.get_random_cocktail
-    render partial: 'info'
   end
 
   def like
@@ -11,14 +10,16 @@ class CocktailsController < ApplicationController
       'vote': 'like'
     }
 
-    require "pry"; binding.pry
-    cocktail = CocktailFacade.add_cocktail_like(custom_params)
-    # render partial: 'like'
+    internal_cocktail_data = CocktailFacade.add_cocktail_like(custom_params)
     @like = true
-    render partial: 'info'
-    # redirect_to "/cocktails/#{cocktail[:data][:attributes][:cocktail_api_id]}"
+    
+    redirect_to "/cocktails/#{internal_cocktail_data[:data][:attributes][:cocktail_api_id]}"
   end
 
+  def show
+    @cocktail = CocktailFacade.get_cocktail(params[:id])
+  end
+  
   # def dislike
   #   custom_params = {
   #     'cocktail_api_id': params[:id],

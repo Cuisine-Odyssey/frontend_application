@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'dashboard', to: 'users#show'
 
   resources :recipes, only: [:index, :show]
-  resources :cocktails, only: [:index]
+  resources :cocktails, only: [:index, :show]
   post '/recipes/:id/like', to: 'recipes#like'
   post '/recipes/:id/dislike', to: 'recipes#dislike'
   post '/cocktails/:id/like', to: 'cocktails#like'

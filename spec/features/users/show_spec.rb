@@ -1,8 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'User Dashboard Page' do
-  it "has a user's liked recipes" do
-    VCR.use_cassette('shows_liked_recipes') do
+  it "has a user's liked recipes", :vcr do
       visit root_path
       click_link 'Login'
       visit '/recipes/52896'
@@ -10,11 +9,9 @@ RSpec.describe 'User Dashboard Page' do
       visit '/dashboard'
 
       expect(page).to have_content('Full English Breakfast')
-    end
   end
 
   it "does not have a user's dislikes" do
-    VCR.use_cassette('doesnt_show_disliked_recipes') do
       visit root_path
       click_link 'Login'
       visit '/recipes/52991'
@@ -22,11 +19,9 @@ RSpec.describe 'User Dashboard Page' do
       visit '/dashboard'
 
       expect(page).to_not have_content('Mince Pies')
-    end
   end
 
-  it "does not have a user's dislikes" do
-    VCR.use_cassette('change_from_like_to_dislike_recipe_gone') do
+  it "does not have a user's dislikes", :vcr do
       visit root_path
       click_link 'Login'
       visit '/recipes/52896'
@@ -34,11 +29,9 @@ RSpec.describe 'User Dashboard Page' do
       visit '/dashboard'
 
       expect(page).to_not have_content('Full English Breakfast')
-    end
   end
 
-  it "has a like after changing from dislike to like" do
-    VCR.use_cassette('change_from_dislike_to_like_recipe_on_dash') do
+  it "has a like after changing from dislike to like", :vcr do
       visit root_path
       click_link 'Login'
       visit '/recipes/52991'
@@ -46,7 +39,6 @@ RSpec.describe 'User Dashboard Page' do
       visit '/dashboard'
 
       expect(page).to have_content('Mince Pies')
-    end
   end
 
   context 'start with like, change to dislike' do
@@ -105,7 +97,7 @@ RSpec.describe 'User Dashboard Page' do
     end
   end
 
-  context 'start with dislike, change to a like' do 
+  context 'start with dislike, change to a like' do
     it "does not show a user's disliked cocktails" do
       mocha_berry = Cocktail.new({
                 "idDrink": "14209",

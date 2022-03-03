@@ -9,7 +9,6 @@ class UserService
     response = connection.get('users') do |request|
       request.params['email'] = email
     end
-    # binding.pry
     JSON.parse(response.body, symbolize_names: true)
   end
 

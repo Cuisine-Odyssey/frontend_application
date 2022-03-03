@@ -19,7 +19,7 @@ class CocktailService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.add_cocktail_like(custom_params)
+  def self.send_cocktail_vote(custom_params)
     response = internal_connection_cocktail.post('like') do |request|
       request.headers['Content-Type'] = 'application/json'
       request.body = JSON.generate(custom_params)

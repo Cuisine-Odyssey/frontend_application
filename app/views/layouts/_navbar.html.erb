@@ -1,20 +1,15 @@
-<div id="navbar">
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a id="navbar-brand" href="/" style="font-size: 300%;color: #FFFFFF; font-family: Monaco;">Cuisine Odyssey</a>
-        <p id='nav-blurb'> Connecting users to diverse foods and culture.</p>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
+<div
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a id="header" class="navbar-brand" href="/">Cuisine Odyssey</a>
+      <p id='nav-blurb'> Connecting users to diverse foods and culture.</p>
         <% if !current_user %>
-          <li><a href="/auth/google_oauth2"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <a id="nav-link" href="/auth/google_oauth2"><span class="glyphicon glyphicon-log-in"></span> Login</a>
         <% end %>
-
         <% if current_user %>
-          <li class="active"><a href="/dashboard">Dashboard</a></li>
-          <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+          <a id="nav-item" href="/dashboard">Dashboard</a>
+          <a id="logout" href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
         <% end %>
-      </ul>
     </div>
   </nav>
 </div>

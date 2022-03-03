@@ -44,15 +44,4 @@ RSpec.describe 'Recipe Service' do
     intl_connection = RecipeService.internal_connection
     expect(intl_connection).to be_a(Faraday::Connection)
   end
-
-  xit 'sends a vote', :vcr do
-    VCR.use_cassette('gets_successful_response') do
-      custom_params = {
-        'recipe_api_id': 52896,
-        'email': params[:email],
-        'vote': 'like'
-      }
-      vote = RecipeService.send_recipe_vote(custom_params)
-    end
-  end
 end

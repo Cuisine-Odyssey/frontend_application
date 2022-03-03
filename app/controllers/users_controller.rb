@@ -6,9 +6,9 @@ class UsersController < ApplicationController
       'first_name' => session['first_name'],
       'last_name' => session['last_name']
       }
-      # binding.pry
+
     @recipes = UserFacade.get_user_recipes(hash)
-    # binding.pry
+    @cocktails = UserFacade.get_user_cocktails(hash)
   end
 
 end

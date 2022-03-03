@@ -6,6 +6,7 @@ class Cocktail
               :ingredients,
               :measurements,
               :cocktail_hash
+
   def initialize(data)
     @name = data[:strDrink]
     @api_id = data[:idDrink]

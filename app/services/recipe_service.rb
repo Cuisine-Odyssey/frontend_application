@@ -28,17 +28,11 @@ class RecipeService
   end
 
   def self.send_recipe_vote(custom_params)
-    response = internal_connection.post(custom_params[:vote]) do |request|
+    response = internal_connection.post("recipes/#{custom_params[:vote]}") do |request|
       request.headers['Content-Type'] = 'application/json'
       request.body = JSON.generate(custom_params)
     end
+    JSON.parse(response.body, symbolize_names: true)
   end
-
-  # def self.add_recipe_dislike(custom_params)
-  #   response = internal_connection.post('dislike') do |request|
-  #     request.headers['Content-Type'] = 'application/json'
-  #     request.body = JSON.generate(custom_params)
-  #   end
-  # end
 
 end

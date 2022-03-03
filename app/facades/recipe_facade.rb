@@ -18,6 +18,5 @@ class RecipeFacade
 
   def self.add_recipe_vote(custom_params)
     like_response = RecipeService.send_recipe_vote(custom_params)
-    JSON.parse(like_response.body, symbolize_names: true)
   end
 end

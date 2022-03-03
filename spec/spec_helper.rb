@@ -20,7 +20,7 @@ require 'webmock/rspec'
 # require './spec/support/integration_spec_helper.rb'
 
 SimpleCov.start 'rails'
-
+SimpleCov.add_filter ['channels', 'jobs', 'mailers', 'models/application_record.rb']
 RSpec.configure do |config|
   # config.include IntegrationSpecHelper, :type => :request
 

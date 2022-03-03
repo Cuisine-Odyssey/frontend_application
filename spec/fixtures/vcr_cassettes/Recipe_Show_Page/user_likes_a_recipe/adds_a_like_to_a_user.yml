@@ -1,0 +1,464 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52772
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Mar 2022 20:30:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1083'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E6BHbnvqbxv6idxAf502Gy6GWuc6l1mWbRyb8powzNOAgbekyJ7awopTVfEq4AroZuhfhLkC4kIgv7iuMNIVoI2P7F404NL6gyc%2FZMXs9w%2FNjlM5SiHLGBnX00NQ%2Fz6OM8KvOA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e6521b989ba8c6b-EWR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52772","strMeal":"Teriyaki Chicken Casserole","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Japanese","strInstructions":"Preheat
+        oven to 350\u00b0 F. Spray a 9x13-inch baking pan with non-stick spray.\r\nCombine
+        soy sauce, \u00bd cup water, brown sugar, ginger and garlic in a small saucepan
+        and cover. Bring to a boil over medium heat. Remove lid and cook for one minute
+        once boiling.\r\nMeanwhile, stir together the corn starch and 2 tablespoons
+        of water in a separate dish until smooth. Once sauce is boiling, add mixture
+        to the saucepan and stir to combine. Cook until the sauce starts to thicken
+        then remove from heat.\r\nPlace the chicken breasts in the prepared pan. Pour
+        one cup of the sauce over top of chicken. Place chicken in oven and bake 35
+        minutes or until cooked through. Remove from oven and shred chicken in the
+        dish using two forks.\r\n*Meanwhile, steam or cook the vegetables according
+        to package directions.\r\nAdd the cooked vegetables and rice to the casserole
+        dish with the chicken. Add most of the remaining sauce, reserving a bit to
+        drizzle over the top when serving. Gently toss everything together in the
+        casserole dish until combined. Return to oven and cook 15 minutes. Remove
+        from oven and let stand 5 minutes before serving. Drizzle each serving with
+        remaining sauce. Enjoy!","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wvpsxx1468256321.jpg","strTags":"Meat,Casserole","strYoutube":"https:\/\/www.youtube.com\/watch?v=4aZr5hZXP_s","strIngredient1":"soy
+        sauce","strIngredient2":"water","strIngredient3":"brown sugar","strIngredient4":"ground
+        ginger","strIngredient5":"minced garlic","strIngredient6":"cornstarch","strIngredient7":"chicken
+        breasts","strIngredient8":"stir-fry vegetables","strIngredient9":"brown rice","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"3\/4
+        cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
+        teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
+        (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":"wade.wade@gmail.com","first_name":"wade","last_name":"wade"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9733cca1-be61-4bb8-bb9f-ab31551a4c77
+      X-Runtime:
+      - '0.006952'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8816187a-4a1a-49da-a738-1e2efebd0cd5
+      X-Runtime:
+      - '0.008527'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 58f8f27f-2fbb-4651-a489-09d471643803
+      X-Runtime:
+      - '0.006522'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52772
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Mar 2022 20:30:45 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1083'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P9EWzzgY%2FmiauybMhSkSbtmZGY7ESkhvQ9yttKNXMzAIfQNa4cSHv2c3ZobjThEtxBUNjHn%2BjqiJELhgdx4eGM5zT%2BlD8D9LS4ZKU022SbHmU6BE1de7G5cWUZkEMW8NxSMRYA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e6521bb4b1befd8-EWR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52772","strMeal":"Teriyaki Chicken Casserole","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Japanese","strInstructions":"Preheat
+        oven to 350\u00b0 F. Spray a 9x13-inch baking pan with non-stick spray.\r\nCombine
+        soy sauce, \u00bd cup water, brown sugar, ginger and garlic in a small saucepan
+        and cover. Bring to a boil over medium heat. Remove lid and cook for one minute
+        once boiling.\r\nMeanwhile, stir together the corn starch and 2 tablespoons
+        of water in a separate dish until smooth. Once sauce is boiling, add mixture
+        to the saucepan and stir to combine. Cook until the sauce starts to thicken
+        then remove from heat.\r\nPlace the chicken breasts in the prepared pan. Pour
+        one cup of the sauce over top of chicken. Place chicken in oven and bake 35
+        minutes or until cooked through. Remove from oven and shred chicken in the
+        dish using two forks.\r\n*Meanwhile, steam or cook the vegetables according
+        to package directions.\r\nAdd the cooked vegetables and rice to the casserole
+        dish with the chicken. Add most of the remaining sauce, reserving a bit to
+        drizzle over the top when serving. Gently toss everything together in the
+        casserole dish until combined. Return to oven and cook 15 minutes. Remove
+        from oven and let stand 5 minutes before serving. Drizzle each serving with
+        remaining sauce. Enjoy!","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wvpsxx1468256321.jpg","strTags":"Meat,Casserole","strYoutube":"https:\/\/www.youtube.com\/watch?v=4aZr5hZXP_s","strIngredient1":"soy
+        sauce","strIngredient2":"water","strIngredient3":"brown sugar","strIngredient4":"ground
+        ginger","strIngredient5":"minced garlic","strIngredient6":"cornstarch","strIngredient7":"chicken
+        breasts","strIngredient8":"stir-fry vegetables","strIngredient9":"brown rice","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"3\/4
+        cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
+        teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
+        (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 63371b85-6779-416f-a472-c88b3d40a7ed
+      X-Runtime:
+      - '0.004877'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0a507698-a688-4aee-b400-fc162ea3dc5c
+      X-Runtime:
+      - '0.004670'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e473ba51-d75a-4564-ae7c-576e5e1bc6ce
+      X-Runtime:
+      - '0.003433'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/recipes/like
+    body:
+      encoding: UTF-8
+      string: '{"recipe_api_id":"52772","email":"wade.wade@gmail.com","vote":"like"}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"670927cad4ef19970b2d49afe13a4b88"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 96cb0784-640b-4539-a69c-8e2f489d5d97
+      X-Runtime:
+      - '0.024325'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"16","type":"recipe","attributes":{"recipe_api_id":52772,"sum_likes":1,"sum_dislikes":0}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52772
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Mar 2022 20:30:45 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1083'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dHT8OgHHAI1a99GJ4WEsA1y8xIyZWR5AV2yK601vosFASCIekjEvgu9FGqW9bsQo6IM0yY2pIec1%2FvT2LhXGy00Yi04DhHP53qVRi2g6Ww9PEkZByrLwWoBGOGcFWTfFuYdJsA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e6521bd6d548c17-EWR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52772","strMeal":"Teriyaki Chicken Casserole","strDrinkAlternate":null,"strCategory":"Chicken","strArea":"Japanese","strInstructions":"Preheat
+        oven to 350\u00b0 F. Spray a 9x13-inch baking pan with non-stick spray.\r\nCombine
+        soy sauce, \u00bd cup water, brown sugar, ginger and garlic in a small saucepan
+        and cover. Bring to a boil over medium heat. Remove lid and cook for one minute
+        once boiling.\r\nMeanwhile, stir together the corn starch and 2 tablespoons
+        of water in a separate dish until smooth. Once sauce is boiling, add mixture
+        to the saucepan and stir to combine. Cook until the sauce starts to thicken
+        then remove from heat.\r\nPlace the chicken breasts in the prepared pan. Pour
+        one cup of the sauce over top of chicken. Place chicken in oven and bake 35
+        minutes or until cooked through. Remove from oven and shred chicken in the
+        dish using two forks.\r\n*Meanwhile, steam or cook the vegetables according
+        to package directions.\r\nAdd the cooked vegetables and rice to the casserole
+        dish with the chicken. Add most of the remaining sauce, reserving a bit to
+        drizzle over the top when serving. Gently toss everything together in the
+        casserole dish until combined. Return to oven and cook 15 minutes. Remove
+        from oven and let stand 5 minutes before serving. Drizzle each serving with
+        remaining sauce. Enjoy!","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wvpsxx1468256321.jpg","strTags":"Meat,Casserole","strYoutube":"https:\/\/www.youtube.com\/watch?v=4aZr5hZXP_s","strIngredient1":"soy
+        sauce","strIngredient2":"water","strIngredient3":"brown sugar","strIngredient4":"ground
+        ginger","strIngredient5":"minced garlic","strIngredient6":"cornstarch","strIngredient7":"chicken
+        breasts","strIngredient8":"stir-fry vegetables","strIngredient9":"brown rice","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":null,"strIngredient17":null,"strIngredient18":null,"strIngredient19":null,"strIngredient20":null,"strMeasure1":"3\/4
+        cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
+        teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
+        (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:45 GMT
+recorded_with: VCR 6.0.0

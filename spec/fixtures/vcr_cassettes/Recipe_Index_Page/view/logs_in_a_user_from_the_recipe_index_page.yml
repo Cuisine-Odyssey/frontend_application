@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 22:58:54 GMT
+      - Thu, 03 Mar 2022 20:30:43 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '929'
+      - '1051'
       Connection:
       - keep-alive
       Vary:
@@ -38,34 +38,196 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iQfc8eiL69vskw4j6Q3XPjDizraBVZx%2BFro7FwGukcIj4%2FFAT%2FhBq3eAI0jdmfOUmer1gHSRIzhJsLd03sNJxZ%2FxmW0F69l5WBBMQQd50CNUHUwWidyNdPc8S9sSzz5eMlup2nYeFuikEtm1xa5dlQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sTyAKk6pd6VuOlwJ%2BNVnaPSkPTnE22T9KQEG5KuK122bVdWDII03s75GBKDWUZeiJoWI4aswqqSS9l2bQNs6h8GiIW%2BBb%2FyxZ4nbC0BEt9ML0dd9HAPj7Kb2jXFg%2Bjbgb6iZKQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5580033f92571c-IAD
+      - 6e6521b39a3519c7-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52897","strMeal":"Carrot Cake","strDrinkAlternate":null,"strCategory":"Dessert","strArea":"British","strInstructions":"For
-        the carrot cake, preheat the oven to 160C\/325F\/Gas 3. Grease and line a
-        26cm\/10in springform cake tin.\r\nMix all of the ingredients for the carrot
-        cake, except the carrots and walnuts, together in a bowl until well combined.
-        Stir in the carrots and walnuts.\r\nSpoon the mixture into the cake tin and
-        bake for 1 hour 15 minutes, or until a skewer inserted into the middle comes
-        out clean. Remove the cake from the oven and set aside to cool for 10 minutes,
-        then carefully remove the cake from the tin and set aside to cool completely
-        on a cooling rack.\r\nMeanwhile, for the icing, beat the cream cheese, caster
-        sugar and butter together in a bowl until fluffy. Spread the icing over the
-        top of the cake with a palette knife.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vrspxv1511722107.jpg","strTags":"Cake,Treat,Sweet","strYoutube":"https:\/\/www.youtube.com\/watch?v=asjZ7iTrGKA","strIngredient1":"Vegetable
-        Oil","strIngredient2":"Plain Flour","strIngredient3":"Bicarbonate Of Soda","strIngredient4":"Sugar","strIngredient5":"Eggs","strIngredient6":"Salt","strIngredient7":"Cinnamon","strIngredient8":"Carrots","strIngredient9":"Walnuts","strIngredient10":"Cream
-        Cheese","strIngredient11":"Caster Sugar","strIngredient12":"Butter","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"450ml","strMeasure2":"400g","strMeasure3":"2
-        tsp","strMeasure4":"550ml","strMeasure5":"5","strMeasure6":"\u00bd tsp","strMeasure7":"2
-        tsp","strMeasure8":"500g grated","strMeasure9":"150g","strMeasure10":"200g","strMeasure11":"150g","strMeasure12":"100g
-        ","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbc.co.uk\/food\/recipes\/classic_carrot_cake_08513","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
+      string: '{"meals":[{"idMeal":"52872","strMeal":"Spanish Tortilla","strDrinkAlternate":null,"strCategory":"Vegetarian","strArea":"Spanish","strInstructions":"Put
+        a large non-stick frying pan on a low heat. Cook the onion slowly in the oil
+        and butter until soft but not brown \u2013 this should take about 15 mins.
+        Add the potatoes, cover the pan and cook for a further 15-20 mins, stirring
+        occasionally to make sure they fry evenly.\r\nWhen the potatoes are soft and
+        the onion is shiny, crush 2 garlic cloves and stir in, followed by the beaten
+        eggs.\r\nPut the lid back on the pan and leave the tortilla to cook gently.
+        After 20 mins, the edges and base should be golden, the top set but the middle
+        still a little wobbly. To turn it over, slide it onto a plate and put another
+        plate on top, turn the whole thing over and slide it back into the pan to
+        finish cooking. Once cooked, transfer to a plate and serve the tortilla warm
+        or cold, scattered with the chopped parsley.\r\nTo accompany, take slices
+        of warmed baguette, stab all over with a fork and rub with the remaining garlic,
+        pile on grated tomatoes and season with sea salt and a drizzle of olive oil.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","strTags":"Egg,Light","strYoutube":"https:\/\/www.youtube.com\/watch?v=JceGMNG7rpU","strIngredient1":"Onion","strIngredient2":"Olive
+        Oil","strIngredient3":"Butter","strIngredient4":"Potatoes","strIngredient5":"Garlic","strIngredient6":"Eggs","strIngredient7":"Parsley","strIngredient8":"Baguette","strIngredient9":"Vine
+        Tomatoes","strIngredient10":"Olive Oil","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1
+        sliced","strMeasure2":"4 tbsp","strMeasure3":"25g","strMeasure4":"400g","strMeasure5":"6
+        cloves","strMeasure6":"8","strMeasure7":"Handful","strMeasure8":"1","strMeasure9":"4","strMeasure10":"drizzle","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/spanish-tortilla","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:43 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Spanish
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Mar 2022 20:30:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '227'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aGWi%2FfkUbtBlxiFJ5AQWLo7h3B1gqmNRuexQhMn3kNsT6Jjwh2oY%2FXHq2fxs9GH8haY52S3oVvXOrgUHfrxvViWN43%2F5%2BqvJ7XPQ3rLwNrv96qz33ffx%2BwuZalaA307GLbod%2FQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e6521b50a1c1795-EWR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"strMeal":"Roast fennel and aubergine paella","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","idMeal":"52942"},{"strMeal":"Seafood
+        fideu\u00e0","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqqvyq1511179730.jpg","idMeal":"52836"},{"strMeal":"Spanish
+        Tortilla","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","idMeal":"52872"}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":"wade.wade@gmail.com","first_name":"wade","last_name":"wade"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d73565df435036e9ff26da649cfd5e3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 46d7c711-12b3-4706-89af-7fd0d1623676
+      X-Runtime:
+      - '0.006950'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/random.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Mar 2022 20:30:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1128'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WB49Uney7MBr8oCRZ2oGc%2BNk8RoMsKTX5LCmynkeZhqqqSxdrhFnSiYwhMFYdwY0q3eXChL5f23br2YvcqxNKvGPbKQ3oB2jD100s8InWAzMRR31sX4qQvsB5psC%2BYY%2FI2jtyA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e6521b68ebb188d-EWR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52881","strMeal":"Steak and Kidney Pie","strDrinkAlternate":null,"strCategory":"Beef","strArea":"British","strInstructions":"Preheat
+        the oven to 220C\/425F\/Gas 7\r\nHeat the vegetable oil in a large frying
+        pan, and brown the beef all over. (You may need to do this in batches.) Set
+        aside, then brown the kidneys on both sides in the same pan. Add the onions
+        and cook for 3-4 minutes.\r\nReturn the beef to the pan, sprinkle flour over
+        and coat the meat and onions\r\nAdd the stock to the pan, stir well and bring
+        to the boil.\r\nTurn the heat down and simmer for 1\u00bd hours without a
+        lid. If the liquid evaporates too much, add more stock.\r\nRemove from the
+        heat. Add salt, pepper and Worcestershire sauce and allow to cool completely.
+        Place the cooked meat mixture into a pie dish.\r\nRoll out the pastry to 5mm\/\u00bcin
+        thick and 5cm\/2in larger than the dish you are using.\r\nUsing a rolling
+        pin, lift the pastry and place it over the top of the pie dish. Trim and crimp
+        the edges with your fingers and thumb.\r\nBrush the surface with the beaten
+        egg mixture and bake for 30-40 minutes until golden-brown and puffed.\r\nServe
+        with creamy mash and steamed vegetables to soak up the gravy.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qysyss1511558054.jpg","strTags":"Pie","strYoutube":"https:\/\/www.youtube.com\/watch?v=oTw5tPt4KmA","strIngredient1":"Puff
+        Pastry","strIngredient2":"Egg White","strIngredient3":"Egg Yolks","strIngredient4":"Vegetable
+        Oil","strIngredient5":"Beef","strIngredient6":"Lamb Kidney","strIngredient7":"Onions","strIngredient8":"Plain
+        Flour","strIngredient9":"Beef Stock","strIngredient10":"Salt","strIngredient11":"Pepper","strIngredient12":"Worcestershire
+        Sauce","strIngredient13":null,"strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"300g","strMeasure2":"Beaten","strMeasure3":"Beaten","strMeasure4":"2
+        tbs","strMeasure5":"70 ml ","strMeasure6":"200g","strMeasure7":"2 chopped","strMeasure8":"30g","strMeasure9":"85
+        ml ","strMeasure10":"pinch","strMeasure11":"pinch","strMeasure12":"Dash","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbc.co.uk\/food\/recipes\/steakandkidneypie_73308","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=British
@@ -85,7 +247,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 22:58:54 GMT
+      - Thu, 03 Mar 2022 20:30:44 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -104,13 +266,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LNEgSlNcaJ%2Fj9d3IOPn2ePwqLJrKn1uNJi0S0fzxMURniyyTqxLz2dgw71RlHlJdWn%2Flo6yk9%2BEHR0ESdOTktNRrEMCVVr7XGoPqJZcUoXf5T7Pake6VH5L6DgHhTErdEEzustSRlwtbhSE6yrkUvg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BlIvuHj2Bifhu%2FPPPZ%2Fv3WAcHez3EVzW6g9Qg9Q6XN%2B7mLH9HwmQKyop%2FCRlv%2FmTRVzsPPc3yeApIBj9rS7oYrpapIbX2JowoEvDlb6%2FZydfTA7MMwecOnTymjECAhaYzzbNoA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e5580048c1881a6-IAD
+      - 6e6521b76ac38c87-EWR
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -171,241 +333,5 @@ http_interactions:
         Meatloaf","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ypuxtw1511297463.jpg","idMeal":"52845"},{"strMeal":"Vegetarian
         Casserole","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/vptwyt1511450962.jpg","idMeal":"52863"},{"strMeal":"Vegetarian
         Chilli","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqurxy1511453156.jpg","idMeal":"52867"}]}'
-  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":"wade.wade@gmail.com","first_name":"wade","last_name":"wade"}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"798d75b03701383ef24dde2ba9ca6e8d"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - beea4c21-4055-4303-afce-f781fbf06769
-      X-Runtime:
-      - '0.003214'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - e28853da-e75c-4d2a-9dda-ee3131638d51
-      X-Runtime:
-      - '0.003885'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
-- request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
-    body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - b7200718-3da6-44f1-a2cb-0864bf662ae6
-      X-Runtime:
-      - '0.004779'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:58:54 GMT
-- request:
-    method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/random.php
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 01 Mar 2022 22:58:55 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '1217'
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Powered-By:
-      - ASP.NET
-      - PHP/7.0.9
-      Access-Control-Allow-Origin:
-      - "*"
-      Cf-Cache-Status:
-      - DYNAMIC
-      Expect-Ct:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dk3PMrFb22X90bbCm1Gi9Ox41nUQqOy%2FzLLImCrQcX9tMOAVE6UVxbH991DqUA%2BQL47qA8edBMrXWXORwvMxWuz2VS2eyoiCN4sJ4K7A8mmxIivYTiSSzNkv7Z3gbbxlEJPen%2Bezpxi0rcxP7RMgtA%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Cf-Ray:
-      - 6e5580062e698f14-IAD
-      Alt-Svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
-    body:
-      encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52942","strMeal":"Roast fennel and aubergine paella","strDrinkAlternate":null,"strCategory":"Vegan","strArea":"Spanish","strInstructions":"1
-        Put the fennel, aubergine, pepper and courgette in a roasting tray. Add a
-        glug of olive oil, season with salt and pepper and toss around to coat the
-        veggies in the oil. Roast in the oven for 20 minutes, turning a couple of
-        times until the veg are pretty much cooked through and turning golden.\r\n\r\n2
-        Meanwhile, heat a paella pan or large frying pan over a low\u2013 medium heat
-        and add a glug of olive oil. Saut\u00e9 the onion for 8\u201310 minutes until
-        softened. Increase the heat to medium and stir in the rice, paprika and saffron.
-        Cook for around 1 minute to start toasting the rice, then add the white wine.
-        Reduce by about half before stirring in two-thirds of the stock. Reduce to
-        a simmer and cook for 10 minutes without a lid, stirring a couple of times.\r\n\r\n3
-        Stir in the peas, add some seasoning, then gently mix in the roasted veg.
-        Pour over the remaining stock, arrange the lemon wedges on top and cover with
-        a lid or some aluminium foil. Cook for a further 10 minutes.\r\n\r\n4 To ensure
-        you get the classic layer of toasted rice at the bottom of the pan, increase
-        the heat to high until you hear a slight crackle. Remove from the heat and
-        sit for 5 minutes before sprinkling over the parsley and serving.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","strTags":"Vegan,Paella","strYoutube":"https:\/\/www.youtube.com\/watch?v=H5SmjR-fxUs","strIngredient1":"Baby
-        Aubergine","strIngredient2":"Fennel","strIngredient3":"Red Pepper","strIngredient4":"Courgettes","strIngredient5":"Onion","strIngredient6":"Paella
-        Rice","strIngredient7":"Paprika","strIngredient8":"Saffron","strIngredient9":"White
-        Wine","strIngredient10":"Vegetable Stock","strIngredient11":"Frozen Peas","strIngredient12":"Lemon","strIngredient13":"Parsley","strIngredient14":"Salt","strIngredient15":"Black
-        Pepper","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"6
-        small","strMeasure2":"4 small","strMeasure3":"1 thinly sliced","strMeasure4":"1
-        medium","strMeasure5":"1 finely chopped ","strMeasure6":"300g","strMeasure7":"1
-        tsp ","strMeasure8":"pinch","strMeasure9":"200ml","strMeasure10":"700ml","strMeasure11":"100g
-        ","strMeasure12":"1 chopped","strMeasure13":"Handful","strMeasure14":"pinch","strMeasure15":"pinch","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.homestylemag.co.uk\/recipe\/517\/main-courses\/roast-fennel-and-aubergine-paella","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 22:58:55 GMT
-- request:
-    method: get
-    uri: https://www.themealdb.com/api/json/v2/9973533/filter.php?a=Spanish
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.2.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 01 Mar 2022 22:58:55 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '227'
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Powered-By:
-      - ASP.NET
-      - PHP/7.0.9
-      Access-Control-Allow-Origin:
-      - "*"
-      Cf-Cache-Status:
-      - DYNAMIC
-      Expect-Ct:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gy%2BfWkjjoVCufQeci8JXa6NQQfPqpHLGxw7Yw85MhTFf1lW%2BqSHkj8BFU3Y2W3mGvebdQKPEOYZcw6YqwQlGHfxF%2FpA%2FBtd%2FSM0iCLs9LeQHmM0fxN%2BPy0szNvbzRycN9TH2b19Ne8Ok91wKHVyBLg%3D%3D"}],"group":"cf-nel","max_age":604800}'
-      Nel:
-      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
-      Server:
-      - cloudflare
-      Cf-Ray:
-      - 6e5580075e257fed-IAD
-      Alt-Svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
-    body:
-      encoding: ASCII-8BIT
-      string: '{"meals":[{"strMeal":"Roast fennel and aubergine paella","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/1520081754.jpg","idMeal":"52942"},{"strMeal":"Seafood
-        fideu\u00e0","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/wqqvyq1511179730.jpg","idMeal":"52836"},{"strMeal":"Spanish
-        Tortilla","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/quuxsx1511476154.jpg","idMeal":"52872"}]}'
-  recorded_at: Tue, 01 Mar 2022 22:58:55 GMT
+  recorded_at: Thu, 03 Mar 2022 20:30:44 GMT
 recorded_with: VCR 6.0.0

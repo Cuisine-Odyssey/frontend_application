@@ -1,6 +1,15 @@
-<h1>Welcome, <%= session[:first_name] %>!</h1>
+<h1 id="dashboard-welcome">Welcome, <%= session[:first_name] %>!</h1>
 
-<h3>Your favorites:</h3>
-<% @recipes.each do |recipe| %>
-  <p><%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %></p>
-<% end %>
+<div id="liked-recipes">
+  <h3>Your recently liked recipes:</h3>
+  <% @recipes.each do |recipe| %>
+    <p><%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %></p>
+  <% end %>
+</div>
+
+<div id="liked-cocktails">
+  <h3>Your recently liked cocktails:</h3>
+  <% @cocktails.each do |cocktail| %>
+    <p><%= image_tag(cocktail.image, :size => "130x90") %> <%= link_to "#{cocktail.name}", cocktail_path(cocktail.api_id) %></p>
+  <% end %>
+</div>

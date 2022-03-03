@@ -9,30 +9,22 @@ class RecipesController < ApplicationController
     @recipe = RecipeFacade.get_single_recipe_details(params[:id])
   end
 
-  def like
+  def vote
+
     custom_params = {
       'recipe_api_id': params[:id],
       'email': params[:email],
-      'vote': 'like'
+      'vote': params[:vote]
     }
+    @response = RecipeFacade.add_recipe_vote(custom_params)
+    @recipe = RecipeFacade.get_single_recipe_details(params[:id])
 
-    RecipeFacade.add_recipe_like(custom_params)
-    flash[:notice] = "You have liked this recipe!"
-  end
-
-  def dislike
-    custom_params = {
-      'recipe_api_id': params[:id],
-      'email': params[:email],
-      'vote': 'dislike'
-    }
-
-    response = Faraday.post("http://localhost:3000/api/v1/recipes/dislike") do |request|
-      request.headers['Content-Type'] = 'application/json'
-      request.body = JSON.generate(custom_params)
+    if params[:vote] == 'like'
+      @choice = 'You have liked this recipe!'
+    elsif params[:vote] == 'dislike'
+      @choice = 'Ew Gross!!'
     end
 
-    JSON.parse(response.body, symbolize_names: true)
+    render partial: 'like', locals: { :recipe => @recipe, :vote => @choice }
   end
-  
 end

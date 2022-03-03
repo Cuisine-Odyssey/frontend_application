@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"user":{"email":"wade.wade@gmail.com","first_name":"wade","last_name":"wade"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"96b71f913e18638c302a3336d4defa38"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2c6f23e4-e666-493b-86ff-43ddf549a1e7
+      X-Runtime:
+      - '0.013601'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896,52772],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 21:31:00 GMT
+- request:
+    method: get
+    uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52828
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Mar 2022 21:31:00 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1005'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - ASP.NET
+      - PHP/7.0.9
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RGcwWdSmkz%2FLlepbIo3DUqHcKwkwCTQJPtm8iRbMLwl5OxFlR0%2BXUBZ3jU4NJYHzqsl5y1YIMtXDn3Or3Mj9vUPWYvOKh7qtCZgM2hiW%2BGAuoM%2FIgYKrozFXmqd4SkU0Ir6MSA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6e6579ffe81a78ed-EWR
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meals":[{"idMeal":"52828","strMeal":"Vietnamese Grilled Pork (bun-thit-nuong)","strDrinkAlternate":null,"strCategory":"Pork","strArea":"Vietnamese","strInstructions":"Slice
+        the uncooked pork thinly, about \u215b\". It helps to slightly freeze it (optional).\r\nMince
+        garlic and shallots. Mix in a bowl with sugar, fish sauce, thick soy sauce,
+        pepper, and oil until sugar dissolves.\r\nMarinate the meat for 1 hour, or
+        overnight for better results.\r\nBake the pork at 375F for 10-15 minutes or
+        until about 80% cooked. Finish cooking by broiling in the oven until a nice
+        golden brown color develops, flipping the pieces midway.\r\nAssemble your
+        bowl with veggies, noodles, and garnish. Many like to mix the whole bowl up
+        and pour the fish sauce on top, but I like to make individual bites and sauce
+        it slowly.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qqwypw1504642429.jpg","strTags":null,"strYoutube":"https:\/\/www.youtube.com\/watch?v=Q3qcQcENzbU","strIngredient1":"Pork","strIngredient2":"Rice
+        Vermicelli","strIngredient3":"Egg Rolls","strIngredient4":"Challots","strIngredient5":"Garlic","strIngredient6":"Sugar","strIngredient7":"Fish
+        Sauce","strIngredient8":"Soy sauce","strIngredient9":"Pepper","strIngredient10":"Olive
+        Oil","strIngredient11":"Cucumber","strIngredient12":"Mint","strIngredient13":"Peanuts","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1.5
+        pounds sliced","strMeasure2":"1 package thin","strMeasure3":"4-6","strMeasure4":"3
+        tablespoons minced","strMeasure5":"1.5 tablespoons minced garlic","strMeasure6":"\u00bc
+        cup","strMeasure7":"1 tablespoon","strMeasure8":"\u00bd tablespoon thick","strMeasure9":"\u00bd
+        tablespoon","strMeasure10":"3 tablespoons","strMeasure11":"Sliced","strMeasure12":"Leaves","strMeasure13":"Crushed","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"http:\/\/www.hungryhuy.com\/bun-thit-nuong-recipe-vietnamese-grilled-bbq-pork-with-rice-vermicelli-vegetables\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 21:31:00 GMT
+recorded_with: VCR 6.0.0

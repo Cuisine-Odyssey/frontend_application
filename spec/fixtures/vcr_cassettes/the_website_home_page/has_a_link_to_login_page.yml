@@ -23,19 +23,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e760dd9c56a17bd2171b7b30109dece0"
+      - W/"96b71f913e18638c302a3336d4defa38"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8c14dd65-b503-4229-8a9a-a940ceefedfa
+      - c3868d76-8e76-4a66-bf5a-2c134928310e
       X-Runtime:
-      - '0.009979'
+      - '0.004829'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772,52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896,52772],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:53 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -57,19 +57,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e760dd9c56a17bd2171b7b30109dece0"
+      - W/"96b71f913e18638c302a3336d4defa38"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 712de319-4fb4-4bd8-bd46-1f8e461948c8
+      - 9ed03788-d911-4a6a-a18e-7d3ce857643e
       X-Runtime:
-      - '0.005859'
+      - '0.005106'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772,52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896,52772],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:53 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
@@ -91,17 +91,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e760dd9c56a17bd2171b7b30109dece0"
+      - W/"96b71f913e18638c302a3336d4defa38"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - bafbc264-b5d3-4bf8-916b-18eb8a8b868c
+      - d4ca23e2-689c-421d-99a9-9846cc4ce97b
       X-Runtime:
-      - '0.008271'
+      - '0.003253'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772,52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
-  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
+      string: '{"data":{"id":"12","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52991],"recipe_dislikes":[52896,52772],"cocktail_likes":[14209,11007],"cocktail_dislikes":[12444]}}}'
+  recorded_at: Thu, 03 Mar 2022 20:30:53 GMT
 recorded_with: VCR 6.0.0

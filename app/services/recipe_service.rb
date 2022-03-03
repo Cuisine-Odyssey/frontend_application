@@ -27,18 +27,18 @@ class RecipeService
     Faraday.new(url: 'http://localhost:3000/api/v1/recipes/')
   end
 
-  def self.add_recipe_like(custom_params)
-    response = internal_connection.post('like') do |request|
+  def self.send_recipe_vote(custom_params)
+    response = internal_connection.post(custom_params[:vote]) do |request|
       request.headers['Content-Type'] = 'application/json'
       request.body = JSON.generate(custom_params)
     end
   end
 
-  def self.add_recipe_dislike(custom_params)
-    response = internal_connection.post('dislike') do |request|
-      request.headers['Content-Type'] = 'application/json'
-      request.body = JSON.generate(custom_params)
-    end
-  end
-  
+  # def self.add_recipe_dislike(custom_params)
+  #   response = internal_connection.post('dislike') do |request|
+  #     request.headers['Content-Type'] = 'application/json'
+  #     request.body = JSON.generate(custom_params)
+  #   end
+  # end
+
 end

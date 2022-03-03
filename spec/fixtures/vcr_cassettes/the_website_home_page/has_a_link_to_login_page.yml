@@ -23,30 +23,28 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"798d75b03701383ef24dde2ba9ca6e8d"
+      - W/"e760dd9c56a17bd2171b7b30109dece0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - afc1c0d7-1bf6-4310-ab85-89e0b0492ccb
+      - 8c14dd65-b503-4229-8a9a-a940ceefedfa
       X-Runtime:
-      - '0.165184'
+      - '0.009979'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:52:40 GMT
+      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772,52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
+  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
 - request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
     body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+      encoding: US-ASCII
+      string: ''
     headers:
       User-Agent:
       - Faraday v2.2.0
-      Content-Type:
-      - application/json
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -59,30 +57,28 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      - W/"e760dd9c56a17bd2171b7b30109dece0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5ae4d715-e678-4c8c-8cfe-4f44740b6f67
+      - 712de319-4fb4-4bd8-bd46-1f8e461948c8
       X-Runtime:
-      - '0.056043'
+      - '0.005859'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:52:40 GMT
+      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772,52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
+  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
 - request:
-    method: post
-    uri: http://localhost:3000/api/v1/users
+    method: get
+    uri: http://localhost:3000/api/v1/users?email=wade.wade@gmail.com
     body:
-      encoding: UTF-8
-      string: '{"user":{"email":null,"first_name":null,"last_name":null}}'
+      encoding: US-ASCII
+      string: ''
     headers:
       User-Agent:
       - Faraday v2.2.0
-      Content-Type:
-      - application/json
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -95,17 +91,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d4b1a32220be4e719f71b09b14c8446e"
+      - W/"e760dd9c56a17bd2171b7b30109dece0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9a569ef4-622e-4d8f-8948-2bd196c831e7
+      - bafbc264-b5d3-4bf8-916b-18eb8a8b868c
       X-Runtime:
-      - '0.004700'
+      - '0.008271'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":null,"type":"user","attributes":{"first_name":null,"last_name":null,"email":null,"likes":[],"dislikes":[]}}}'
-  recorded_at: Tue, 01 Mar 2022 22:52:40 GMT
+      string: '{"data":{"id":"13","type":"user","attributes":{"first_name":"wade","last_name":"wade","email":"wade.wade@gmail.com","recipe_likes":[52772,52772],"recipe_dislikes":[],"cocktail_likes":[13282,12738,11007,11007],"cocktail_dislikes":[]}}}'
+  recorded_at: Thu, 03 Mar 2022 02:40:18 GMT
 recorded_with: VCR 6.0.0

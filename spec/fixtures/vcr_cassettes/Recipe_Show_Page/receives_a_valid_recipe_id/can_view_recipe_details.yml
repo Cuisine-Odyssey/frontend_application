@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 19:08:06 GMT
+      - Thu, 03 Mar 2022 02:40:17 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -38,13 +38,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LbM97GguGNTicT5aZDMTBTSHNh1wxgVk%2FQq8OBI%2F4Zd%2B7PG3f7eqKFBmT93EozR8HzagNxp7H%2FLkbml%2BmkglZqC3iaRjiSPF9IdCKXSHuhcKzMCKJfKApNai%2Fx%2FOzhm1fUZICg%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nxmhHm29xsZ%2FZUlR8fiAlNxXOPZrrY5PsdKPePWt9HCX8rJ9UNQn7ixfISnAxBBaU4B8UtevjtoJo9pSRowWT4uiJfG1v8vlaj1OB7n7%2F6kIxYgjMErMYbUcxFbMA3Kri%2BwwsdD%2B%2B1G0FLT%2BWfr1qQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4bf08a99130c91-EWR
+      - 6e5f01aa3b1d680b-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -72,5 +72,5 @@ http_interactions:
         cup","strMeasure2":"1\/2 cup","strMeasure3":"1\/4 cup","strMeasure4":"1\/2
         teaspoon","strMeasure5":"1\/2 teaspoon","strMeasure6":"4 Tablespoons","strMeasure7":"2","strMeasure8":"1
         (12 oz.)","strMeasure9":"3 cups","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":null,"strMeasure17":null,"strMeasure18":null,"strMeasure19":null,"strMeasure20":null,"strSource":null,"strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Mon, 28 Feb 2022 19:08:06 GMT
+  recorded_at: Thu, 03 Mar 2022 02:40:17 GMT
 recorded_with: VCR 6.0.0

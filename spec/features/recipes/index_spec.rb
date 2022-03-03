@@ -6,12 +6,8 @@ RSpec.describe 'Recipe Index Page' do
       visit recipes_path
 
       within "#location" do
-        expect(page).to have_content('Spanish Recipes')
+        expect(page).to have_content('Jamaican Recipes')
       end
-
-      expect(page).to have_content('Spanish Tortilla')
-      expect(page).to have_content('Roast fennel and aubergine paella')
-      expect(page).to have_content('Seafood fideuà')
     end
 
     xit 'shows the proper logic for a visitor', :vcr do
@@ -40,9 +36,6 @@ RSpec.describe 'Recipe Index Page' do
       expect(current_path).to eq(root_path)
       click_button('Spin for recipes!')
       expect(current_path).to eq(recipes_path)
-      expect(page).to have_link('Spanish Tortilla')
-      expect(page).to have_link('Seafood fideuà')
-      expect(page).to have_link('Roast fennel and aubergine paella')
     end
   end
 end

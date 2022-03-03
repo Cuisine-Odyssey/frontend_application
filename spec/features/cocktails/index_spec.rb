@@ -2,7 +2,7 @@
 require 'rails_helper'
 RSpec.describe 'Cocktails show page' do
   before(:each) do
-    cocktail_data = 
+    cocktail_data =
           {
               "idDrink": "11007",
               "strDrink": "Margarita",
@@ -18,7 +18,7 @@ RSpec.describe 'Cocktails show page' do
           }
       json = JSON.generate(cocktail_data)
       json_parsed = JSON.parse(json, symbolize_names:true)
-      @cocktail = Cocktail.new(json_parsed)  
+      @cocktail = Cocktail.new(json_parsed)
   end
 
   it 'can view cocktail details' do
@@ -36,8 +36,8 @@ RSpec.describe 'Cocktails show page' do
     click_link('Login')
     click_button 'Spin for drinks!'
     click_button 'Like'
-    
-    expect(current_path).to eq(cocktail_path(@cocktail.api_id))
+
+    expect(current_path).to eq("/cocktails/11007/like")
   end
 
 end

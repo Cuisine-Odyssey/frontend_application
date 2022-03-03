@@ -23,19 +23,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"50904920dcbc03448bbf94fd0a7eee5c"
+      - W/"30a560e8c6cf9f05cf3cac10dfd197c2"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3dda6966-0ffc-43f8-889c-5563988f551f
+      - 9284df04-37fe-487e-865c-f8931c4d938f
       X-Runtime:
-      - '0.130952'
+      - '0.005356'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"user","attributes":{"first_name":"Chuck","last_name":"Norris","email":"chuck@gmail.com","likes":[52962,52824],"dislikes":[21]}}}'
-  recorded_at: Tue, 01 Mar 2022 01:32:03 GMT
+      string: '{"data":{"id":"1","type":"user","attributes":{"first_name":"Chuck","last_name":"Norris","email":"chuck@gmail.com","recipe_likes":[52962,52824],"recipe_dislikes":[21],"cocktail_likes":[21],"cocktail_dislikes":[13]}}}'
+  recorded_at: Thu, 03 Mar 2022 02:40:13 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52962
@@ -55,7 +55,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 01:32:03 GMT
+      - Thu, 03 Mar 2022 02:40:13 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -74,13 +74,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uS1TJLf73Cb5vqsAVxYmd4VFMRaKUZ7mz%2Bp2Q2kp18XRlUH4jYHW3IFyfP4tov%2F7pQ1XeRUaUZM7%2BOjAbJcUmu99ZY%2B8B30pX7ZFJfthvAx7CrH%2BAORKtb3d0HgBuSlJANzmd5I8zE7iPpgNhwme0g%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K3Gz6FMrbAI18H%2FkBD8RGseRutazMNetfj2RxSwvGNUtsnQ%2B2luQVBNOEFkBI%2FvaI7N8MLJ8ZE7w5pmIjHC%2B3HbEplMb7k5VuEyrju%2F3YdTcYf9YnBPpndNtx3rf3o9zX9iMijlGaWyxt9LTbk739A%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4e22fa3ba813a2-SEA
+      - 6e5f0194aa9e6840-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -106,7 +106,7 @@ http_interactions:
         ","strMeasure11":" ","strMeasure12":" ","strMeasure13":" ","strMeasure14":"
         ","strMeasure15":" ","strMeasure16":" ","strMeasure17":" ","strMeasure18":"
         ","strMeasure19":" ","strMeasure20":" ","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/73606\/eggs-benedict-with-smoked-salmon-and-chives","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 01:32:03 GMT
+  recorded_at: Thu, 03 Mar 2022 02:40:13 GMT
 - request:
     method: get
     uri: https://www.themealdb.com/api/json/v2/9973533/lookup.php?i=52824
@@ -126,7 +126,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Mar 2022 01:32:04 GMT
+      - Thu, 03 Mar 2022 02:40:14 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -145,13 +145,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I8TjEO8y06lovWCOVUGP1v3PiOKu%2BEBJBzRRsQWzHTUKR000CztoDyybM5WEI8Aoj%2FNcba4u3%2FtCP0hZWoSNgp5975Q7ZgWkxFYdOo6Cyb%2BHXHnbKGbv%2B%2FUXxNVdGTaG2kbWr92n5chpBvpe1zDVyA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1AtKiir%2FjMW%2F%2FnBw1SM%2FSpnE8753MDt7%2BchfVR9AQznk8zMRZwhwEEuLWsNfl9dTYJWWKDo0cIL8f509zYNexTTG6LSriVbJuBcaHq%2FDBepM%2FmWCf64H8Jc0omfD%2BStSICLOpZVsIUDV%2Fvu9Dia2pA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4e22fbdd7af569-SEA
+      - 6e5f0196fd6a140c-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -174,5 +174,5 @@ http_interactions:
         slices","strMeasure2":"12 florets","strMeasure3":"1 Packet","strMeasure4":"1
         Packet","strMeasure5":"140g","strMeasure6":"4","strMeasure7":"200ml","strMeasure8":"drizzle
         (for cooking)","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/9020\/best-yorkshire-puddings","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Tue, 01 Mar 2022 01:32:04 GMT
+  recorded_at: Thu, 03 Mar 2022 02:40:14 GMT
 recorded_with: VCR 6.0.0

@@ -1,22 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
   <div class="container">
     <a class="navbar-brand" href="/"style="font-size: 250%;color: #FFFFFF; font-family: Monaco;">Cuisine Odyssey</a>
-    <p id='nav-blurb'style="padding-top: 10px; font-family: Monaco;font-size: 125%;"> Connecting users to diverse foods and culture.</p>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <% if !current_user %>
-          <a class="nav-link active" aria-current="page" href="/auth/google_oauth2"style="font-size: 100%;color: #FFFFFF; font-family: Monaco; padding-left: 100px"><span class="glyphicon glyphicon-log-in"></span>Login</a> </li>
-          <% end %>
+    <p id='nav-blurb'> Connecting users to diverse foods and culture.</p>
+      <% if !current_user %>
+        <a class="nav-link active" aria-current="page" href="/auth/google_oauth2"style="color: #FFFFFF; font-family: Monaco; padding-left: 10px; padding-right: 10px"><span class="glyphicon glyphicon-log-in"></span>Login</a> </li>
+      <% end %>
 
-          <% if current_user %>
-          <li class="nav-item"><a href="/dashboard"style="font-size: 100%;color: #FFFFFF; font-family: Monaco; padding-left: 10px; padding-right: 10px">Dashboard</a></li>
-          <li><a href="/logout"style="font-size: 100%;color: #FFFFFF; font-family: Monaco;"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-          <% end %>
-      </ul>
-    </div>
+      <% if current_user %>
+        <li class="nav-item"><a href="/dashboard"style="color: #FFFFFF; font-family: Monaco; padding-left: 10px; padding-right: 10px">Dashboard</a></li>
+        <li><a href="/logout"style="font-size: 100%;color: #FFFFFF; font-family: Monaco;"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      <% end %>
   </div>
 </nav>

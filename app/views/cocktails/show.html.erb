@@ -3,14 +3,14 @@
 <br>
 <h2><%= @choice %></h2>
 <br>
-<%= image_tag(@cocktail.image) %>
+<img class="image"style="border-radius: 25%"<%= image_tag(@cocktail.image) %>
 <br>
 <h3>Ingredients: </h3>
 
 <div >
   <ul>
   <% @cocktail.cocktail_hash.each do |k,v| %>
-    <li id="cocktail-ingredients"><%= k %>, <%= v %></li>
+    <li id="cocktail-ingredients"><style="list-style: none"><%= k %>, <%= v %></li>
     <% end %>
   </ul>
 </div>

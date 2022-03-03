@@ -24,7 +24,5 @@ class RecipesController < ApplicationController
     elsif params[:vote] == 'dislike'
       @choice = 'Ew Gross!!'
     end
-
-    render partial: 'like', locals: { :recipe => @recipe, :vote => @choice }
   end
 end

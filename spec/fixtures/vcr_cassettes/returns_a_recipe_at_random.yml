@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 28 Feb 2022 16:17:29 GMT
+      - Thu, 03 Mar 2022 02:40:19 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '758'
+      - '1259'
       Connection:
       - keep-alive
       Vary:
@@ -38,25 +38,39 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UVECr0c30KNKoKaP4ZS%2FEKtcXM4ElEWAnA8I%2B2M2JMGuY9j76KD5wmDC30wfhju4V6jzlOoB3h%2BpzNABXTotfowhG18eepmimo2Sd%2F5t9RWIWHs%2BHxM30oK0leyF3HdCStMvPQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GOvsvTDKthG8XnA2Iih4wqgqIkBhZltaXM2JeCIqFOW4wsAUQPN5N2oVrbZFZLisWo16gg9Eg0yTSeo8jukSenAKx1Il1j2UeqUg60KXq5jcXeLNYyMOSCtvMKOvysTlNwb%2F65t3xHIcq2OVhJI7EA%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6e4af69dbab2638c-ORD
+      - 6e5f01bacda56016-SEA
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"meals":[{"idMeal":"52914","strMeal":"Boulang\u00e8re Potatoes","strDrinkAlternate":null,"strCategory":"Side","strArea":"French","strInstructions":"Heat
-        oven to 200C\/fan 180C\/gas 6. Fry the onions and thyme sprigs in the oil
-        until softened and lightly coloured (about 5 mins).\r\nSpread a layer of potatoes
-        over the base of a 1.5-litre oiled gratin dish. Sprinkle over a few onions
-        (see picture, above) and continue layering, finishing with a layer of potatoes.
-        Pour over the stock and bake for 50-60 mins until the potatoes are cooked
-        and the top is golden and crisp.","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/qywups1511796761.jpg","strTags":"SideDish","strYoutube":"https:\/\/www.youtube.com\/watch?v=gcXPruv1Mjg","strIngredient1":"Onions","strIngredient2":"Thyme","strIngredient3":"Olive
-        Oil","strIngredient4":"Potatoes","strIngredient5":"Vegetable Stock","strIngredient6":"","strIngredient7":"","strIngredient8":"","strIngredient9":"","strIngredient10":"","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"2
-        finely chopped","strMeasure2":"sprigs of fresh","strMeasure3":"2 tbs","strMeasure4":"1.5kg","strMeasure5":"425g","strMeasure6":"","strMeasure7":"","strMeasure8":"","strMeasure9":"","strMeasure10":"","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.bbcgoodfood.com\/recipes\/5056\/boulangre-potatoes","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
-  recorded_at: Mon, 28 Feb 2022 16:17:29 GMT
+      string: '{"meals":[{"idMeal":"52939","strMeal":"Callaloo Jamaican Style","strDrinkAlternate":null,"strCategory":"Miscellaneous","strArea":"Jamaican","strInstructions":"Cut
+        leaves and soft stems from the kale branches, them soak in a bowl of cold
+        water for about 5-10 minutes or until finish with prep.\r\nProceed to slicing
+        the onions, mincing the garlic and dicing the tomatoes. Set aside\r\nRemove
+        kale from water cut in chunks.\r\nPlace bacon on saucepan and cook until crispy.
+        Then add onions, garlic, thyme, stir for about a minute or more\r\nAdd tomatoes;
+        scotch bonnet pepper, smoked paprika. Saut\u00e9 for about 2-3 more minutes.\r\nFinally
+        add vegetable, salt, mix well, and steamed for about 6-8 minutes or until
+        leaves are tender. Add a tiny bit of water as needed. Adjust seasonings and
+        turn off the heat.\r\nUsing a sharp knife cut both ends off the plantain.
+        This will make it easy to grab the skin of the plantains. Slit a shallow line
+        down the long seam of the plantain; peel only as deep as the peel. Remove
+        plantain peel by pulling it back.\r\nSlice the plantain into medium size lengthwise
+        slices and set aside.\r\nCoat a large frying pan with cooking oil spray. Spray
+        the tops of the plantains with a generous layer of oil spray and sprinkle
+        with salt, freshly ground pepper.\r\nLet the plantains \"fry\" on medium heat,
+        shaking the frying pan to redistribute them every few minutes.\r\nAs the plantains
+        brown, continue to add more cooking oil spray, salt and pepper (if needed)
+        until they have reached the desired color and texture.\r\nRemove and serve
+        with kale","strMealThumb":"https:\/\/www.themealdb.com\/images\/media\/meals\/ussyxw1515364536.jpg","strTags":"Savory","strYoutube":"https:\/\/www.youtube.com\/watch?v=bCr3GasJWwE","strIngredient1":"Kale","strIngredient2":"Bacon","strIngredient3":"Garlic","strIngredient4":"Onion","strIngredient5":"Paprika","strIngredient6":"Thyme","strIngredient7":"Tomato","strIngredient8":"Red
+        Pepper","strIngredient9":"Banana","strIngredient10":"Vegetable Oil","strIngredient11":"","strIngredient12":"","strIngredient13":"","strIngredient14":"","strIngredient15":"","strIngredient16":"","strIngredient17":"","strIngredient18":"","strIngredient19":"","strIngredient20":"","strMeasure1":"1  bunch","strMeasure2":"2
+        strips","strMeasure3":"3 cloves Chopped","strMeasure4":"1 medium","strMeasure5":"1\/2
+        tsp","strMeasure6":"1 Sprig","strMeasure7":"1","strMeasure8":"1","strMeasure9":"4","strMeasure10":"Splash","strMeasure11":"","strMeasure12":"","strMeasure13":"","strMeasure14":"","strMeasure15":"","strMeasure16":"","strMeasure17":"","strMeasure18":"","strMeasure19":"","strMeasure20":"","strSource":"https:\/\/www.africanbites.com\/callaloo-jamaican-style\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null}]}'
+  recorded_at: Thu, 03 Mar 2022 02:40:19 GMT
 recorded_with: VCR 6.0.0

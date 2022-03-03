@@ -1,9 +1,9 @@
 # app/services/recipe_service.rb
+
 class RecipeService
-  # external api calls to TheMealDB
 
   def self.external_connection
-    Faraday.new(url: 'https://www.themealdb.com/api/json/v2/9973533/')
+    Faraday.new(url: "https://www.themealdb.com/api/json/v2/#{ENV['EXTERNAL_API_KEY']}/")
   end
 
   def self.get_random_recipe
@@ -22,23 +22,16 @@ class RecipeService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  # internal api calls - likes and dislikes
   def self.internal_connection
-    Faraday.new(url: 'http://localhost:3000/api/v1/recipes/')
+    Faraday.new(url: ENV['BACKEND_CONNECTION'])
   end
 
-  def self.add_recipe_like(custom_params)
-    response = internal_connection.post('like') do |request|
+  def self.send_recipe_vote(custom_params)
+    response = internal_connection.post("recipes/#{custom_params[:vote]}") do |request|
       request.headers['Content-Type'] = 'application/json'
       request.body = JSON.generate(custom_params)
     end
+    JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.add_recipe_dislike(custom_params)
-    response = internal_connection.post('dislike') do |request|
-      request.headers['Content-Type'] = 'application/json'
-      request.body = JSON.generate(custom_params)
-    end
-  end
-  
 end

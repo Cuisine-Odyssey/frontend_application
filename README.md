@@ -1,10 +1,10 @@
 # Cuisine Odyssey Frontend Application
 
-![languages](https://img.shields.io/github/languages/top/dylan-harper/cuisine_odyssey_frontend?color=red)
-![PRs](https://img.shields.io/github/issues-pr-closed/dylan-harper/cuisine_odyssey_frontend)
+![languages](https://img.shields.io/github/languages/top/cuisine-odyssey/frontend_application?color=red)
+![PRs](https://img.shields.io/github/issues-pr-closed/cuisine-odyssey/frontend_application)
 ![rspec](https://img.shields.io/gem/v/rspec?color=blue&label=rspec)
 ![simplecov](https://img.shields.io/gem/v/simplecov?color=blue&label=simplecov) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/contributors-1-orange.svg?style=flat)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/contributors-6-orange.svg?style=flat)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -12,11 +12,16 @@
 
 "Cuisine Odyssey" is a group project inspired by the dilemma of not knowing what to cook for dinner. The app's interface allows the user to spin a globe or a bottle, depending on if they are looking for recipes or cocktails. When the user clicks to spin, a random region is selected and up to 5 recipes are generated. The user can choose to spin again, to save the recipe to their dashboard using a "like" feature, or dislike the recipes. This portion of the project encapsulates the front end of the application and creates the viewable user interface.
 
+[Heroku Website](https://shielded-forest-41795.herokuapp.com/)
+
 [Backend Application](https://github.com/Cuisine-Odyssey/backend_application) 
+
+![Screen Shot 2022-03-03 at 11 16 17 AM](https://user-images.githubusercontent.com/39470230/156636664-360d9a85-74a8-482e-a82f-9c5bf3a54c35.png)
 
 ## Learning Goals
 
 - Consume two or more external APIs 
+- Implement Circle CI for continuous integration/testing
 - Build APIs that return JSON responses 
 - Use an external OAuth provider to authenticate users 
 - Refactor code for better code organization/readability 
@@ -39,10 +44,18 @@
 - Pry
 - SimpleCov
 - Capybara
-- Shoulda-Matchers v5.0
+- Shoulda-Matchers 
 - Factory_Bot_Rails
 - Faker
-- jsonapi-serializer
+- jsonapi-serialize
+- omniauth-google-oauth2
+- Figaro
+- Webmock
+- VCR
+- jquery-rails
+- rspec_junit_formatter
+- Orderly
+- dotenv-rails
 
 ## Setup
 1. Clone this repository:
@@ -51,12 +64,12 @@ On your local machine open a terminal session and enter the following commands f
 
 - using ssh key <br>
 ```shell
-$ git clone git@github.com:dylan-harper/cuisine_odyssey_frontend
+$ git clone git@github.com:Cuisine-Odyssey/frontend_application.git
 ```
 
 - using https <br>
 ```shell
-$ git clone https://github.com/dylan-harper/cuisine_odyssey_frontend
+$ git clone https://github.com/Cuisine-Odyssey/frontend_application
 ```
 
 Once cloned, you'll have a new local copy in the directory you ran the clone command in.
@@ -155,6 +168,7 @@ Using simplecov_json_formatter 0.1.3
 Using simplecov 0.21.2
 Using spring 2.1.1
 Using spring-watcher-listen 2.0.1
+```
 
 If there are any errors, verify that bundler, Rails, and your ruby environment are correctly setup.
 
@@ -165,8 +179,26 @@ Before using the web application you will need to setup your databases locally b
 $ rails db: {:drop, :create, :migrate, :seed}
 ```
 
+5. Set up environment variables
 
-6. Startup and Access<br>
+```shell
+$ bundle exec figaro install
+```
+This will create a hidden file called application.yml. In this file you will need to set up a OAuth client_id and client_secret from your OAuth provider. We chose to use Google OAuth, feel free to use which ever provider you would like or alternativley use BCrypt. If BCrypt is used function for password on views and password digest will need to be added into the db migration, views and models.
+
+6. Add backend connection in application.yml to set up a local variable for your endpoints if you choose to deploy outside of localhost.<br>
+
+```shell
+BACKEND_CONNECTION: http://localhost:3000/api/v1/ 
+```
+
+7. Visit https://www.themealdb.com/api.php to sign up for an API key, the API key you recieve will work for both TheMealDB and TheCocktailDB https://www.thecocktaildb.com/api.php add this in application.yml <br>
+
+```shell
+EXTERNAL_API_KEY: api_key_goes_here
+```
+
+8. Startup and Access<br>
 Finally, in order to use the web app you will have to start the server locally and access the app through a web browser. 
 - Start server
 ```shell
@@ -174,7 +206,7 @@ $ rails s
 ```
 
 - Open web browser and visit link
-    http://localhost:3000/
+    http://localhost:5000/
     
 At this point you should be taken to the welcome page of the web-app. If you encounter any errors or have not reached the web-app please confirm you followed the steps above and that your environment is properly set up.
 
@@ -187,8 +219,19 @@ At this point you should be taken to the welcome page of the web-app. If you enc
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/sethperna"><img src="https://avatars.githubusercontent.com/u/90224504?s=400&u=b0c82b444d7708000e2747f860d4d2c3efb616cc&v=4" width="100px;" alt=""/><br /><sub><b>Seth (he/him)</b></sub></a><br /><a href="https://github.com/sethperna/rails-engine-lite/commits?author=sethperna" title="Code">💻</a> <a href="#ideas-sethperna" title="Ideas, Planning, & Feedback">�</a> <a href="https://github.com/sethperna/rails-engine-lite/commits?author=sethperna" title="Tests">⚠️</a> <a href="https://github.com/sethperna/rails-engine-lite/pulls?q=is%3Apr+reviewed-by%3sethperna" title="Reviewed Pull Requests">👀</a></td>
-
+    <td align="center"><a href="https://github.com/sethperna"><img src="https://avatars.githubusercontent.com/u/90224504?v=4" width="100px;" alt=""/><br /><sub><b>Seth (he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=sethperna" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3ASethPerna" title="Reviewed Pull Requests">👀</a>
+     </td>
+       <td align="center"><a href="https://github.com/kanderson852"><img src="https://avatars.githubusercontent.com/u/89998621?v=4" width="100px;" alt=""/><br /><sub><b>Kelly(she/her)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=kanderson852" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Akanderson852" title="Reviewed Pull Requests">👀</a>
+     </td>
+      <td align="center"><a href="https://github.com/dylan-harper"><img src="https://avatars.githubusercontent.com/u/39470230?v=4" width="100px;" alt=""/><br /><sub><b>Dylan(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=dylan-harper" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Adylan-harper" title="Reviewed Pull Requests">👀</a>
+     </td>
+      <td align="center"><a href="https://github.com/WadeNaughton"><img src="https://avatars.githubusercontent.com/u/90228086?v=4" width="100px;" alt=""/><br /><sub><b>Wade(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=WadeNaughton" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3AWadeNaughton" title="Reviewed Pull Requests">👀</a>
+     </td>
+      <td align="center"><a href="https://github.com/hannahkwarren"><img src="https://avatars.githubusercontent.com/u/17674781?v=4" width="100px;" alt=""/><br /><sub><b>Hannah(she/her)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=hannahkwarren" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Ahannahkwarren" title="Reviewed Pull Requests">👀</a>
+     </td>
+      <td align="center"><a href="https://github.com/dkassin"><img src="https://avatars.githubusercontent.com/u/76177498?v=4" width="100px;" alt=""/><br /><sub><b>David(he/him)</b></sub></a><br /><a href="https://github.com/cuisine-odyssey/frontend_application/commits?author=dkassin" title="Code">💻</a> <a href="https://github.com/Cuisine-Odyssey/frontend_application/pulls?q=is%3Apr+author%3Adkassin" title="Reviewed Pull Requests">👀</a>
+     </td>
+    </tr>
 </table>
 
 <!-- markdownlint-restore -->

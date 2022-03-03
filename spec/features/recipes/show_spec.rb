@@ -22,10 +22,10 @@ RSpec.describe 'Recipe show page', type: :feature do
         click_link 'Login'
         # allow_any_instance_of(ApplicationController).to  receive(:current_user).and_return(user)
         Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:google_oauth2]
-        
+
         visit '/recipes/52772'
         click_button 'Like'
-        
+
         # expect(page).to have_content('You have liked this recipe!')
       end
     end

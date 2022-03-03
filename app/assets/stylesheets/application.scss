@@ -36,20 +36,21 @@
 .navbar-brand:hover {
   background: powderblue !important;
 }
-.logout {
+
+#logout {
 font-size: 100%;
 color: #FFFFFF;
 font-family: Monaco;
 }
 
-.nav-item {
+#nav-item {
 color: #FFFFFF;
 font-family: Monaco;
 padding-left: 10px;
 padding-right: 10px;
 }
 
-.nav-link {
+#nav-link {
 color: #FFFFFF;
 font-family: Monaco;
 padding-left: 10px;
@@ -97,4 +98,9 @@ padding-right: 10px;
 .images {
   width: 100%;
   height: auto;
+}
+#header {
+font-size: 250%;
+color: #FFFFFF;
+font-family: Monaco;
 }

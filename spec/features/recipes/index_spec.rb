@@ -32,7 +32,7 @@ RSpec.describe 'Recipe Index Page' do
       end
     end
 
-    it "logs in a user from the recipe index page", :vcr do
+    xit "logs in a user from the recipe index page", :vcr do
       visit recipes_path
 
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(:user)

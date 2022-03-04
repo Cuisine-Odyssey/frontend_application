@@ -9,10 +9,10 @@
   <div id="visitor">
     <% @five_recipes.each_with_index do |recipe, index| %>
       <% if index == 0 %>
-        <p><img class="image"style="border-radius: 25%" <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> ></p>
+        <p><img class="image"style="border-radius: 25%" <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
       <% else %>
       <div id="#locked-recipes">
-        <p><img class="image"style="border-radius: 25%" <%= image_tag(recipe.image, :size => "130x90") %> ><%= recipe.title %> <i class="glyphicon glyphicon-lock" style="color:powderblue;"></i></p>
+        <p><img class="image"style="border-radius: 25%" <%= image_tag(recipe.image, :size => "130x90") %> <%= recipe.title %> <i class="glyphicon glyphicon-lock" style="color:powderblue;"></i></p>
       </div>
       <% end %>
     <% end %>
@@ -20,7 +20,7 @@
 <% else %>
   <div id="user">
     <% @five_recipes.each do |recipe| %>
-    <p><img class="image"style="border-radius: 25%" <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> ></p>
+    <p><img class="image"style="border-radius: 25%" <%= image_tag(recipe.image, :size => "130x90") %> <%= link_to "#{recipe.title}", recipe_path(recipe.recipe_id) %> </p>
     <% end %>
   </div>
 <% end %>

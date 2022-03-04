@@ -12,6 +12,19 @@
 
 "Cuisine Odyssey" is a group project inspired by the dilemma of not knowing what to cook for dinner. The app's interface allows the user to spin a globe or a bottle, depending on if they are looking for recipes or cocktails. When the user clicks to spin, a random region is selected and up to 5 recipes are generated. The user can choose to spin again, to save the recipe to their dashboard using a "like" feature, or dislike the recipes. This portion of the project encapsulates the front end of the application and creates the viewable user interface.
 
+Home Page
+![Screen Shot 2022-03-04 at 11 04 39 AM](https://user-images.githubusercontent.com/90224504/156797954-6f9caba9-2ab6-4650-98d9-db4c37339c9d.png)
+
+Users Dashboard
+![Screen Shot 2022-03-04 at 11 06 31 AM](https://user-images.githubusercontent.com/90224504/156798074-939d316f-ff9a-4c39-a1dc-2029b8bbf2fc.png)
+
+Recipes Index(after *Spin for Recipes* has been clicked)
+![Screen Shot 2022-03-04 at 11 08 15 AM](https://user-images.githubusercontent.com/90224504/156798363-6c6526a4-ecbe-4837-a191-8ad8ec0c04d7.png)
+
+Cocktail Show(after *Spin for Drinks* has been clicked)
+![Screen Shot 2022-03-04 at 11 10 05 AM](https://user-images.githubusercontent.com/90224504/156798646-29a30bd4-b2c6-4fbd-b05b-0c5eccce19ba.png)
+
+
 [Heroku Website](https://shielded-forest-41795.herokuapp.com/)
 
 [Backend Application](https://github.com/Cuisine-Odyssey/backend_application) 

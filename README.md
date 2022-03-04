@@ -24,6 +24,9 @@ Recipes Index(after *Spin for Recipes* has been clicked)
 Cocktail Show(after *Spin for Drinks* has been clicked)
 ![Screen Shot 2022-03-04 at 11 10 05 AM](https://user-images.githubusercontent.com/90224504/156798646-29a30bd4-b2c6-4fbd-b05b-0c5eccce19ba.png)
 
+Recipe Show(after a recipe has been selected from the recipes index)
+![Screen Shot 2022-03-04 at 11 11 43 AM](https://user-images.githubusercontent.com/90224504/156798921-05707d94-4091-47da-803e-dfd11063dc86.png)
+
 
 [Heroku Website](https://shielded-forest-41795.herokuapp.com/)
 

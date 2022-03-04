@@ -73,6 +73,7 @@ padding-right: 10px;
   position: relative;
   text-align: center;
   direction: ltr;
+  right: 20px;
 }
 
 #bottle-button {
@@ -110,6 +111,8 @@ font-family: Monaco;
 #dashboard-welcome {
   background: powderblue;
   text-align: center;
+  position: relative;
+  bottom: 20px;
 }
 
 #liked-recipes {

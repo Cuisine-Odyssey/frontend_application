@@ -6,7 +6,6 @@
 
 <div class="recipe-ingredients">
   <img class="image"style="border-radius: 25%"<%= image_tag(@recipe.image) %>
-
   <ul>
   <% @recipe.combined.each do |k,v| %>
     <li><%= k %>, <%= v %></li>

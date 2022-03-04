@@ -11,6 +11,9 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps
+    environment:
+      BACKEND_CONNECTION: http://localhost:3000/api/v1/
+      EXTERNAL_API_KEY: '9973533'
   test:
     parallelism: 3
     docker:

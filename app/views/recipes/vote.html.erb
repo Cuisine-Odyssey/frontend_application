@@ -1,3 +1,4 @@
+<center>
 <h1><%= @recipe.title %></h1><h2><%= @choice %></h2>
 
 <h3>Recipe Region: <%= @recipe.location %></h3>
@@ -6,9 +7,10 @@
 
 <div class="recipe-ingredients">
   <img class="image"style="border-radius: 25%"<%= image_tag(@recipe.image) %>
+
   <ul>
   <% @recipe.combined.each do |k,v| %>
-    <li><%= k %>, <%= v %></li>
+    <li style="list-style: none"><%= k %>, <%= v %></li>
     <% end %>
   </ul>
 </div>
@@ -17,3 +19,4 @@
 <h3>Instructions: </h3>
   <p><%= @recipe.instructions %></p>
 </div>
+</center>

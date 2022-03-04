@@ -3,24 +3,6 @@
 <br>
 <h2><%= @choice %></h2>
 <br>
-<img class="image"style="border-radius: 25%"<%= image_tag(@cocktail.image) %>
-<br>
-<h3>Ingredients: </h3>
-
-<div >
-  <ul>
-  <% @cocktail.cocktail_hash.each do |k,v| %>
-    <li id="cocktail-ingredients"><style="list-style: none"><%= k %>, <%= v %></li>
-    <% end %>
-  </ul>
-</div>
-
-
-<h3>Instructions: </h3>
-<div>
-  <p id="cocktail-instructions"><%= @cocktail.instructions %></p>
-</div>
-</center>
 <% if current_user %>
   <div class="like-or-dislike-buttons">
     <%= button_to "Like", "/cocktails/#{@cocktail.api_id}/like", method: :post, params: { email: session[:email], vote: 'like' } %>
@@ -28,3 +10,21 @@
     <%= button_to "Dislike", "/cocktails/#{@cocktail.api_id}/dislike", method: :post, params: { email: session[:email], vote: 'dislike' } %>
   </div>
 <% end %>
+<br>
+<img class="image"style="border-radius: 25%"<%= image_tag(@cocktail.image) %>
+<br>
+<h3>Ingredients: </h3>
+
+<div >
+  <ul style="list-style: none">
+    <% @cocktail.cocktail_hash.each do |k,v| %>
+      <li id="cocktail-ingredients"><%= k %>, <%= v %></li>
+      <% end %>
+    </ul>
+</div>
+
+<h3>Instructions: </h3>
+<div>
+  <p id="cocktail-instructions"><%= @cocktail.instructions %></p>
+</div>
+</center>
